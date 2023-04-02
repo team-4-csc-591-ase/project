@@ -10,6 +10,15 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 import matplotlib.pyplot as plt
 
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import KBinsDiscretizer
+
+from sklearn.metrics import accuracy_score
+from sklearn.tree import plot_tree
+
+from sklearn.ensemble import RandomForestClassifier
+
 
 from src.pre_process import (
     CATEGORICAL_COLUMNS,
@@ -108,6 +117,60 @@ def cluster(x, y):
 # print("Iterations:\n", model.n_iter_)
 # print("Labels:\n", model.labels_[:5])
 
+
+def decision_tree(x,y):
+    x_train, x_test, y_train, y_test = train_test_split(
+        x, y, test_size=0.33, random_state=42
+    )
+    # discretizer = KBinsDiscretizer(n_bins=3, encode='ordinal', strategy='uniform')
+    # y_train = discretizer.fit_transform(y_train.reshape(-1, 1)).ravel()
+
+    # Create a KBinsDiscretizer object with 3 bins
+    discretizer = KBinsDiscretizer(n_bins=3, encode='ordinal', strategy='quantile')
+
+    # Fit and transform the data using the discretizer
+    discretized_data = discretizer.fit_transform(y_train.values).reshape(-1)
+
+    y_train = discretized_data.reshape(-1)
+    clf = DecisionTreeClassifier()
+
+    # print(type(y_train))
+
+    # Train the classifier on the training data
+
+    clf.fit(x_train, y_train)
+
+    # Predict the classes of the testing data
+    y_pred = clf.predict(x_test)
+
+    # Calculate the accuracy of the classifier
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Accuracy: {accuracy:.2f}")
+
+    # Visualize the decision tree
+    plot_tree(clf)
+
+
+def random_forest(x,y):
+
+    discretizer = KBinsDiscretizer(n_bins=3, encode='ordinal', strategy='quantile')
+    y = discretizer.fit_transform(y.values.reshape(-1, 1)).reshape(-1)
+    x_train, x_test, y_train, y_test = train_test_split(
+        x, y, test_size=0.33, random_state=42
+    )
+    # Create a random forest classifier
+    clf = RandomForestClassifier(n_estimators=100, random_state=42)
+
+    # Train the classifier on the training data
+    clf.fit(x_train, y_train)
+
+    # Predict the classes of the testing data
+    y_pred = clf.predict(x_test)
+
+    # Calculate the accuracy of the classifier
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Accuracy: {accuracy:.2f}")
+
 data_dict = read_csv()
 for i in data_dict:
     print(f"File Name: {i}")
@@ -120,5 +183,7 @@ for i in data_dict:
     # df = pd.read_csv(DATA_DIR+i)
     #
     # print(df.isnull().sum())
+    # cluster(x,y)
 
-    cluster(x,y)
+    # decision_tree(x,y)
+    random_forest(x,y)
