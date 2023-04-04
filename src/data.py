@@ -69,7 +69,10 @@ def split_x_y(data):
             y.append(column_name)
         else:
             x.append(column_name)
-    return data[x], data[y]
+    _x_train, _x_test, _y_train, _y_test = train_test_split(
+        data[x], data[y], test_size=0.33, random_state=42
+    )
+    return _x_train, _x_test, _y_train, _y_test
 
 
 def cluster(x, y):
