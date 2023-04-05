@@ -4,7 +4,10 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from src.cluster import cluster, decision_tree, random_forest
+from src.cluster import (
+    # recursive_kmeans_sway,
+    recursive_kmeans
+)
 from src.pre_process import (
     CATEGORICAL_COLUMNS,
     DROP_COLUMNS,
@@ -21,13 +24,18 @@ def get_all_files():
         files_dict[file_name] = f"{DATA_DIR}{file_name}"
     return files_dict
 
+def replace(x):
+    if "?" in x.values:
+        x.replace({"?": np.nan})
+    else:
+        return x
+
 
 def read_csv():
     data_files = get_all_files()
     _data_dict = {}
     for file_name, file_path in data_files.items():
         data = pd.read_csv(file_path, skipinitialspace=True)
-        data.replace("?", np.nan, inplace=True)
         categorical_columns = CATEGORICAL_COLUMNS.get(file_name, None)
         columns_to_drop = DROP_COLUMNS.get(file_name, None)
 
@@ -42,7 +50,8 @@ def read_csv():
             )
             _data_dict[file_name] = data
         except Exception as e:
-            print()
+            print(data[data.values == '?'])
+
             print(f"Error processing {file_name}: {e}")
     return _data_dict
 
@@ -62,7 +71,7 @@ def split_x_y(data):
 
 data_dict = read_csv()
 for i in data_dict:
-    x_train, x_test, y_train, y_test = split_x_y(data_dict[i])
-    cluster(x_train, y_train, x_test, y_test)
+    # x_train, x_test, y_train, y_test = split_x_y(data_dict[i])
+    # cluster(x_train, y_train, x_test, y_test)
     # decision_tree(x_train, y_train, x_test, y_test)
     # random_forest(x_train, y_train, x_test, y_test)
