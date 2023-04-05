@@ -75,3 +75,9 @@ for i in data_dict:
     # cluster(x_train, y_train, x_test, y_test)
     # decision_tree(x_train, y_train, x_test, y_test)
     # random_forest(x_train, y_train, x_test, y_test)
+    # kmeans_sway(x_train,4,42)
+    # recursive_kmeans_sway(data_dict[i], round(len(data_dict[i])**0.5), 10)
+    print(i)
+    print(data_dict[i][data_dict[i].isnull().any(axis=1)])
+    # clusters = recursive_kmeans(data_dict[i], k=1)
+

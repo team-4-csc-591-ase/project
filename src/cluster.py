@@ -14,6 +14,7 @@ from sklearn.cluster import KMeans
 warnings.filterwarnings("ignore")
 
 
+
 def cluster(x_train, y_train, x_test, y_test):
     # _model = KMeans()
     # _model.fit(x_train, y_train)
@@ -59,6 +60,71 @@ def cluster(x_train, y_train, x_test, y_test):
     plt.xlabel("Number of clusters")
     plt.ylabel("WCSS")
     plt.show()
+
+# def recursive_kmeans_sway(data, k, r=10):
+#     """
+#     Recursive K-Means clustering using sway method
+#
+#     Parameters:
+#     X (pd.DataFrame): input data
+#     k (int): number of clusters
+#     r (int): number of times to run the K-Means algorithm
+#
+#     Returns:
+#     clusters (list): list of cluster labels for each data point in X
+#     """
+#
+#     # Initialize list of cluster labels
+#     clusters = [-1] * len(data)
+#
+#     # Base case: only one cluster
+#     if k == 1:
+#         clusters = [0] * len(data)
+#
+#     # Recursive case
+#     else:
+#         # Run K-Means algorithm r times
+#         kmeans = KMeans(n_clusters=k).fit(data)
+#         labels = kmeans.labels_
+#         centers = kmeans.cluster_centers_
+#
+#         # Calculate distances to cluster centers for each data point
+#         distances = np.zeros((len(data), k))
+#         for i in range(len(data)):
+#             for j in range(k):
+#                 distances[i][j] = np.linalg.norm(data.iloc[i] - centers[j])
+#
+#         # Find minimum distance for each data point
+#         min_distances = distances.min(axis=1)
+#
+#         # Calculate sway for each cluster
+#         sway = np.zeros(k)
+#         for j in range(k):
+#             cluster_j = data[labels == j]
+#             if len(cluster_j) > 0:
+#                 sway[j] = np.sum((min_distances[labels == j] ** 2) / len(cluster_j))
+#
+#         # Find cluster with maximum sway
+#         max_sway_cluster = np.argmax(sway)
+#
+#         # Split data into two clusters
+#         cluster_1 = data[labels == max_sway_cluster]
+#         cluster_2 = data[labels != max_sway_cluster]
+#
+#         # Recursively cluster each subset
+#         if len(cluster_1) > 0:
+#             clusters_1 = recursive_kmeans_sway(cluster_1, k // 2, r)
+#             for i in range(len(clusters_1)):
+#                 if clusters_1[i] == 0:
+#                     print("i=", i)
+#                     clusters[labels == max_sway_cluster][i] = max_sway_cluster
+#         if len(cluster_2) > 0:
+#             clusters_2 = recursive_kmeans_sway(cluster_2, k - k // 2, r)
+#             for i in range(len(clusters_2)):
+#                 if clusters_2[i] == 0:
+#                     clusters[labels != max_sway_cluster][i] = k - max_sway_cluster - 1
+#     print("clusters =", clusters)
+#     return clusters
 
 
 # def kmeans_sway(X, k, r):
