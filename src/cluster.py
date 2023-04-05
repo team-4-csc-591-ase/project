@@ -1,6 +1,6 @@
 import warnings
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cluster import KMeans
 # from sklearn.ensemble import RandomForestClassifier
@@ -15,51 +15,67 @@ warnings.filterwarnings("ignore")
 
 
 
-def cluster(x_train, y_train, x_test, y_test):
-    # _model = KMeans()
-    # _model.fit(x_train, y_train)
-    # # print the centroids of the clusters
-    # # print(_model.cluster_centers_)
-    #
-    # # predict the cluster labels for the data points
-    # print(_model.labels_)
+# def cluster(x_train, y_train, x_test, y_test):
+#     # _model = KMeans()
+#     # _model.fit(x_train, y_train)
+#     # # print the centroids of the clusters
+#     # # print(_model.cluster_centers_)
+#     #
+#     # # predict the cluster labels for the data points
+#     # print(_model.labels_)
+#
+#     # pipe = Pipeline([('imputer', SimpleImputer(strategy='mean')),
+#     #                  ('kmeans', KMeans(n_clusters=5))])
+#
+#     # fit the pipeline to the data
+#     # pipe.fit(x_train)
+#
+#     # predict the cluster labels for the data points
+#     # print(pipe.named_steps['kmeans'].cluster_centers_)
+#     # print(pipe.named_steps['kmeans'].labels_)
+#
+#     wcss = []
+#     for k in range(1, 11):
+#         pipe = Pipeline(
+#             [
+#                 ("imputer", SimpleImputer(strategy="mean")),
+#                 (
+#                     "kmeans",
+#                     KMeans(
+#                         n_clusters=k,
+#                         init="k-means++",
+#                         max_iter=300,
+#                         n_init=10,
+#                         random_state=0,
+#                     ),
+#                 ),
+#             ]
+#         )
+#
+#         # fit the pipeline to the data
+#         pipe.fit(x_train)
+#         wcss.append(pipe.named_steps["kmeans"].inertia_)
+#     plt.plot(range(1, 11), wcss)
+#     plt.title("Elbow Method")
+#     plt.xlabel("Number of clusters")
+#     plt.ylabel("WCSS")
+#     plt.show()
 
-    # pipe = Pipeline([('imputer', SimpleImputer(strategy='mean')),
-    #                  ('kmeans', KMeans(n_clusters=5))])
+from sklearn.cluster import KMeans
 
-    # fit the pipeline to the data
-    # pipe.fit(x_train)
+def recursive_kmeans(data, k, depth=0, max_depth=10):
+    if depth == max_depth:
+        return [data]
+    kmeans = KMeans(n_clusters=k)
+    kmeans.fit(data)
+    clusters = []
+    for i in range(k):
+        cluster_data = data[kmeans.labels_ == i]
+        clusters.extend(recursive_kmeans(cluster_data, k, depth+1, max_depth))
+    print("clusters", clusters)
+    return clusters
 
-    # predict the cluster labels for the data points
-    # print(pipe.named_steps['kmeans'].cluster_centers_)
-    # print(pipe.named_steps['kmeans'].labels_)
 
-    wcss = []
-    for k in range(1, 11):
-        pipe = Pipeline(
-            [
-                ("imputer", SimpleImputer(strategy="mean")),
-                (
-                    "kmeans",
-                    KMeans(
-                        n_clusters=k,
-                        init="k-means++",
-                        max_iter=300,
-                        n_init=10,
-                        random_state=0,
-                    ),
-                ),
-            ]
-        )
-
-        # fit the pipeline to the data
-        pipe.fit(x_train)
-        wcss.append(pipe.named_steps["kmeans"].inertia_)
-    plt.plot(range(1, 11), wcss)
-    plt.title("Elbow Method")
-    plt.xlabel("Number of clusters")
-    plt.ylabel("WCSS")
-    plt.show()
 
 # def recursive_kmeans_sway(data, k, r=10):
 #     """
