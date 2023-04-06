@@ -73,9 +73,9 @@ def pre_process(data, categorical_columns=None, columns_to_drop=None):
                 updated_cols[col] = f"{col}_cat"
                 data[f"{col}_cat"] = data[col].cat.codes
                 data.drop(col, axis=1, inplace=True)
-    # data = data.dropna(inplace=True)
-    # data = data.drop_duplicates(inplace=True)
-    # print(data.head(), data.columns)
+    data = data.replace("?", None)
+    data = data.dropna()
+    data = data.drop_duplicates()
     return data, updated_cols
 
 
@@ -93,4 +93,4 @@ def standardscaler(data, columns=None, updated_cols=None):
         scaled_df = pd.DataFrame(
             scaler.transform(data[scalable_cols]), columns=scalable_cols
         )
-        return pd.concat([categorical_df, scaled_df], axis=1)
+        return pd.concat([categorical_df, scaled_df], axis=1, join="inner")
