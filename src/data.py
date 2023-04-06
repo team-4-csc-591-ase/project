@@ -1,12 +1,10 @@
 import os
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from src.cluster import (
-    # recursive_kmeans_sway,
-    recursive_kmeans
-)
+from src.cluster import recursive_kmeans  # recursive_kmeans_sway,
 from src.pre_process import (
     CATEGORICAL_COLUMNS,
     DROP_COLUMNS,
@@ -23,6 +21,7 @@ def get_all_files():
         files_dict[file_name] = f"{DATA_DIR}{file_name}"
     return files_dict
 
+
 def replace(x):
     if "?" in x.values:
         x.replace({"?": np.nan})
@@ -37,7 +36,7 @@ def read_csv():
         data = pd.read_csv(file_path, skipinitialspace=True)
         categorical_columns = CATEGORICAL_COLUMNS.get(file_name, None)
         columns_to_drop = DROP_COLUMNS.get(file_name, None)
-
+        print("File name", file_name)
         try:
             data, updated_cols = pre_process(
                 data=data,
@@ -49,7 +48,7 @@ def read_csv():
             )
             _data_dict[file_name] = data
         except Exception as e:
-            print(data[data.values == '?'])
+            print(data[data.values == "?"])
 
             print(f"Error processing {file_name}: {e}")
     return _data_dict
@@ -77,6 +76,5 @@ for i in data_dict:
     # kmeans_sway(x_train,4,42)
     # recursive_kmeans_sway(data_dict[i], round(len(data_dict[i])**0.5), 10)
     print(i)
-    print(data_dict[i][data_dict[i].isnull().any(axis=1)])
-    # clusters = recursive_kmeans(data_dict[i], k=1)
-
+    clusters = recursive_kmeans(data_dict[i], k=1)
+    print("clusters", clusters)

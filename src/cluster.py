@@ -3,6 +3,7 @@ import warnings
 # import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cluster import KMeans
+
 # from sklearn.ensemble import RandomForestClassifier
 # from sklearn.impute import SimpleImputer
 # from sklearn.metrics import accuracy_score
@@ -12,7 +13,6 @@ from sklearn.cluster import KMeans
 # from sklearn.metrics import mean_squared_error
 
 warnings.filterwarnings("ignore")
-
 
 
 # def cluster(x_train, y_train, x_test, y_test):
@@ -63,6 +63,7 @@ warnings.filterwarnings("ignore")
 
 from sklearn.cluster import KMeans
 
+
 def recursive_kmeans(data, k, depth=0, max_depth=10):
     if depth == max_depth:
         return [data]
@@ -71,10 +72,8 @@ def recursive_kmeans(data, k, depth=0, max_depth=10):
     clusters = []
     for i in range(k):
         cluster_data = data[kmeans.labels_ == i]
-        clusters.extend(recursive_kmeans(cluster_data, k, depth+1, max_depth))
-    print("clusters", clusters)
+        clusters.extend(recursive_kmeans(cluster_data, k, depth + 1, max_depth))
     return clusters
-
 
 
 # def recursive_kmeans_sway(data, k, r=10):

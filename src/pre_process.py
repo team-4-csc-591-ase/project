@@ -1,5 +1,5 @@
 import re
-import numpy as np
+
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
@@ -93,4 +93,4 @@ def standardscaler(data, columns=None, updated_cols=None):
         scaled_df = pd.DataFrame(
             scaler.transform(data[scalable_cols]), columns=scalable_cols
         )
-        return pd.concat([categorical_df, scaled_df], axis=1)
+        return pd.concat([categorical_df, scaled_df], axis=1, join="inner")
