@@ -29,6 +29,28 @@ def div(col):
     else:
         return (per(has(col), 0.9) - per(has(col), 0.1)) / 2.58
 
+# def div(col):
+#     """
+#     Function:
+#         mid
+#     Description:
+#         Returns standard deviation of col
+#     Input:
+#         col - col to find deviation of
+#     Output:
+#         Standard deviation of a col
+#     """
+#     if hasattr(col, "isSym") and col.isSym:
+#         e = 0
+#         if isinstance(col.has, dict):
+#             for n in col.has.values():
+#                 e = e - n/col.n * math.log(n/col.n, 2)
+#         else:
+#             for n in col.col.has:
+#                 e = e - n/col.col.n * math.log(n/col.colc.n, 2)
+#         return e
+#     else:
+#         return (per(has(col),.9) - per(has(col), .1)) / 2.58
 
 def has(col):
     """
