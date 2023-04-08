@@ -26,7 +26,7 @@ CONSTS_LIST: Dict[str, Any] = {
     CONSTS.dump.name: False,
     CONSTS.go.name: "data",
     CONSTS.help.name: False,
-    CONSTS.file.name: "auto2.csv",
+    CONSTS.file.name: "healthCloseIsses12mths0011-easy-2.csv",
     CONSTS.p.name: 2,
     CONSTS.Far.name: 0.95,
     CONSTS.min.name: 0.5,

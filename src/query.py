@@ -21,7 +21,10 @@ def div(col):
                 e = e - n / col.n * math.log(n / col.n, 2)
         else:
             for n in col.has:
-                e = e - n / col.n * math.log(n / col.n, 2)
+                try:
+                    e = e - n / col.n * math.log(n / col.n, 2)
+                except ValueError:
+                    pass
         return e
     else:
         return (per(has(col), 0.9) - per(has(col), 0.1)) / 2.58
@@ -104,7 +107,16 @@ def norm(num, n):
     Returns:
 
     """
-    return n if n == "?" else (n - num.lo) / (num.hi - num.lo + 1 / float("inf"))
+    if isinstance(n, str) and n != "?":
+        n = float(n)
+    if isinstance(num.lo, str):
+        num.lo = float(num.lo)
+    if isinstance(num.hi, str):
+        num.hi = float(num.hi)
+    try:
+        return n if n == "?" else (n - num.lo) / (num.hi - num.lo + 1 / float("inf"))
+    except ZeroDivisionError:
+        return n
 
 
 def value(has, n_B=1, n_R=1, s_goal=True):
@@ -204,9 +216,9 @@ def better(data, row1, row2):
     """
     s1, s2, ys = 0, 0, data.cols.y
     for _, col in enumerate(ys):
-        x = norm(col.col, row1[col.col.at])
-        y = norm(col.col, row2[col.col.at])
-
+        x = float(norm(col.col, row1[col.col.at]))
+        y = float(norm(col.col, row2[col.col.at]))
+        # print(type(s1), s1, type(x), x, type(y), y)
         s1 = s1 - math.exp(col.col.w * (x - y) / len(ys))
         s2 = s2 - math.exp(col.col.w * (y - x) / len(ys))
 

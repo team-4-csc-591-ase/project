@@ -82,6 +82,8 @@ def merge_any(ranges0):
     """
 
     def no_gaps(t):
+        if isinstance(t, dict):
+            t = list(t.values())
         for j in range(1, len(t)):
             t[j].lo = t[j - 1].hi
         t[0].lo = -float("inf")

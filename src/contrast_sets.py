@@ -94,6 +94,8 @@ def show_rule(rule):
 
 def selects(rule, rows):
     def disjunction(ranges, row):
+        if not ranges:
+            return False
         for range in ranges:
             lo = int(range["lo"]) if isinstance(range["lo"], str) else range["lo"]
             hi = int(range["hi"]) if isinstance(range["hi"], str) else range["hi"]
