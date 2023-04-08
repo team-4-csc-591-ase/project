@@ -1,0 +1,338 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests 
+Testing started at 2:58 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_bins.py::test_bins PASSED                                           [ 25%]all    {:best 79 :rest 316}
+
+Culture -inf inf 0 {:best 79 :rest 316}
+
+Criticality -inf 1.009269758 0 {:best 36 :rest 139}
+Criticality 1.009269758 inf 0 {:best 43 :rest 177}
+
+Criticality Modifier -inf 2.0 0 {:best 21 :rest 43}
+Criticality Modifier 2.0 3.0 0 {:best 27 :rest 58}
+Criticality Modifier 3.0 4.0 0 {:best 15 :rest 59}
+Criticality Modifier 4.0 5.0 0 {:best 12 :rest 61}
+Criticality Modifier 5.0 6.0 0 {:best 3 :rest 43}
+Criticality Modifier 6.0 inf 0 {:best 1 :rest 52}
+
+Initial Known -inf inf 0 {:best 79 :rest 316}
+
+InterDependency -inf 86.0 0 {:rest 116}
+InterDependency 86.0 88.0 0 {:best 3 :rest 27}
+InterDependency 88.0 90.0 0 {:rest 22}
+InterDependency 90.0 91.0 0 {:best 3 :rest 14}
+InterDependency 91.0 93.0 0 {:best 6 :rest 38}
+InterDependency 93.0 94.0 0 {:best 7 :rest 14}
+InterDependency 94.0 95.0 0 {:best 11 :rest 21}
+InterDependency 95.0 96.0 0 {:best 13 :rest 14}
+InterDependency 96.0 98.0 0 {:best 22 :rest 34}
+InterDependency 98.0 inf 0 {:best 14 :rest 16}
+
+Dynamism -inf 3.0 0 {:rest 120}
+Dynamism 3.0 5.0 0 {:best 1 :rest 67}
+Dynamism 5.0 6.0 0 {:best 10 :rest 40}
+Dynamism 6.0 7.0 0 {:best 10 :rest 30}
+Dynamism 7.0 8.0 0 {:best 28 :rest 34}
+Dynamism 8.0 inf 0 {:best 30 :rest 25}
+
+Size -inf 0.0 0 {:rest 147}
+Size 0.0 inf 1 {:best 79 :rest 169}
+
+Plan -inf 0.0 0 {:best 16 :rest 63}
+Plan 0.0 1.0 0 {:best 33 :rest 57}
+Plan 1.0 3.0 0 {:best 30 :rest 141}
+Plan 3.0 inf 0 {:rest 55}
+
+Team Size -inf 11.0 0 {:best 34 :rest 58}
+Team Size 11.0 12.0 0 {:best 3 :rest 44}
+Team Size 12.0 14.0 0 {:best 26 :rest 66}
+Team Size 14.0 15.0 0 {:best 5 :rest 23}
+Team Size 15.0 17.0 0 {:best 8 :rest 66}
+Team Size 17.0 18.0 0 {:best 2 :rest 29}
+Team Size 18.0 inf 0 {:best 1 :rest 30}
+
+Score: -inf 0.966472878 1 {:best 79 :rest 255}
+Score: 0.966472878 inf 0 {:rest 61}
+
+test_sway.py::test_sway PASSED                                           [ 50%]<src.data.Data object at 0x1240db750>
+
+all  {:Completion+ 0.75 :Cost- 310.4 :Idle- 0.0 :N 10000}
+     {:Completion+ 0.6 :Cost- 85.81 :Idle- 0.18 :N 10000}
+
+best {:Completion+ 0.49 :Cost- 147.93 :Idle- 0.21 :N 79}
+     {:Completion+ 5.48 :Cost- -414.07 :Idle- 1.63 :N 79}
+
+rest {:Completion+ 0.91 :Cost- 232.88 :Idle- 0.17 :N 316}
+     {:Completion+ 7.29 :Cost- -134.14 :Idle- 2.48 :N 316}
+
+all ~= best? {(True, 'Cost-') (False, 'Completion+') (False, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+test_tree.py::test_tree PASSED                                           [ 75%][10000]{'Cost-': 310.4, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 10000}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 130.75, 'Completion+': 0.87, 'Idle-': 0.21, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 228.68, 'Completion+': 0.94, 'Idle-': 0.38, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 190.44, 'Completion+': 0.81, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 168.63, 'Completion+': 0.66, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 166.26, 'Completion+': 0.94, 'Idle-': 0.45, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 199.85, 'Completion+': 0.95, 'Idle-': 0.13, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 271.45, 'Completion+': 0.93, 'Idle-': 0.3, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 646.09, 'Completion+': 0.89, 'Idle-': 0.51, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 123.83, 'Completion+': 0.89, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 229.23, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 301.37, 'Completion+': 0.88, 'Idle-': 0.1, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 235.31, 'Completion+': 0.9, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 147.01, 'Completion+': 0.95, 'Idle-': 0.38, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 195.21, 'Completion+': 0.63, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 157.59, 'Completion+': 0.94, 'Idle-': 0.44, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 266.08, 'Completion+': 0.94, 'Idle-': 0.43, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 453.8, 'Completion+': 0.97, 'Idle-': 0.41, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 654.2, 'Completion+': 0.8, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 403.62, 'Completion+': 0.95, 'Idle-': 0.17, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 581.28, 'Completion+': 0.67, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 169.67, 'Completion+': 0.9, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 466.57, 'Completion+': 0.9, 'Idle-': 0.12, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 484.27, 'Completion+': 0.95, 'Idle-': 0.23, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 818.09, 'Completion+': 0.66, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 579.95, 'Completion+': 0.91, 'Idle-': 0.03, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 265.04, 'Completion+': 0.9, 'Idle-': 0.05, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 378.08, 'Completion+': 0.81, 'Idle-': 0.48, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 624.0, 'Completion+': 0.98, 'Idle-': 0.13, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 361.98, 'Completion+': 0.92, 'Idle-': 0.09, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 201.12, 'Completion+': 0.88, 'Idle-': 0.21, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 203.86, 'Completion+': 0.92, 'Idle-': 0.31, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 549.14, 'Completion+': 0.76, 'Idle-': 0.0, 'N': 156}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 395.54, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 216.34, 'Completion+': 0.81, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 284.78, 'Completion+': 0.89, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 334.99, 'Completion+': 1.0, 'Idle-': 0.5, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 470.84, 'Completion+': 0.88, 'Idle-': 0.18, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 524.2, 'Completion+': 0.81, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 316.97, 'Completion+': 0.89, 'Idle-': 0.19, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 496.99, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 679.85, 'Completion+': 0.95, 'Idle-': 0.42, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 922.68, 'Completion+': 0.87, 'Idle-': 0.48, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 668.32, 'Completion+': 0.97, 'Idle-': 0.27, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 528.21, 'Completion+': 1.0, 'Idle-': 0.41, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 622.23, 'Completion+': 1.0, 'Idle-': 0.12, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 699.92, 'Completion+': 1.0, 'Idle-': 0.44, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 259.97, 'Completion+': 0.9, 'Idle-': 0.25, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 304.56, 'Completion+': 1.0, 'Idle-': 0.59, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 215.05, 'Completion+': 1.0, 'Idle-': 0.27, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 210.36, 'Completion+': 0.79, 'Idle-': 0.06, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 96.51, 'Completion+': 0.89, 'Idle-': 0.27, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 162.25, 'Completion+': 0.91, 'Idle-': 0.38, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 151.19, 'Completion+': 1.0, 'Idle-': 0.61, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 261.27, 'Completion+': 0.87, 'Idle-': 0.35, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 98.89, 'Completion+': 0.88, 'Idle-': 0.53, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 107.64, 'Completion+': 1.0, 'Idle-': 0.53, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 119.39, 'Completion+': 0.67, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 261.99, 'Completion+': 0.92, 'Idle-': 0.21, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 501.01, 'Completion+': 0.91, 'Idle-': 0.47, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 423.16, 'Completion+': 0.89, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 215.47, 'Completion+': 0.81, 'Idle-': 0.15, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 259.28, 'Completion+': 0.93, 'Idle-': 0.18, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 163.1, 'Completion+': 0.69, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 327.41, 'Completion+': 1.0, 'Idle-': 0.5, 'N': 156}
+
+test_xpln.py::test_xpln PASSED                                           [100%]
+Culture -inf inf
+
+Criticality -inf 1.010481511
+Criticality 1.010481511 inf
+
+Criticality Modifier -inf 2.0
+Criticality Modifier 2.0 3.0
+Criticality Modifier 3.0 4.0
+Criticality Modifier 4.0 5.0
+Criticality Modifier 5.0 inf
+
+Initial Known -inf inf
+
+InterDependency -inf 80.0
+InterDependency 80.0 81.0
+InterDependency 81.0 82.0
+InterDependency 82.0 84.0
+InterDependency 84.0 85.0
+InterDependency 85.0 86.0
+InterDependency 86.0 88.0
+InterDependency 88.0 89.0
+InterDependency 89.0 90.0
+InterDependency 90.0 91.0
+InterDependency 91.0 93.0
+InterDependency 93.0 94.0
+InterDependency 94.0 95.0
+InterDependency 95.0 96.0
+InterDependency 96.0 98.0
+InterDependency 98.0 inf
+
+Dynamism -inf 1.0
+Dynamism 1.0 2.0
+Dynamism 2.0 3.0
+Dynamism 3.0 5.0
+Dynamism 5.0 6.0
+Dynamism 6.0 7.0
+Dynamism 7.0 8.0
+Dynamism 8.0 inf
+
+Size -inf 0.0
+Size 0.0 inf
+
+Plan -inf 1.0
+Plan 1.0 3.0
+Plan 3.0 inf
+
+Team Size -inf 11.0
+Team Size 11.0 12.0
+Team Size 12.0 14.0
+Team Size 14.0 15.0
+Team Size 15.0 17.0
+Team Size 17.0 18.0
+Team Size 18.0 inf
+
+Score: -inf 0.966490965
+Score: 0.966490965 inf
+
+Size 0.0 inf 0.68 {'best': 78, 'rest': 146}
+Culture -inf inf 0.5 {'best': 78, 'rest': 312}
+Initial Known -inf inf 0.5 {'best': 78, 'rest': 312}
+Criticality 1.010481511 inf 0.44 {'best': 59, 'rest': 170}
+Criticality Modifier -inf 2.0 0.42 {'best': 42, 'rest': 48}
+Score: -inf 0.966490965 0.39 {'best': 63, 'rest': 264}
+Plan 1.0 3.0 0.34 {'best': 44, 'rest': 120}
+Plan 3.0 inf 0.3 {'best': 34, 'rest': 59}
+Criticality Modifier 2.0 3.0 0.25 {'best': 29, 'rest': 56}
+Team Size 15.0 17.0 0.24 {'best': 28, 'rest': 59}
+Team Size 14.0 15.0 0.14 {'best': 16, 'rest': 32}
+Dynamism 1.0 2.0 0.13 {'best': 16, 'rest': 35}
+Dynamism 3.0 5.0 0.11 {'best': 17, 'rest': 69}
+Score: 0.966490965 inf 0.11 {'best': 15, 'rest': 48}
+Team Size 17.0 18.0 0.09 {'best': 12, 'rest': 34}
+Dynamism -inf 1.0 0.09 {'best': 13, 'rest': 49}
+Criticality -inf 1.010481511 0.08 {'best': 19, 'rest': 142}
+InterDependency 91.0 93.0 0.07 {'best': 10, 'rest': 32}
+Team Size 18.0 inf 0.07 {'best': 9, 'rest': 23}
+InterDependency 96.0 98.0 0.07 {'best': 9, 'rest': 26}
+Dynamism 2.0 3.0 0.06 {'best': 10, 'rest': 39}
+InterDependency 95.0 96.0 0.06 {'best': 8, 'rest': 20}
+InterDependency 93.0 94.0 0.06 {'best': 8, 'rest': 21}
+Dynamism 5.0 6.0 0.05 {'best': 8, 'rest': 35}
+InterDependency 88.0 89.0 0.05 {'best': 6, 'rest': 16}
+Team Size 12.0 14.0 0.04 {'best': 10, 'rest': 76}
+InterDependency 86.0 88.0 0.04 {'best': 7, 'rest': 30}
+InterDependency 82.0 84.0 0.04 {'best': 6, 'rest': 25}
+InterDependency 89.0 90.0 0.03 {'best': 4, 'rest': 12}
+Dynamism 6.0 7.0 0.03 {'best': 5, 'rest': 27}
+Dynamism 8.0 inf 0.03 {'best': 5, 'rest': 28}
+InterDependency 94.0 95.0 0.03 {'best': 4, 'rest': 15}
+InterDependency 85.0 86.0 0.02 {'best': 4, 'rest': 18}
+Dynamism 7.0 8.0 0.02 {'best': 4, 'rest': 30}
+Criticality Modifier 3.0 4.0 0.02 {'best': 5, 'rest': 52}
+InterDependency 84.0 85.0 0.02 {'best': 3, 'rest': 18}
+InterDependency 80.0 81.0 0.01 {'best': 3, 'rest': 19}
+Team Size 11.0 12.0 0.01 {'best': 3, 'rest': 28}
+InterDependency 81.0 82.0 0.01 {'best': 2, 'rest': 13}
+InterDependency 90.0 91.0 0.01 {'best': 2, 'rest': 16}
+InterDependency 98.0 inf 0.01 {'best': 2, 'rest': 17}
+Criticality Modifier 4.0 5.0 0.0 {'best': 2, 'rest': 56}
+Criticality Modifier 5.0 inf 0.0 {'rest': 100}
+InterDependency -inf 80.0 0.0 {'rest': 14}
+Size -inf 0.0 0.0 {'rest': 166}
+Plan -inf 1.0 0.0 {'rest': 133}
+Team Size -inf 11.0 0.0 {'rest': 60}
+{'Size': [[0.0, inf]]}
+{'Size': [[0.0, inf]], 'Culture': []}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': []}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 2.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 2.0]], 'Score:': [[-inf, 0.966490965]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 2.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, 3.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 2.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, inf]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, inf]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, inf]], 'Team Size': [[15.0, 17.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 17.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 17.0]], 'Dynamism': [[1.0, 2.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [[-inf, 0.966490965]], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 17.0]], 'Dynamism': [[1.0, 2.0], [3.0, 5.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 17.0]], 'Dynamism': [[1.0, 2.0], [3.0, 5.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 18.0]], 'Dynamism': [[1.0, 2.0], [3.0, 5.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [[1.010481511, inf]], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 18.0]], 'Dynamism': [[-inf, 2.0], [3.0, 5.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 18.0]], 'Dynamism': [[-inf, 2.0], [3.0, 5.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, 18.0]], 'Dynamism': [[-inf, 2.0], [3.0, 5.0]], 'InterDependency': [[91.0, 93.0]]}
+{'Size': [[0.0, inf]], 'Culture': [], 'Initial Known': [], 'Criticality': [], 'Criticality Modifier': [[-inf, 3.0]], 'Score:': [], 'Plan': [[1.0, inf]], 'Team Size': [[14.0, inf]], 'Dynamism': [[-inf, 2.0], [3.0, 5.0]], 'InterDependency': [[91.0, 93.0]]}
+
+-----------
+explain= {'Size': [[0.0, inf]]}
+all                {'Cost-': 310.4, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 10000} {'Cost-': 85.81, 'Completion+': 0.6, 'Idle-': 0.18, 'N': 10000}
+sway with   8 evals {'Cost-': 166.25, 'Completion+': 0.9, 'Idle-': 0.44, 'N': 78} {'Cost-': -517.44, 'Completion+': 5.7, 'Idle-': 1.7, 'N': 78}
+xpln on     8 evals {'Cost-': 310.4, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 10000} {'Cost-': 85.81, 'Completion+': 0.6, 'Idle-': 0.18, 'N': 10000}
+sort with 10000 evals {'Cost-': 215.72, 'Completion+': 1.0, 'Idle-': 0.0, 'N': 78} {'Cost-': -152.44, 'Completion+': 6.11, 'Idle-': 0.01, 'N': 78}
+
+
+============================== 4 passed in 4.14s ===============================
+
+Process finished with exit code 0

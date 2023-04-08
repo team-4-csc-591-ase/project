@@ -1,0 +1,479 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests 
+Testing started at 2:51 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_bins.py::test_bins PASSED                                           [ 25%]all    {:best 6 :rest 24}
+
+maker 2.0 2.0 0 {:rest 1}
+maker 5.0 5.0 0 {:rest 1}
+maker 6.0 6.0 0 {:rest 1}
+maker 7.0 7.0 0 {:best 2 :rest 1}
+maker 8.0 8.0 0 {:best 1}
+maker 9.0 9.0 0 {:best 2 :rest 2}
+maker 12.0 12.0 0 {:rest 1}
+maker 13.0 13.0 0 {:rest 1}
+maker 15.0 15.0 0 {:rest 1}
+maker 16.0 16.0 0 {:rest 3}
+maker 18.0 18.0 0 {:rest 1}
+maker 19.0 19.0 0 {:rest 1}
+maker 20.0 20.0 0 {:rest 1}
+maker 21.0 21.0 0 {:rest 2}
+maker 23.0 23.0 0 {:best 1 :rest 1}
+maker 26.0 26.0 0 {:rest 2}
+maker 27.0 27.0 0 {:rest 1}
+maker 28.0 28.0 0 {:rest 1}
+maker 30.0 30.0 0 {:rest 2}
+
+type 0.0 0.0 0 {:rest 1}
+type 1.0 1.0 0 {:rest 4}
+type 2.0 2.0 0 {:rest 9}
+type 3.0 3.0 1 {:best 6 :rest 2}
+type 4.0 4.0 0 {:rest 3}
+type 5.0 5.0 0 {:rest 5}
+
+Air_Bags_standard -inf 0.0 1 {:best 5 :rest 7}
+Air_Bags_standard 0.0 1.0 0 {:best 1 :rest 14}
+Air_Bags_standard 1.0 inf 0 {:rest 3}
+
+Drive_train_type -inf 0.0 0 {:rest 6}
+Drive_train_type 0.0 1.0 1 {:best 6 :rest 13}
+Drive_train_type 1.0 inf 0 {:rest 5}
+
+Number_of_cylinders -inf 3.0 0 {:rest 1}
+Number_of_cylinders 3.0 4.0 1 {:best 6 :rest 7}
+Number_of_cylinders 4.0 inf 0 {:rest 16}
+
+Engine_size -inf 2.0 1 {:best 5 :rest 6}
+Engine_size 2.0 2.5 0 {:best 1 :rest 5}
+Engine_size 2.5 inf 0 {:rest 13}
+
+Horsepower -inf 70.0 0 {:best 1 :rest 1}
+Horsepower 70.0 74.0 0 {:best 1}
+Horsepower 74.0 100.0 0 {:best 3 :rest 3}
+Horsepower 100.0 138.0 0 {:best 1 :rest 3}
+Horsepower 138.0 inf 0 {:rest 17}
+
+RPM -inf 4600.0 0 {:rest 2}
+RPM 4600.0 4800.0 0 {:best 1 :rest 6}
+RPM 4800.0 5000.0 0 {:best 1 :rest 3}
+RPM 5000.0 5200.0 0 {:rest 2}
+RPM 5200.0 5600.0 0 {:best 1 :rest 1}
+RPM 5600.0 5750.0 0 {:rest 2}
+RPM 5750.0 6000.0 0 {:best 2 :rest 4}
+RPM 6000.0 6200.0 0 {:rest 2}
+RPM 6200.0 inf 0 {:best 1 :rest 2}
+
+Engine_revolutions_per_mile -inf 2335.0 0 {:rest 18}
+Engine_revolutions_per_mile 2335.0 2515.0 0 {:best 2 :rest 3}
+Engine_revolutions_per_mile 2515.0 2595.0 0 {:best 1 :rest 1}
+Engine_revolutions_per_mile 2595.0 3285.0 0 {:best 3}
+Engine_revolutions_per_mile 3285.0 inf 0 {:rest 2}
+
+manual_transmission_available 0.0 0.0 0 {:rest 11}
+manual_transmission_available 1.0 1.0 1 {:best 6 :rest 13}
+
+Fuel_tank_capacity -inf 10.0 0 {:best 1}
+Fuel_tank_capacity 10.0 11.1 0 {:rest 2}
+Fuel_tank_capacity 11.1 14.0 1 {:best 5}
+Fuel_tank_capacity 14.0 inf 0 {:rest 22}
+
+Passenger_capacity -inf 2.0 0 {:rest 2}
+Passenger_capacity 2.0 4.0 0 {:best 2 :rest 3}
+Passenger_capacity 4.0 5.0 0 {:best 4 :rest 9}
+Passenger_capacity 5.0 inf 0 {:rest 10}
+
+Length -inf 141.0 0 {:best 1}
+Length 141.0 166.0 0 {:rest 2}
+Length 166.0 174.0 1 {:best 4 :rest 2}
+Length 174.0 179.0 0 {:best 1 :rest 4}
+Length 179.0 inf 0 {:rest 16}
+
+Wheelbase -inf 90.0 0 {:best 1}
+Wheelbase 90.0 95.0 0 {:rest 2}
+Wheelbase 95.0 97.0 0 {:best 1 :rest 3}
+Wheelbase 97.0 99.0 1 {:best 4}
+Wheelbase 99.0 inf 0 {:rest 19}
+
+Width -inf 63.0 0 {:best 1 :rest 1}
+Width 63.0 65.0 0 {:rest 2}
+Width 65.0 66.0 0 {:best 3}
+Width 66.0 67.0 0 {:best 2 :rest 1}
+Width 67.0 inf 0 {:rest 20}
+
+U-turn_space -inf 33.0 0 {:best 2}
+U-turn_space 33.0 34.0 0 {:rest 1}
+U-turn_space 34.0 35.0 0 {:best 1 :rest 1}
+U-turn_space 35.0 36.0 0 {:best 2 :rest 1}
+U-turn_space 36.0 37.0 0 {:rest 3}
+U-turn_space 37.0 38.0 0 {:best 1 :rest 2}
+U-turn_space 38.0 inf 0 {:rest 16}
+
+Rear_seat_room -inf 19.0 0 {:rest 1}
+Rear_seat_room 19.0 26.5 1 {:best 5}
+Rear_seat_room 26.5 27.5 0 {:rest 6}
+Rear_seat_room 27.5 28.5 0 {:best 1 :rest 4}
+Rear_seat_room 28.5 inf 0 {:rest 13}
+
+Luggage_capacity -inf 10.0 0 {:rest 2}
+Luggage_capacity 10.0 12.0 1 {:best 4}
+Luggage_capacity 12.0 13.0 0 {:best 1 :rest 1}
+Luggage_capacity 13.0 16.0 0 {:rest 17}
+Luggage_capacity 16.0 17.0 0 {:best 1 :rest 2}
+Luggage_capacity 17.0 inf 0 {:rest 2}
+
+domestic 0.0 0.0 0 {:rest 14}
+domestic 1.0 1.0 1 {:best 6 :rest 10}
+
+test_sway.py::test_sway PASSED                                           [ 50%]<src.data.Data object at 0x108f23290>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 28.0 :Class- 11.6 :HighwayMPG+ 36.0 :N 5 :Weight- 2440.0}
+     {:CityMPG+ -83.84 :Class- -12.19 :HighwayMPG+ -107.26 :N 5 :Weight- -21285.89}
+
+rest {:CityMPG+ 20.0 :Class- 28.7 :HighwayMPG+ 26.0 :N 20 :Weight- 2775.0}
+     {:CityMPG+ -3.95 :Class- 0.27 :HighwayMPG+ -14.25 :N 20 :Weight- -22907.36}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+
+test_tree.py::test_tree PASSED                                           [ 75%][93]{'CityMPG+': 20.0, 'HighwayMPG+': 27.0, 'Weight-': 2885.0, 'Class-': 13.9, 'N': 93}
+|.. [47]
+|.. |.. [24]
+|.. |.. |.. [12]{'CityMPG+': 24.0, 'HighwayMPG+': 31.0, 'Weight-': 2865.0, 'Class-': 19.8, 'N': 12}
+|.. |.. |.. [12]{'CityMPG+': 26.0, 'HighwayMPG+': 34.0, 'Weight-': 2970.0, 'Class-': 16.5, 'N': 12}
+|.. |.. [23]
+|.. |.. |.. [12]{'CityMPG+': 18.0, 'HighwayMPG+': 25.0, 'Weight-': 2810.0, 'Class-': 23.3, 'N': 12}
+|.. |.. |.. [11]{'CityMPG+': 25.0, 'HighwayMPG+': 33.0, 'Weight-': 2240.0, 'Class-': 9.1, 'N': 11}
+|.. [46]
+|.. |.. [23]
+|.. |.. |.. [12]{'CityMPG+': 15.0, 'HighwayMPG+': 20.0, 'Weight-': 4025.0, 'Class-': 16.6, 'N': 12}
+|.. |.. |.. [11]{'CityMPG+': 17.0, 'HighwayMPG+': 26.0, 'Weight-': 3695.0, 'Class-': 34.3, 'N': 11}
+|.. |.. [23]
+|.. |.. |.. [12]{'CityMPG+': 22.0, 'HighwayMPG+': 29.0, 'Weight-': 2850.0, 'Class-': 15.9, 'N': 12}
+|.. |.. |.. [11]{'CityMPG+': 22.0, 'HighwayMPG+': 31.0, 'Weight-': 2880.0, 'Class-': 15.7, 'N': 11}
+
+test_xpln.py::test_xpln PASSED                                           [100%]
+maker 0.0 0.0
+maker 1.0 1.0
+maker 5.0 5.0
+maker 6.0 6.0
+maker 7.0 7.0
+maker 9.0 9.0
+maker 10.0 10.0
+maker 11.0 11.0
+maker 12.0 12.0
+maker 14.0 14.0
+maker 15.0 15.0
+maker 16.0 16.0
+maker 18.0 18.0
+maker 20.0 20.0
+maker 21.0 21.0
+maker 22.0 22.0
+maker 23.0 23.0
+maker 27.0 27.0
+maker 28.0 28.0
+
+type 0.0 0.0
+type 1.0 1.0
+type 2.0 2.0
+type 3.0 3.0
+type 4.0 4.0
+type 5.0 5.0
+
+Air_Bags_standard -inf 0.0
+Air_Bags_standard 0.0 1.0
+Air_Bags_standard 1.0 inf
+
+Drive_train_type -inf 0.0
+Drive_train_type 0.0 1.0
+Drive_train_type 1.0 inf
+
+Number_of_cylinders -inf 4.0
+Number_of_cylinders 4.0 4.967391304347826
+Number_of_cylinders 4.967391304347826 inf
+
+Engine_size -inf 1.0
+Engine_size 1.0 1.8
+Engine_size 1.8 2.8
+Engine_size 2.8 inf
+
+Horsepower -inf 55.0
+Horsepower 55.0 82.0
+Horsepower 82.0 100.0
+Horsepower 100.0 151.0
+Horsepower 151.0 170.0
+Horsepower 170.0 225.0
+Horsepower 225.0 255.0
+Horsepower 255.0 inf
+
+RPM -inf 5200.0
+RPM 5200.0 5400.0
+RPM 5400.0 5600.0
+RPM 5600.0 5800.0
+RPM 5800.0 6300.0
+RPM 6300.0 inf
+
+Engine_revolutions_per_mile -inf 2120.0
+Engine_revolutions_per_mile 2120.0 2325.0
+Engine_revolutions_per_mile 2325.0 2510.0
+Engine_revolutions_per_mile 2510.0 2595.0
+Engine_revolutions_per_mile 2595.0 2890.0
+Engine_revolutions_per_mile 2890.0 3130.0
+Engine_revolutions_per_mile 3130.0 3250.0
+Engine_revolutions_per_mile 3250.0 3505.0
+Engine_revolutions_per_mile 3505.0 inf
+
+manual_transmission_available 0.0 0.0
+manual_transmission_available 1.0 1.0
+
+Fuel_tank_capacity -inf 11.1
+Fuel_tank_capacity 11.1 12.4
+Fuel_tank_capacity 12.4 14.0
+Fuel_tank_capacity 14.0 16.0
+Fuel_tank_capacity 16.0 18.4
+Fuel_tank_capacity 18.4 20.6
+Fuel_tank_capacity 20.6 inf
+
+Passenger_capacity -inf 2.0
+Passenger_capacity 2.0 4.0
+Passenger_capacity 4.0 inf
+
+Length -inf 151.0
+Length 151.0 162.0
+Length 162.0 166.0
+Length 166.0 173.0
+Length 173.0 177.0
+Length 177.0 inf
+
+Wheelbase -inf 93.0
+Wheelbase 93.0 95.0
+Wheelbase 95.0 97.0
+Wheelbase 97.0 99.0
+Wheelbase 99.0 101.0
+Wheelbase 101.0 inf
+
+Width -inf 65.0
+Width 65.0 66.0
+Width 66.0 67.0
+Width 67.0 68.0
+Width 68.0 70.0
+Width 70.0 inf
+
+U-turn_space -inf 34.0
+U-turn_space 34.0 35.0
+U-turn_space 35.0 36.0
+U-turn_space 36.0 37.0
+U-turn_space 37.0 38.0
+U-turn_space 38.0 40.0
+U-turn_space 40.0 inf
+
+Rear_seat_room -inf 19.0
+Rear_seat_room 19.0 20.0
+Rear_seat_room 20.0 24.0
+Rear_seat_room 24.0 25.0
+Rear_seat_room 25.0 26.5
+Rear_seat_room 26.5 27.5
+Rear_seat_room 27.5 28.0
+Rear_seat_room 28.0 inf
+
+Luggage_capacity -inf 6.0
+Luggage_capacity 6.0 9.0
+Luggage_capacity 9.0 10.0
+Luggage_capacity 10.0 11.0
+Luggage_capacity 11.0 13.0
+Luggage_capacity 13.0 14.0
+Luggage_capacity 14.0 inf
+
+domestic 0.0 0.0
+domestic 1.0 1.0
+
+type 4.0 4.0 0.69 {'best': 5, 'rest': 4}
+manual_transmission_available 1.0 1.0 0.59 {'best': 6, 'rest': 17}
+Passenger_capacity 2.0 4.0 0.57 {'best': 5, 'rest': 9}
+Number_of_cylinders -inf 4.0 0.56 {'best': 5, 'rest': 10}
+domestic 0.0 0.0 0.54 {'best': 5, 'rest': 11}
+RPM 5600.0 5800.0 0.5 {'best': 3}
+Length 162.0 166.0 0.5 {'best': 3}
+Drive_train_type 0.0 1.0 0.49 {'best': 5, 'rest': 14}
+Engine_size 1.0 1.8 0.48 {'best': 4, 'rest': 6}
+Horsepower 82.0 100.0 0.43 {'best': 3, 'rest': 2}
+Width -inf 65.0 0.4 {'best': 3, 'rest': 3}
+maker 10.0 10.0 0.33 {'best': 2}
+Fuel_tank_capacity 11.1 12.4 0.3 {'best': 2, 'rest': 1}
+Wheelbase 93.0 95.0 0.3 {'best': 2, 'rest': 1}
+Rear_seat_room 20.0 24.0 0.3 {'best': 2, 'rest': 1}
+Air_Bags_standard 0.0 1.0 0.27 {'best': 3, 'rest': 10}
+Fuel_tank_capacity -inf 11.1 0.27 {'best': 2, 'rest': 2}
+U-turn_space -inf 34.0 0.27 {'best': 2, 'rest': 2}
+Width 68.0 70.0 0.24 {'best': 2, 'rest': 3}
+U-turn_space 36.0 37.0 0.24 {'best': 2, 'rest': 3}
+Luggage_capacity 6.0 9.0 0.24 {'best': 2, 'rest': 3}
+Wheelbase 95.0 97.0 0.22 {'best': 2, 'rest': 4}
+maker 11.0 11.0 0.17 {'best': 1}
+maker 12.0 12.0 0.17 {'best': 1}
+maker 18.0 18.0 0.17 {'best': 1}
+Air_Bags_standard -inf 0.0 0.17 {'best': 2, 'rest': 8}
+Number_of_cylinders 4.0 4.967391304347826 0.17 {'best': 1}
+Engine_size -inf 1.0 0.17 {'best': 1}
+Horsepower -inf 55.0 0.17 {'best': 1}
+Horsepower 225.0 255.0 0.17 {'best': 1}
+RPM 5200.0 5400.0 0.17 {'best': 1}
+RPM 6300.0 inf 0.17 {'best': 1}
+Engine_revolutions_per_mile 3130.0 3250.0 0.17 {'best': 1}
+Engine_revolutions_per_mile 3505.0 inf 0.17 {'best': 1}
+Passenger_capacity -inf 2.0 0.17 {'best': 1}
+Length -inf 151.0 0.17 {'best': 1}
+Rear_seat_room -inf 19.0 0.17 {'best': 1}
+Luggage_capacity -inf 6.0 0.17 {'best': 1}
+Engine_revolutions_per_mile 2120.0 2325.0 0.13 {'best': 1, 'rest': 1}
+Engine_revolutions_per_mile 2595.0 2890.0 0.13 {'best': 1, 'rest': 1}
+Wheelbase 99.0 101.0 0.13 {'best': 1, 'rest': 1}
+U-turn_space 35.0 36.0 0.13 {'best': 1, 'rest': 1}
+Rear_seat_room 27.5 28.0 0.13 {'best': 1, 'rest': 1}
+maker 16.0 16.0 0.11 {'best': 1, 'rest': 2}
+Engine_revolutions_per_mile 2510.0 2595.0 0.11 {'best': 1, 'rest': 2}
+Length 166.0 173.0 0.11 {'best': 1, 'rest': 2}
+Wheelbase -inf 93.0 0.11 {'best': 1, 'rest': 2}
+Luggage_capacity 9.0 10.0 0.11 {'best': 1, 'rest': 2}
+Length 173.0 177.0 0.1 {'best': 1, 'rest': 3}
+Width 66.0 67.0 0.1 {'best': 1, 'rest': 3}
+Rear_seat_room 26.5 27.5 0.1 {'best': 1, 'rest': 3}
+Rear_seat_room 24.0 25.0 0.08 {'best': 1, 'rest': 4}
+Luggage_capacity 10.0 11.0 0.08 {'best': 1, 'rest': 4}
+Drive_train_type -inf 0.0 0.07 {'best': 1, 'rest': 5}
+Engine_size 1.8 2.8 0.07 {'best': 1, 'rest': 5}
+RPM 5400.0 5600.0 0.07 {'best': 1, 'rest': 5}
+Engine_revolutions_per_mile 2325.0 2510.0 0.07 {'best': 1, 'rest': 5}
+Fuel_tank_capacity 14.0 16.0 0.07 {'best': 1, 'rest': 5}
+type 3.0 3.0 0.07 {'best': 1, 'rest': 6}
+Air_Bags_standard 1.0 inf 0.07 {'best': 1, 'rest': 6}
+Horsepower 151.0 170.0 0.06 {'best': 1, 'rest': 7}
+Fuel_tank_capacity 18.4 20.6 0.06 {'best': 1, 'rest': 7}
+U-turn_space 38.0 40.0 0.06 {'best': 1, 'rest': 7}
+Luggage_capacity 13.0 14.0 0.06 {'best': 1, 'rest': 8}
+domestic 1.0 1.0 0.04 {'best': 1, 'rest': 13}
+maker 0.0 0.0 0.0 {'rest': 1}
+maker 1.0 1.0 0.0 {'rest': 2}
+maker 5.0 5.0 0.0 {'rest': 2}
+maker 6.0 6.0 0.0 {'rest': 1}
+maker 7.0 7.0 0.0 {'rest': 3}
+maker 9.0 9.0 0.0 {'rest': 2}
+maker 14.0 14.0 0.0 {'rest': 2}
+maker 15.0 15.0 0.0 {'rest': 1}
+maker 20.0 20.0 0.0 {'rest': 1}
+maker 21.0 21.0 0.0 {'rest': 1}
+maker 22.0 22.0 0.0 {'rest': 1}
+maker 23.0 23.0 0.0 {'rest': 2}
+maker 27.0 27.0 0.0 {'rest': 2}
+maker 28.0 28.0 0.0 {'rest': 1}
+type 0.0 0.0 0.0 {'rest': 4}
+type 1.0 1.0 0.0 {'rest': 2}
+type 2.0 2.0 0.0 {'rest': 4}
+type 5.0 5.0 0.0 {'rest': 4}
+Drive_train_type 1.0 inf 0.0 {'rest': 5}
+Number_of_cylinders 4.967391304347826 inf 0.0 {'rest': 14}
+Engine_size 2.8 inf 0.0 {'rest': 13}
+Horsepower 55.0 82.0 0.0 {'rest': 4}
+Horsepower 100.0 151.0 0.0 {'rest': 4}
+Horsepower 170.0 225.0 0.0 {'rest': 5}
+Horsepower 255.0 inf 0.0 {'rest': 2}
+RPM -inf 5200.0 0.0 {'rest': 12}
+RPM 5800.0 6300.0 0.0 {'rest': 7}
+Engine_revolutions_per_mile -inf 2120.0 0.0 {'rest': 11}
+Engine_revolutions_per_mile 2890.0 3130.0 0.0 {'rest': 1}
+Engine_revolutions_per_mile 3250.0 3505.0 0.0 {'rest': 3}
+manual_transmission_available 0.0 0.0 0.0 {'rest': 7}
+Fuel_tank_capacity 12.4 14.0 0.0 {'rest': 3}
+Fuel_tank_capacity 16.0 18.4 0.0 {'rest': 2}
+Fuel_tank_capacity 20.6 inf 0.0 {'rest': 4}
+Passenger_capacity 4.0 inf 0.0 {'rest': 15}
+Length 151.0 162.0 0.0 {'rest': 3}
+Length 177.0 inf 0.0 {'rest': 16}
+Wheelbase 97.0 99.0 0.0 {'rest': 1}
+Wheelbase 101.0 inf 0.0 {'rest': 15}
+Width 65.0 66.0 0.0 {'rest': 1}
+Width 67.0 68.0 0.0 {'rest': 2}
+Width 70.0 inf 0.0 {'rest': 12}
+U-turn_space 34.0 35.0 0.0 {'rest': 1}
+U-turn_space 37.0 38.0 0.0 {'rest': 1}
+U-turn_space 40.0 inf 0.0 {'rest': 9}
+Rear_seat_room 19.0 20.0 0.0 {'rest': 2}
+Rear_seat_room 25.0 26.5 0.0 {'rest': 3}
+Rear_seat_room 28.0 inf 0.0 {'rest': 10}
+Luggage_capacity 11.0 13.0 0.0 {'rest': 2}
+Luggage_capacity 14.0 inf 0.0 {'rest': 5}
+{'type': [4.0]}
+{'type': [4.0], 'manual_transmission_available': [1.0]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[11.1, 12.4]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[11.1, 12.4]], 'Wheelbase': [[93.0, 95.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[11.1, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[11.1, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 95.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[0.0, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.0]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[1.0, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]], 'Engine_revolutions_per_mile': [[3130.0, 3250.0]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[2.0, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]], 'Engine_revolutions_per_mile': [[3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]], 'Engine_revolutions_per_mile': [[3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]], 'Engine_revolutions_per_mile': [[3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[6.0, 9.0]], 'Engine_revolutions_per_mile': [[3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2595.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [36.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2595.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2595.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2595.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2595.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 166.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 173.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[93.0, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 173.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 9.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 173.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 10.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 10.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [27.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 10.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 24.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 10.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 10.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[0.0, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 11.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[-inf, 1.0]], 'Engine_size': [[-inf, 1.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 11.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5400.0], [5600.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[-inf, 1.0]], 'Engine_size': [[-inf, 2.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 11.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[-inf, 1.0]], 'Engine_size': [[-inf, 2.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 11.0]], 'Engine_revolutions_per_mile': [[2120.0, 2325.0], [2510.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[-inf, 1.0]], 'Engine_size': [[-inf, 2.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 11.0]], 'Engine_revolutions_per_mile': [[2120.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+{'type': [4.0], 'manual_transmission_available': [1.0], 'Passenger_capacity': [[-inf, 4.0]], 'Number_of_cylinders': [[-inf, 4.967391304347826]], 'domestic': [0.0], 'RPM': [[5200.0, 5800.0], [6300.0, inf]], 'Length': [[-inf, 151.0], [162.0, 177.0]], 'Drive_train_type': [[-inf, 1.0]], 'Engine_size': [[-inf, 2.8]], 'Horsepower': [[-inf, 55.0], [82.0, 100.0], [225.0, 255.0]], 'Width': [[-inf, 65.0], [66.0, 67.0], [68.0, 70.0]], 'maker': [10.0, 11.0, 12.0, 16.0, 18.0], 'Fuel_tank_capacity': [[-inf, 12.4], [14.0, 16.0]], 'Wheelbase': [[-inf, 97.0], [99.0, 101.0]], 'Rear_seat_room': [[-inf, 19.0], [20.0, 25.0], [26.5, 28.0]], 'Air_Bags_standard': [[-inf, 1.0]], 'U-turn_space': [[-inf, 34.0], [35.0, 37.0]], 'Luggage_capacity': [[-inf, 11.0]], 'Engine_revolutions_per_mile': [[2120.0, 2890.0], [3130.0, 3250.0], [3505.0, inf]]}
+
+-----------
+explain= {'type': [4.0]}
+all                {'CityMPG+': 20.0, 'HighwayMPG+': 27.0, 'Weight-': 2885.0, 'Class-': 13.9, 'N': 93} {'CityMPG+': 45.07, 'HighwayMPG+': 48.11, 'Weight-': -15589.26, 'Class-': 40.92, 'N': 93}
+sway with   5 evals {'CityMPG+': 23.0, 'HighwayMPG+': 26.0, 'Weight-': 2450.0, 'Class-': 14.1, 'N': 6} {'CityMPG+': -62.99, 'HighwayMPG+': -85.17, 'Weight-': -21241.29, 'Class-': -25.9, 'N': 6}
+xpln on     5 evals {'CityMPG+': 24.0, 'HighwayMPG+': 31.0, 'Weight-': 2865.0, 'Class-': 19.8, 'N': 14} {'CityMPG+': -14.36, 'HighwayMPG+': -30.24, 'Weight-': -22348.4, 'Class-': -11.12, 'N': 14}
+sort with 93 evals {'CityMPG+': 42.0, 'HighwayMPG+': 46.0, 'Weight-': 2350.0, 'Class-': 12.1, 'N': 6} {'CityMPG+': -98.38, 'HighwayMPG+': -119.7, 'Weight-': -17534.99, 'Class-': -6.18, 'N': 6}
+
+
+============================== 4 passed in 0.18s ===============================
+
+Process finished with exit code 0

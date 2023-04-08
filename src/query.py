@@ -29,6 +29,7 @@ def div(col):
     else:
         return (per(has(col), 0.9) - per(has(col), 0.1)) / 2.58
 
+
 # def div(col):
 #     """
 #     Function:
@@ -51,6 +52,7 @@ def div(col):
 #         return e
 #     else:
 #         return (per(has(col),.9) - per(has(col), .1)) / 2.58
+
 
 def has(col):
     """
@@ -252,10 +254,11 @@ def betters(data, n=None):
         if len(arr) <= 1:
             return arr
 
+        # pivot = arr[len(arr)//2]
         pivot = arr[0]
         left = []
         right = []
-
+        # print("len(arr)", len(arr), "pivot", pivot)
         for item in arr[1:]:
             if cmp_func(data, item, pivot):
                 left.append(item)

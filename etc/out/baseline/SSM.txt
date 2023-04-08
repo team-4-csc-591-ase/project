@@ -1,0 +1,745 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests 
+Testing started at 2:56 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_bins.py::test_bins PASSED                                           [ 25%]all    {:best 468 :rest 1872}
+
+f 0.0 0.0 0 {:best 236 :rest 904}
+f 1.0 1.0 0 {:best 232 :rest 968}
+
+sMOOTHER 1.0 1.0 0 {:best 468 :rest 1872}
+
+cOLORGS 0.0 0.0 1 {:best 468 :rest 1409}
+cOLORGS 1.0 1.0 0 {:rest 463}
+
+rELAXPARAMETER 0.0 0.0 1 {:best 468 :rest 919}
+rELAXPARAMETER 1.0 1.0 0 {:rest 953}
+
+v 0.0 0.0 0 {:best 232 :rest 968}
+v 1.0 1.0 0 {:best 236 :rest 904}
+
+jACOBI 0.0 0.0 1 {:best 468 :rest 1415}
+jACOBI 1.0 1.0 0 {:rest 457}
+
+lINE 0.0 0.0 1 {:best 468 :rest 1387}
+lINE 1.0 1.0 0 {:rest 485}
+
+zEBRALINE 0.0 0.0 0 {:rest 1405}
+zEBRALINE 1.0 1.0 1 {:best 468 :rest 467}
+
+cYCLE 1.0 1.0 0 {:best 468 :rest 1872}
+
+ALPHA -inf 5.0 0 {:best 58 :rest 21}
+ALPHA 5.0 10.0 0 {:best 82 :rest 19}
+ALPHA 10.0 15.0 0 {:best 94 :rest 42}
+ALPHA 15.0 25.0 0 {:best 163 :rest 107}
+ALPHA 25.0 30.0 0 {:best 38 :rest 82}
+ALPHA 30.0 35.0 0 {:best 20 :rest 82}
+ALPHA 35.0 40.0 0 {:best 10 :rest 90}
+ALPHA 40.0 45.0 0 {:best 3 :rest 102}
+ALPHA 45.0 inf 0 {:rest 1327}
+
+BETA -inf 55.0 0 {:rest 766}
+BETA 55.0 65.0 0 {:best 12 :rest 272}
+BETA 65.0 70.0 0 {:best 30 :rest 169}
+BETA 70.0 75.0 0 {:best 62 :rest 180}
+BETA 75.0 80.0 0 {:best 89 :rest 152}
+BETA 80.0 85.0 0 {:best 129 :rest 149}
+BETA 85.0 inf 0 {:best 146 :rest 184}
+
+PRESMOOTHING -inf 0.0 0 {:best 111 :rest 169}
+PRESMOOTHING 0.0 1.0 0 {:best 109 :rest 225}
+PRESMOOTHING 1.0 2.0 0 {:best 92 :rest 198}
+PRESMOOTHING 2.0 3.0 0 {:best 77 :rest 214}
+PRESMOOTHING 3.0 5.0 0 {:best 48 :rest 431}
+PRESMOOTHING 5.0 6.0 0 {:best 14 :rest 208}
+PRESMOOTHING 6.0 7.0 0 {:best 10 :rest 216}
+PRESMOOTHING 7.0 inf 0 {:best 7 :rest 211}
+
+POSTSMOOTHING -inf 3.0 0 {:rest 848}
+POSTSMOOTHING 3.0 5.0 0 {:best 20 :rest 418}
+POSTSMOOTHING 5.0 6.0 0 {:best 72 :rest 230}
+POSTSMOOTHING 6.0 7.0 0 {:best 94 :rest 193}
+POSTSMOOTHING 7.0 inf 1 {:best 282 :rest 183}
+
+test_sway.py::test_sway PASSED                                           [ 50%]<src.data.Data object at 0x1177c3c50>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 77.04}
+     {:N 239360 :NUMBERITERATIONS- 3.13 :TIMETOSOLUTION- 22.38}
+
+best {:N 468 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 77.86}
+     {:N 468 :NUMBERITERATIONS- 42.19 :TIMETOSOLUTION- 228.93}
+
+rest {:N 1872 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 114.47}
+     {:N 1872 :NUMBERITERATIONS- 30.94 :TIMETOSOLUTION- -146.0}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(False, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+test_tree.py::test_tree PASSED                                           [ 75%][239360]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 77.04, 'N': 239360}
+|.. [119680]
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 138.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 92.27, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 181.88, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 113.41, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 183.3, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 168.44, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 36.0, 'TIMETOSOLUTION-': 552.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 130.2, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 128.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 107.69, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 111.69, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 105.08, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 189.07, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 143.01, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 166.29, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 112.58, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 13.0, 'TIMETOSOLUTION-': 67.36, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 122.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 106.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 157.0, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 99.02, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 53.83, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 106.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 151.49, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 111.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 103.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 130.17, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 68.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 142.92, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 110.59, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 112.13, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 79.61, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 139.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 107.05, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 137.21, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 109.55, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 128.51, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 79.35, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 119.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 119.05, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 158.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 157.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 217.09, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 14.0, 'TIMETOSOLUTION-': 369.39, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 77.32, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 92.13, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 149.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 105.27, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 189.1, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 148.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 76.38, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 127.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 178.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 131.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 184.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 173.27, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 50.0, 'TIMETOSOLUTION-': 787.68, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 209.41, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 193.37, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 294.85, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 121.37, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 271.19, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 31.0, 'TIMETOSOLUTION-': 698.81, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 148.69, 'N': 935}
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 116.82, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 103.44, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 84.45, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 491.51, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 183.19, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 165.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 172.27, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 158.24, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 91.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 52.0, 'TIMETOSOLUTION-': 1254.89, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 197.49, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 176.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 191.6, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 139.58, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 151.19, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 152.08, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 74.18, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 103.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 146.98, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 107.13, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 147.92, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 203.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 125.49, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 137.26, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 100.23, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 147.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 94.47, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 158.23, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 74.92, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 163.1, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 167.95, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 132.52, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 206.32, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 173.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 19.0, 'TIMETOSOLUTION-': 210.98, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 17.0, 'TIMETOSOLUTION-': 147.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 24.0, 'TIMETOSOLUTION-': 494.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 203.27, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 39.0, 'TIMETOSOLUTION-': 377.13, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 157.39, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 156.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 214.65, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 99.83, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 141.73, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 217.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 209.85, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 325.02, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 8874.34, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 268.3, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 11269.3, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 49.0, 'TIMETOSOLUTION-': 704.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 11228.94, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 144.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 13.0, 'TIMETOSOLUTION-': 147.88, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 19.0, 'TIMETOSOLUTION-': 444.49, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 80.0, 'TIMETOSOLUTION-': 757.37, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 211.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 237.24, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 276.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 27.0, 'TIMETOSOLUTION-': 579.3, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 16.0, 'TIMETOSOLUTION-': 86.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 20.0, 'TIMETOSOLUTION-': 179.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 75.24, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 57.86, 'N': 935}
+|.. [119680]
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 31.0, 'TIMETOSOLUTION-': 167.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 93.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 82.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 22.0, 'TIMETOSOLUTION-': 126.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 27.0, 'TIMETOSOLUTION-': 508.37, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 102.95, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 174.38, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 90.6, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 85.07, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 87.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 113.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 60.71, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 73.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 73.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 51.58, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 61.17, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 38.0, 'TIMETOSOLUTION-': 669.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 98.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 111.29, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 98.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 100.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 100.0, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 144.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 133.52, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 69.3, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 87.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 107.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 93.62, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 112.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 24.0, 'TIMETOSOLUTION-': 367.81, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 154.24, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 77.1, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 213.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 98.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 127.08, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 91.65, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 93.14, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 54.83, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 87.52, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 79.66, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 94.0, 'TIMETOSOLUTION-': 570.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 28.0, 'TIMETOSOLUTION-': 313.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 7670.58, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 17.0, 'TIMETOSOLUTION-': 193.81, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 86.41, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 167.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 13.0, 'TIMETOSOLUTION-': 165.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 46.0, 'TIMETOSOLUTION-': 259.73, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 206.91, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 116.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 107.02, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 115.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 94.59, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 33.0, 'TIMETOSOLUTION-': 523.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 17.0, 'TIMETOSOLUTION-': 211.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 126.97, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 7541.27, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 35.0, 'TIMETOSOLUTION-': 270.49, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 26.0, 'TIMETOSOLUTION-': 365.94, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 118.71, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 65.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 84.84, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 16.0, 'TIMETOSOLUTION-': 191.15, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 8410.83, 'N': 935}
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 138.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 137.0, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 129.15, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 94.7, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 303.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 114.0, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 88.9, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 191.5, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 79.17, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 108.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 79.75, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 102.98, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 21.0, 'TIMETOSOLUTION-': 714.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 148.68, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 131.19, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 107.15, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 88.71, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 80.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 105.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 80.36, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 166.95, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 88.14, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 113.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 156.88, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 19.0, 'TIMETOSOLUTION-': 352.7, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 74.25, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 58.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 132.47, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 82.52, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 14.0, 'TIMETOSOLUTION-': 99.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 46.0, 'TIMETOSOLUTION-': 499.29, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 102.75, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 9643.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 178.44, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 161.65, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 155.1, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 152.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 181.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 8210.65, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 21.0, 'TIMETOSOLUTION-': 328.12, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 193.29, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 148.91, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 29.0, 'TIMETOSOLUTION-': 526.0, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 36.0, 'TIMETOSOLUTION-': 601.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 139.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 154.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 14.0, 'TIMETOSOLUTION-': 142.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 185.63, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 29.0, 'TIMETOSOLUTION-': 363.51, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 13.0, 'TIMETOSOLUTION-': 180.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 101.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 107.28, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 27.0, 'TIMETOSOLUTION-': 707.95, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 98.66, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 111.18, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 98.09, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 104.05, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 51.0, 'TIMETOSOLUTION-': 226.57, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 133.61, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 165.98, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 139.32, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 90.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 63.0, 'TIMETOSOLUTION-': 614.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 19.0, 'TIMETOSOLUTION-': 143.37, 'N': 935}
+
+test_xpln.py::test_xpln PASSED                                           [100%]
+f 0.0 0.0
+f 1.0 1.0
+
+sMOOTHER 1.0 1.0
+
+cOLORGS 0.0 0.0
+cOLORGS 1.0 1.0
+
+rELAXPARAMETER 0.0 0.0
+rELAXPARAMETER 1.0 1.0
+
+v 0.0 0.0
+v 1.0 1.0
+
+jACOBI 0.0 0.0
+jACOBI 1.0 1.0
+
+lINE 0.0 0.0
+lINE 1.0 1.0
+
+zEBRALINE 0.0 0.0
+zEBRALINE 1.0 1.0
+
+cYCLE 1.0 1.0
+
+ALPHA -inf 50.0
+ALPHA 50.0 55.0
+ALPHA 55.0 65.0
+ALPHA 65.0 70.0
+ALPHA 70.0 75.0
+ALPHA 75.0 80.0
+ALPHA 80.0 85.0
+ALPHA 85.0 inf
+
+BETA -inf 5.0
+BETA 5.0 10.0
+BETA 10.0 15.0
+BETA 15.0 25.0
+BETA 25.0 30.0
+BETA 30.0 35.0
+BETA 35.0 40.0
+BETA 40.0 45.0
+BETA 45.0 50.0
+BETA 50.0 55.0
+BETA 55.0 65.0
+BETA 65.0 inf
+
+PRESMOOTHING -inf 0.0
+PRESMOOTHING 0.0 1.0
+PRESMOOTHING 1.0 2.0
+PRESMOOTHING 2.0 3.0
+PRESMOOTHING 3.0 5.0
+PRESMOOTHING 5.0 6.0
+PRESMOOTHING 6.0 7.0
+PRESMOOTHING 7.0 inf
+
+POSTSMOOTHING -inf 0.0
+POSTSMOOTHING 0.0 1.0
+POSTSMOOTHING 1.0 2.0
+POSTSMOOTHING 2.0 3.0
+POSTSMOOTHING 3.0 5.0
+POSTSMOOTHING 5.0 6.0
+POSTSMOOTHING 6.0 inf
+
+lINE 1.0 1.0 0.79 {'best': 468, 'rest': 502}
+f 0.0 0.0 0.67 {'best': 468, 'rest': 931}
+v 1.0 1.0 0.67 {'best': 468, 'rest': 931}
+cOLORGS 0.0 0.0 0.57 {'best': 468, 'rest': 1397}
+zEBRALINE 0.0 0.0 0.57 {'best': 468, 'rest': 1414}
+jACOBI 0.0 0.0 0.57 {'best': 468, 'rest': 1435}
+sMOOTHER 1.0 1.0 0.5 {'best': 468, 'rest': 1872}
+cYCLE 1.0 1.0 0.5 {'best': 468, 'rest': 1872}
+rELAXPARAMETER 0.0 0.0 0.39 {'best': 316, 'rest': 938}
+POSTSMOOTHING 1.0 2.0 0.28 {'best': 169, 'rest': 204}
+ALPHA 85.0 inf 0.24 {'best': 148, 'rest': 186}
+POSTSMOOTHING 0.0 1.0 0.23 {'best': 150, 'rest': 227}
+BETA 15.0 25.0 0.22 {'best': 125, 'rest': 100}
+ALPHA 80.0 85.0 0.21 {'best': 129, 'rest': 168}
+PRESMOOTHING 7.0 inf 0.17 {'best': 118, 'rest': 213}
+PRESMOOTHING 6.0 7.0 0.14 {'best': 102, 'rest': 210}
+rELAXPARAMETER 1.0 1.0 0.13 {'best': 152, 'rest': 934}
+BETA 5.0 10.0 0.13 {'best': 65, 'rest': 25}
+BETA 10.0 15.0 0.13 {'best': 68, 'rest': 40}
+ALPHA 75.0 80.0 0.12 {'best': 84, 'rest': 170}
+PRESMOOTHING 5.0 6.0 0.12 {'best': 90, 'rest': 226}
+POSTSMOOTHING 2.0 3.0 0.11 {'best': 83, 'rest': 193}
+BETA -inf 5.0 0.11 {'best': 55, 'rest': 26}
+PRESMOOTHING 3.0 5.0 0.09 {'best': 94, 'rest': 423}
+BETA 25.0 30.0 0.07 {'best': 48, 'rest': 76}
+ALPHA 70.0 75.0 0.06 {'best': 51, 'rest': 174}
+BETA 30.0 35.0 0.06 {'best': 40, 'rest': 79}
+PRESMOOTHING 2.0 3.0 0.04 {'best': 42, 'rest': 194}
+POSTSMOOTHING -inf 0.0 0.04 {'best': 41, 'rest': 200}
+BETA 35.0 40.0 0.03 {'best': 28, 'rest': 89}
+ALPHA 65.0 70.0 0.03 {'best': 30, 'rest': 160}
+BETA 40.0 45.0 0.02 {'best': 17, 'rest': 94}
+ALPHA 55.0 65.0 0.01 {'best': 24, 'rest': 269}
+PRESMOOTHING 1.0 2.0 0.01 {'best': 21, 'rest': 230}
+POSTSMOOTHING 3.0 5.0 0.01 {'best': 23, 'rest': 455}
+BETA 45.0 50.0 0.01 {'best': 11, 'rest': 122}
+BETA 50.0 55.0 0.0 {'best': 6, 'rest': 115}
+BETA 55.0 65.0 0.0 {'best': 5, 'rest': 280}
+ALPHA 50.0 55.0 0.0 {'best': 2, 'rest': 126}
+POSTSMOOTHING 5.0 6.0 0.0 {'best': 2, 'rest': 205}
+PRESMOOTHING 0.0 1.0 0.0 {'best': 1, 'rest': 190}
+f 1.0 1.0 0.0 {'rest': 941}
+cOLORGS 1.0 1.0 0.0 {'rest': 475}
+v 0.0 0.0 0.0 {'rest': 941}
+jACOBI 1.0 1.0 0.0 {'rest': 437}
+lINE 0.0 0.0 0.0 {'rest': 1370}
+zEBRALINE 1.0 1.0 0.0 {'rest': 458}
+ALPHA -inf 50.0 0.0 {'rest': 619}
+BETA 65.0 inf 0.0 {'rest': 826}
+PRESMOOTHING -inf 0.0 0.0 {'rest': 186}
+POSTSMOOTHING 6.0 inf 0.0 {'rest': 388}
+{'lINE': [1.0]}
+{'lINE': [1.0], 'f': [0.0]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': []}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': []}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[1.0, 2.0]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[1.0, 2.0]], 'ALPHA': [[85.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[85.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[85.0, inf]], 'BETA': [[15.0, 25.0]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[80.0, inf]], 'BETA': [[15.0, 25.0]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[80.0, inf]], 'BETA': [[15.0, 25.0]], 'PRESMOOTHING': [[7.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [0.0], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[80.0, inf]], 'BETA': [[15.0, 25.0]], 'PRESMOOTHING': [[6.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[80.0, inf]], 'BETA': [[15.0, 25.0]], 'PRESMOOTHING': [[6.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[80.0, inf]], 'BETA': [[5.0, 10.0], [15.0, 25.0]], 'PRESMOOTHING': [[6.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[80.0, inf]], 'BETA': [[5.0, 25.0]], 'PRESMOOTHING': [[6.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[75.0, inf]], 'BETA': [[5.0, 25.0]], 'PRESMOOTHING': [[6.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 2.0]], 'ALPHA': [[75.0, inf]], 'BETA': [[5.0, 25.0]], 'PRESMOOTHING': [[5.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 3.0]], 'ALPHA': [[75.0, inf]], 'BETA': [[5.0, 25.0]], 'PRESMOOTHING': [[5.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 3.0]], 'ALPHA': [[75.0, inf]], 'BETA': [[-inf, 25.0]], 'PRESMOOTHING': [[5.0, inf]]}
+{'lINE': [1.0], 'f': [0.0], 'v': [1.0], 'cOLORGS': [0.0], 'zEBRALINE': [0.0], 'jACOBI': [0.0], 'sMOOTHER': [], 'cYCLE': [], 'rELAXPARAMETER': [], 'POSTSMOOTHING': [[0.0, 3.0]], 'ALPHA': [[75.0, inf]], 'BETA': [[-inf, 25.0]], 'PRESMOOTHING': [[3.0, inf]]}
+
+-----------
+explain= {'lINE': [1.0], 'f': [0.0]}
+all                {'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 77.04, 'N': 239360} {'NUMBERITERATIONS-': 3.13, 'TIMETOSOLUTION-': 22.38, 'N': 239360}
+sway with   10 evals {'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 84.24, 'N': 468} {'NUMBERITERATIONS-': 30.44, 'TIMETOSOLUTION-': 211.77, 'N': 468}
+xpln on     10 evals {'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 88.17, 'N': 29920} {'NUMBERITERATIONS-': 1.03, 'TIMETOSOLUTION-': 12.77, 'N': 29920}
+sort with 239360 evals {'NUMBERITERATIONS-': 3.0, 'TIMETOSOLUTION-': 92.14, 'N': 468} {'NUMBERITERATIONS-': 25.56, 'TIMETOSOLUTION-': 178.92, 'N': 468}
+
+
+========================= 4 passed in 91.13s (0:01:31) =========================
+
+Process finished with exit code 0

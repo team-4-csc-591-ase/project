@@ -9,17 +9,19 @@ from src.utils import diffs, get_project_root, o
 
 def test_sway():
     project_root = get_project_root()
-    file_path = os.path.join(project_root, "/etc/data/", CONSTS_LIST[CONSTS.file.name])
-    f = str(project_root) + "/" + file_path
+    for _f in CONSTS_LIST[CONSTS.file.name]:
+        file_path = os.path.join(project_root, "/etc/data/", _f)
+        f = str(project_root) + "/" + file_path
 
-    data = Data(f)
-    best, rest, _ = sway(data)
-    print(rest)
-    print("\nall ", o(stats(data)))
-    print("    ", o(stats(data, div)))
-    print("\nbest", o(stats(best)))
-    print("    ", o(stats(best, div)))
-    print("\nrest", o(stats(rest)))
-    print("    ", o(stats(rest, div)))
-    print("\nall ~= best?", o(diffs(best.cols.y, data.cols.y)))
-    print("best ~= rest?", o(diffs(best.cols.y, rest.cols.y)))
+        print(f"\nCurrent file {_f}")
+        data = Data(f)
+        best, rest, _ = sway(data)
+        print(rest)
+        print("\nall ", o(stats(data)))
+        print("    ", o(stats(data, div)))
+        print("\nbest", o(stats(best)))
+        print("    ", o(stats(best, div)))
+        print("\nrest", o(stats(rest)))
+        print("    ", o(stats(rest, div)))
+        print("\nall ~= best?", o(diffs(best.cols.y, data.cols.y)))
+        print("best ~= rest?", o(diffs(best.cols.y, rest.cols.y)))

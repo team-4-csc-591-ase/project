@@ -8,8 +8,11 @@ from src.utils import get_project_root
 
 def test_tree():
     project_root = get_project_root()
-    file_path = os.path.join(project_root, "/etc/data/", CONSTS_LIST[CONSTS.file.name])
-    f = str(project_root) + "/" + file_path
+    for _f in CONSTS_LIST[CONSTS.file.name]:
+        file_path = os.path.join(project_root, "/etc/data/", _f)
+        f = str(project_root) + "/" + file_path
 
-    data = Data(f)
-    show_tree(tree(data))
+        print(f"\nCurrent file {_f}")
+
+        data = Data(f)
+        show_tree(tree(data))
