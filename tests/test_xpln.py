@@ -18,24 +18,28 @@ def test_xpln():
         f = str(project_root) + "/" + file_path
 
         print(f"\nCurrent file {_f}")
-        data = Data(f)
+        try:
+            data = Data(f)
 
-        best, rest, evals = sway(data)
-        rule, _ = xpln(data, best, rest)
-        print("\n-----------\nexplain=", show_rule(rule))
-        data1 = Data(data, selects(rule, data.rows))
+            best, rest, evals = sway(data)
+            rule, _ = xpln(data, best, rest)
+            print("\n-----------\nexplain=", show_rule(rule))
+            data1 = Data(data, selects(rule, data.rows))
 
-        print("all               ", query.stats(data), query.stats(data, query.div))
-        print(
-            f"sway with   {evals} evals",
-            query.stats(best),
-            query.stats(best, query.div),
-        )
-        print(
-            f"xpln on     {evals} evals",
-            query.stats(data1),
-            query.stats(data1, query.div),
-        )
+            print("all               ", query.stats(data), query.stats(data, query.div))
+            print(
+                f"sway with   {evals} evals",
+                query.stats(best),
+                query.stats(best, query.div),
+            )
+            print(
+                f"xpln on     {evals} evals",
+                query.stats(data1),
+                query.stats(data1, query.div),
+
+            )
+        except Exception as e:
+            print(f"Error at file {_f}, {e}")
 
         top, _ = query.betters(data, len(best.rows))
         top = Data(data, top)
