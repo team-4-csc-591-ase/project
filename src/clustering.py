@@ -1,6 +1,8 @@
 from src import lists, query
 from src.config import CONSTS, CONSTS_LIST
 from src.data import Data
+import math
+import numpy as np
 
 
 def half(data, rows=None, cols=None, above=None):

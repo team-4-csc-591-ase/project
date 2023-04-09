@@ -1,0 +1,4086 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests
+Testing started at 3:40 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_bins.py::test_bins PASSED                                           [ 25%]
+Current file auto2.csv
+all    {:best 6 :rest 24}
+
+maker 0.0 0.0 0 {:best 2}
+maker 1.0 1.0 0 {:best 2}
+maker 2.0 2.0 0 {:best 1}
+maker 3.0 3.0 0 {:best 1 :rest 1}
+maker 4.0 4.0 0 {:rest 1}
+maker 5.0 5.0 0 {:rest 2}
+maker 7.0 7.0 0 {:rest 3}
+maker 9.0 9.0 0 {:rest 2}
+maker 12.0 12.0 0 {:rest 2}
+maker 15.0 15.0 0 {:rest 1}
+maker 16.0 16.0 0 {:rest 1}
+maker 17.0 17.0 0 {:rest 1}
+maker 19.0 19.0 0 {:rest 1}
+maker 20.0 20.0 0 {:rest 2}
+maker 23.0 23.0 0 {:rest 2}
+maker 25.0 25.0 0 {:rest 1}
+maker 26.0 26.0 0 {:rest 2}
+maker 27.0 27.0 0 {:rest 1}
+maker 29.0 29.0 0 {:rest 1}
+
+type 0.0 0.0 0 {:best 1 :rest 3}
+type 1.0 1.0 0 {:rest 2}
+type 2.0 2.0 0 {:best 4 :rest 6}
+type 3.0 3.0 0 {:best 1 :rest 5}
+type 4.0 4.0 0 {:rest 3}
+type 5.0 5.0 0 {:rest 5}
+
+Air_Bags_standard -inf 0.0 0 {:best 1 :rest 11}
+Air_Bags_standard 0.0 1.0 0 {:best 3 :rest 10}
+Air_Bags_standard 1.0 inf 0 {:best 2 :rest 3}
+
+Drive_train_type -inf 0.0 0 {:best 1 :rest 2}
+Drive_train_type 0.0 1.0 0 {:best 5 :rest 17}
+Drive_train_type 1.0 inf 0 {:rest 5}
+
+Number_of_cylinders -inf 8.0 0 {:rest 4}
+Number_of_cylinders 8.0 inf 0 {:rest 2}
+
+Engine_size -inf 1.9 0 {:best 1 :rest 7}
+Engine_size 1.9 2.8 0 {:best 3 :rest 5}
+Engine_size 2.8 3.8 0 {:best 2 :rest 10}
+Engine_size 3.8 4.6 0 {:rest 1}
+Engine_size 4.6 inf 0 {:rest 1}
+
+Horsepower -inf 170.0 0 {:rest 17}
+Horsepower 170.0 170.0 0 {:rest 4}
+Horsepower 170.0 208.0 0 {:best 3}
+Horsepower 208.0 208.0 0 {:best 1}
+Horsepower 208.0 inf 0 {:rest 2}
+
+RPM -inf 5100.0 0 {:rest 9}
+RPM 5100.0 5100.0 0 {:rest 7}
+RPM 5100.0 5200.0 0 {:best 1 :rest 4}
+RPM 5200.0 5550.0 0 {:best 3 :rest 2}
+RPM 5550.0 6300.0 0 {:best 2}
+RPM 6300.0 6300.0 0 {:best 1}
+RPM 6300.0 inf 0 {:rest 1}
+
+Engine_revolutions_per_mile -inf 3375.0 0 {:rest 15}
+Engine_revolutions_per_mile 3375.0 inf 0 {:rest 3}
+
+manual_transmission_available 0.0 0.0 0 {:best 1 :rest 11}
+manual_transmission_available 1.0 1.0 1 {:best 5 :rest 13}
+
+Fuel_tank_capacity -inf 16.0 0 {:rest 7}
+Fuel_tank_capacity 16.0 16.0 0 {:rest 5}
+Fuel_tank_capacity 16.0 16.9 0 {:best 2 :rest 1}
+Fuel_tank_capacity 16.9 18.0 0 {:best 1 :rest 2}
+Fuel_tank_capacity 18.0 19.0 0 {:rest 3}
+Fuel_tank_capacity 19.0 20.0 0 {:rest 6}
+Fuel_tank_capacity 20.0 inf 0 {:best 2 :rest 1}
+
+Passenger_capacity -inf 2.0 0 {:rest 1}
+Passenger_capacity 2.0 4.0 0 {:best 1 :rest 3}
+Passenger_capacity 4.0 5.0 0 {:best 3 :rest 11}
+Passenger_capacity 5.0 6.0 0 {:best 2 :rest 4}
+Passenger_capacity 6.0 inf 0 {:rest 5}
+
+Length -inf 171.0 0 {:rest 2}
+Length 171.0 171.0 0 {:rest 1}
+Length 171.0 179.0 0 {:best 1 :rest 9}
+Length 179.0 184.0 0 {:best 1 :rest 1}
+Length 184.0 189.0 0 {:best 2 :rest 2}
+Length 189.0 193.0 0 {:best 1 :rest 4}
+Length 193.0 200.0 0 {:best 1 :rest 2}
+Length 200.0 inf 0 {:rest 2}
+
+Wheelbase -inf 100.0 0 {:rest 5}
+Wheelbase 100.0 100.0 0 {:rest 1}
+Wheelbase 100.0 107.0 0 {:best 3 :rest 3}
+Wheelbase 107.0 107.0 0 {:best 1 :rest 1}
+Wheelbase 107.0 109.0 0 {:best 1 :rest 2}
+Wheelbase 109.0 111.0 0 {:rest 4}
+Wheelbase 111.0 112.0 0 {:rest 3}
+Wheelbase 112.0 inf 0 {:best 1 :rest 1}
+
+Width -inf 64.0 0 {:rest 3}
+Width 64.0 65.0 0 {:rest 2}
+Width 65.0 67.0 0 {:best 1 :rest 2}
+Width 67.0 68.0 0 {:best 1 :rest 3}
+Width 68.0 70.0 0 {:best 3 :rest 3}
+Width 70.0 71.0 0 {:best 1}
+Width 71.0 74.0 0 {:rest 10}
+Width 74.0 inf 0 {:rest 5}
+
+U-turn_space -inf 36.0 0 {:rest 5}
+U-turn_space 36.0 36.0 0 {:rest 1}
+U-turn_space 36.0 37.0 0 {:best 3}
+U-turn_space 37.0 38.0 0 {:best 1 :rest 1}
+U-turn_space 38.0 40.0 0 {:best 1 :rest 4}
+U-turn_space 40.0 41.0 0 {:best 1 :rest 3}
+U-turn_space 41.0 44.0 0 {:rest 6}
+U-turn_space 44.0 inf 0 {:rest 1}
+
+Rear_seat_room -inf 23.5 0 {:rest 2}
+Rear_seat_room 23.5 26.5 0 {:best 1 :rest 5}
+Rear_seat_room 26.5 27.5 0 {:best 1 :rest 7}
+Rear_seat_room 27.5 28.5 0 {:best 2 :rest 4}
+Rear_seat_room 28.5 30.0 0 {:best 1 :rest 1}
+Rear_seat_room 30.0 31.0 0 {:best 1 :rest 4}
+Rear_seat_room 31.0 inf 0 {:rest 1}
+
+Luggage_capacity -inf 12.0 0 {:rest 5}
+Luggage_capacity 12.0 12.0 0 {:rest 3}
+Luggage_capacity 12.0 13.0 0 {:best 1 :rest 1}
+Luggage_capacity 13.0 14.0 0 {:best 1 :rest 10}
+Luggage_capacity 14.0 15.0 0 {:best 1 :rest 2}
+Luggage_capacity 15.0 16.0 0 {:best 1 :rest 2}
+Luggage_capacity 16.0 17.0 0 {:best 1 :rest 1}
+Luggage_capacity 17.0 18.0 0 {:rest 1}
+Luggage_capacity 18.0 inf 0 {:rest 1}
+
+domestic 0.0 0.0 1 {:best 5 :rest 11}
+domestic 1.0 1.0 0 {:best 1 :rest 13}
+
+Current file auto93.csv
+all    {:best 13 :rest 52}
+
+Clndrs -inf 3.0 0 {:best 1}
+Clndrs 3.0 4.0 0 {:best 9 :rest 22}
+Clndrs 4.0 6.0 0 {:best 2 :rest 18}
+Clndrs 6.0 inf 0 {:best 1 :rest 12}
+
+Volume -inf 90.0 0 {:best 1 :rest 5}
+Volume 90.0 115.0 0 {:best 1 :rest 11}
+Volume 115.0 140.0 0 {:best 5 :rest 6}
+Volume 140.0 163.0 0 {:best 3 :rest 2}
+Volume 163.0 173.0 0 {:best 1 :rest 1}
+Volume 173.0 200.0 0 {:best 1 :rest 1}
+Volume 200.0 429.0 0 {:rest 12}
+Volume 429.0 inf 0 {:rest 1}
+
+Model -inf 77.0 0 {:rest 24}
+Model 77.0 77.0 0 {:rest 8}
+Model 77.0 78.0 0 {:best 3 :rest 6}
+Model 78.0 79.0 0 {:best 1 :rest 5}
+Model 79.0 81.0 0 {:best 3 :rest 7}
+Model 81.0 inf 0 {:best 1 :rest 4}
+
+origin 1.0 1.0 0 {:best 9 :rest 32}
+origin 2.0 2.0 0 {:best 2 :rest 9}
+origin 3.0 3.0 0 {:best 2 :rest 11}
+
+Current file china.csv
+all    {:best 16 :rest 64}
+
+AFP -inf 544.0 0 {:best 12 :rest 50}
+AFP 544.0 1710.0 0 {:best 4 :rest 10}
+AFP 1710.0 inf 0 {:rest 4}
+
+Input -inf 299.0 0 {:best 15 :rest 53}
+Input 299.0 932.0 0 {:best 1 :rest 8}
+Input 932.0 1327.0 0 {:rest 2}
+Input 1327.0 inf 0 {:rest 1}
+
+Output -inf 78.0 0 {:best 11 :rest 39}
+Output 78.0 234.0 0 {:best 4 :rest 13}
+Output 234.0 1831.0 0 {:rest 8}
+Output 1831.0 inf 0 {:rest 1}
+
+Enquiry -inf 30.0 0 {:best 9 :rest 33}
+Enquiry 30.0 93.0 0 {:best 5 :rest 15}
+Enquiry 93.0 155.0 0 {:best 2 :rest 5}
+Enquiry 155.0 772.0 0 {:rest 6}
+Enquiry 772.0 inf 0 {:rest 1}
+
+File -inf 91.0 0 {:best 14 :rest 49}
+File 91.0 241.0 0 {:best 2 :rest 12}
+File 241.0 995.0 0 {:rest 2}
+File 995.0 inf 0 {:rest 1}
+
+Interface -inf 42.0 0 {:best 14 :rest 57}
+Interface 42.0 142.0 0 {:best 1 :rest 7}
+Interface 142.0 inf 0 {:best 1}
+
+Added -inf 412.0 1 {:best 15 :rest 50}
+Added 412.0 1300.0 0 {:best 1 :rest 9}
+Added 1300.0 1900.0 0 {:rest 2}
+Added 1900.0 inf 0 {:rest 3}
+
+Changed -inf 144.0 0 {:best 13 :rest 53}
+Changed 144.0 398.0 0 {:best 2 :rest 10}
+Changed 398.0 820.0 0 {:best 1}
+Changed 820.0 inf 0 {:rest 1}
+
+Deleted -inf 77.0 0 {:best 14 :rest 60}
+Deleted 77.0 255.0 0 {:best 2 :rest 3}
+Deleted 255.0 inf 0 {:rest 1}
+
+PDR_AFP -inf 2.4 0 {:best 1 :rest 12}
+PDR_AFP 2.4 8.3 0 {:best 5 :rest 27}
+PDR_AFP 8.3 13.9 0 {:best 5 :rest 8}
+PDR_AFP 13.9 18.6 0 {:best 2 :rest 8}
+PDR_AFP 18.6 75.8 0 {:rest 8}
+PDR_AFP 75.8 75.8 0 {:rest 1}
+PDR_AFP 75.8 inf 0 {:best 1}
+
+PDR_UFP -inf 3.1 0 {:best 2 :rest 16}
+PDR_UFP 3.1 9.0 0 {:best 6 :rest 23}
+PDR_UFP 9.0 15.3 0 {:best 4 :rest 11}
+PDR_UFP 15.3 20.2 0 {:best 1 :rest 6}
+PDR_UFP 20.2 72.0 0 {:rest 7}
+PDR_UFP 72.0 72.0 0 {:rest 1}
+PDR_UFP 72.0 inf 0 {:best 1}
+
+NPDR_AFP -inf 2.9 0 {:best 1 :rest 13}
+NPDR_AFP 2.9 9.6 0 {:best 7 :rest 27}
+NPDR_AFP 9.6 16.7 0 {:best 3 :rest 12}
+NPDR_AFP 16.7 22.4 0 {:best 2 :rest 4}
+NPDR_AFP 22.4 29.1 0 {:rest 4}
+NPDR_AFP 29.1 39.8 0 {:rest 2}
+NPDR_AFP 39.8 46.8 0 {:best 1 :rest 1}
+NPDR_AFP 46.8 101.0 0 {:best 2}
+NPDR_AFP 101.0 inf 0 {:best 1}
+
+NPDU_UFP -inf 3.5 0 {:best 1 :rest 16}
+NPDU_UFP 3.5 10.2 0 {:best 8 :rest 23}
+NPDU_UFP 10.2 17.4 0 {:best 3 :rest 12}
+NPDU_UFP 17.4 24.4 0 {:best 1 :rest 5}
+NPDU_UFP 24.4 44.8 0 {:rest 6}
+NPDU_UFP 44.8 44.8 0 {:rest 2}
+NPDU_UFP 44.8 108.3 0 {:best 2}
+NPDU_UFP 108.3 inf 0 {:best 1}
+
+Resource -inf 1.0 0 {:best 13 :rest 46}
+Resource 1.0 2.0 0 {:best 2 :rest 11}
+Resource 2.0 3.0 0 {:rest 2}
+Resource 3.0 inf 0 {:best 1 :rest 5}
+
+DevType -inf inf 0 {:best 16 :rest 64}
+
+Duration -inf 2.0 0 {:best 1 :rest 7}
+Duration 2.0 8.0 0 {:best 7 :rest 33}
+Duration 8.0 13.0 0 {:best 8 :rest 10}
+Duration 13.0 36.0 0 {:rest 8}
+Duration 36.0 inf 0 {:rest 1}
+
+Current file coc1000.csv
+all    {:best 31 :rest 124}
+
+ACAP -inf 1.0 0 {:best 4 :rest 15}
+ACAP 1.0 3.0 0 {:best 9 :rest 61}
+ACAP 3.0 4.0 0 {:best 12 :rest 35}
+ACAP 4.0 inf 0 {:best 6 :rest 13}
+
+ARCH -inf 1.0 0 {:best 2 :rest 7}
+ARCH 1.0 2.0 0 {:best 7 :rest 20}
+ARCH 2.0 3.0 0 {:best 9 :rest 31}
+ARCH 3.0 4.0 0 {:best 6 :rest 21}
+ARCH 4.0 5.0 0 {:best 5 :rest 30}
+ARCH 5.0 inf 0 {:best 2 :rest 15}
+
+DATA -inf 2.0 0 {:best 5 :rest 19}
+DATA 2.0 3.0 0 {:best 9 :rest 30}
+DATA 3.0 4.0 0 {:best 11 :rest 48}
+DATA 4.0 inf 0 {:best 6 :rest 27}
+
+DOCU -inf 1.0 0 {:best 2 :rest 17}
+DOCU 1.0 3.0 0 {:best 14 :rest 66}
+DOCU 3.0 4.0 0 {:best 4 :rest 29}
+DOCU 4.0 inf 0 {:best 11 :rest 12}
+
+PCAP -inf 1.0 0 {:best 3 :rest 18}
+PCAP 1.0 3.0 0 {:best 20 :rest 63}
+PCAP 3.0 4.0 0 {:best 4 :rest 30}
+PCAP 4.0 inf 0 {:best 4 :rest 13}
+
+PCON -inf 1.0 0 {:best 4 :rest 11}
+PCON 1.0 3.0 0 {:best 14 :rest 69}
+PCON 3.0 4.0 0 {:best 11 :rest 31}
+PCON 4.0 inf 0 {:best 2 :rest 13}
+
+PMAT -inf 1.0 0 {:best 1 :rest 16}
+PMAT 1.0 2.0 0 {:best 9 :rest 20}
+PMAT 2.0 3.0 0 {:best 5 :rest 27}
+PMAT 3.0 4.0 0 {:best 6 :rest 27}
+PMAT 4.0 5.0 0 {:best 7 :rest 27}
+PMAT 5.0 inf 0 {:best 3 :rest 7}
+
+PREC -inf 1.0 0 {:best 5 :rest 14}
+PREC 1.0 2.0 0 {:best 8 :rest 33}
+PREC 2.0 3.0 0 {:best 5 :rest 21}
+PREC 3.0 4.0 0 {:best 6 :rest 21}
+PREC 4.0 5.0 0 {:best 5 :rest 24}
+PREC 5.0 inf 0 {:best 2 :rest 11}
+
+PVOL -inf 2.0 0 {:best 3 :rest 24}
+PVOL 2.0 3.0 0 {:best 6 :rest 44}
+PVOL 3.0 4.0 0 {:best 16 :rest 35}
+PVOL 4.0 inf 0 {:best 6 :rest 21}
+
+RELY -inf 1.0 0 {:best 4 :rest 17}
+RELY 1.0 3.0 0 {:best 14 :rest 60}
+RELY 3.0 4.0 0 {:best 10 :rest 33}
+RELY 4.0 inf 0 {:best 3 :rest 14}
+
+RUSE -inf 3.0 0 {:best 9 :rest 45}
+RUSE 3.0 4.0 0 {:best 10 :rest 30}
+RUSE 4.0 5.0 0 {:best 11 :rest 35}
+RUSE 5.0 inf 0 {:best 1 :rest 14}
+
+SCED -inf 1.0 0 {:best 4 :rest 17}
+SCED 1.0 3.0 0 {:best 12 :rest 56}
+SCED 3.0 4.0 0 {:best 14 :rest 37}
+SCED 4.0 inf 0 {:best 1 :rest 14}
+
+SITE -inf 1.0 0 {:best 5 :rest 21}
+SITE 1.0 3.0 0 {:best 16 :rest 66}
+SITE 3.0 4.0 0 {:best 6 :rest 27}
+SITE 4.0 inf 0 {:best 4 :rest 10}
+
+STOR -inf 3.0 0 {:best 2 :rest 15}
+STOR 3.0 4.0 0 {:best 6 :rest 40}
+STOR 4.0 5.0 0 {:best 19 :rest 43}
+STOR 5.0 inf 0 {:best 4 :rest 26}
+
+TEAM -inf 1.0 0 {:best 2 :rest 16}
+TEAM 1.0 2.0 0 {:best 4 :rest 25}
+TEAM 2.0 3.0 0 {:best 5 :rest 23}
+TEAM 3.0 4.0 0 {:best 9 :rest 24}
+TEAM 4.0 5.0 0 {:best 6 :rest 24}
+TEAM 5.0 inf 0 {:best 5 :rest 12}
+
+TIME -inf 3.0 0 {:best 3 :rest 16}
+TIME 3.0 4.0 0 {:best 10 :rest 38}
+TIME 4.0 5.0 0 {:best 14 :rest 40}
+TIME 5.0 inf 0 {:best 4 :rest 30}
+
+TOOL -inf 1.0 0 {:best 5 :rest 12}
+TOOL 1.0 3.0 0 {:best 15 :rest 69}
+TOOL 3.0 4.0 0 {:best 8 :rest 30}
+TOOL 4.0 inf 0 {:best 3 :rest 13}
+
+Current file coc10000.csv
+all    {:best 79 :rest 316}
+
+Acap -inf 1.0 0 {:best 10 :rest 31}
+Acap 1.0 3.0 0 {:best 42 :rest 169}
+Acap 3.0 4.0 0 {:best 20 :rest 79}
+Acap 4.0 inf 0 {:best 7 :rest 37}
+
+Aexp -inf 1.0 0 {:best 8 :rest 44}
+Aexp 1.0 3.0 0 {:best 42 :rest 159}
+Aexp 3.0 4.0 0 {:best 20 :rest 82}
+Aexp 4.0 inf 0 {:best 9 :rest 31}
+
+Arch -inf 1.0 0 {:best 5 :rest 23}
+Arch 1.0 2.0 0 {:best 17 :rest 63}
+Arch 2.0 3.0 0 {:best 14 :rest 56}
+Arch 3.0 4.0 0 {:best 15 :rest 61}
+Arch 4.0 5.0 0 {:best 16 :rest 66}
+Arch 5.0 inf 0 {:best 12 :rest 47}
+
+Cplx -inf 1.0 0 {:best 9 :rest 32}
+Cplx 1.0 2.0 0 {:best 9 :rest 63}
+Cplx 2.0 3.0 0 {:best 13 :rest 74}
+Cplx 3.0 4.0 0 {:best 20 :rest 62}
+Cplx 4.0 5.0 0 {:best 20 :rest 53}
+Cplx 5.0 inf 0 {:best 8 :rest 32}
+
+Data -inf 2.0 0 {:best 17 :rest 67}
+Data 2.0 3.0 0 {:best 24 :rest 90}
+Data 3.0 4.0 0 {:best 31 :rest 100}
+Data 4.0 inf 0 {:best 7 :rest 59}
+
+Docu -inf 1.0 0 {:best 8 :rest 46}
+Docu 1.0 3.0 0 {:best 38 :rest 152}
+Docu 3.0 4.0 0 {:best 21 :rest 79}
+Docu 4.0 inf 0 {:best 12 :rest 39}
+
+Flex -inf 1.0 0 {:best 10 :rest 44}
+Flex 1.0 2.0 0 {:best 10 :rest 54}
+Flex 2.0 3.0 0 {:best 16 :rest 61}
+Flex 3.0 4.0 0 {:best 23 :rest 65}
+Flex 4.0 5.0 0 {:best 11 :rest 57}
+Flex 5.0 inf 0 {:best 9 :rest 35}
+
+Ltex -inf 1.0 0 {:best 10 :rest 42}
+Ltex 1.0 3.0 0 {:best 45 :rest 168}
+Ltex 3.0 4.0 0 {:best 18 :rest 73}
+Ltex 4.0 inf 0 {:best 6 :rest 33}
+
+Pcap -inf 1.0 0 {:best 6 :rest 43}
+Pcap 1.0 3.0 0 {:best 45 :rest 171}
+Pcap 3.0 4.0 0 {:best 17 :rest 65}
+Pcap 4.0 inf 0 {:best 11 :rest 37}
+
+Pcon -inf 1.0 0 {:best 9 :rest 43}
+Pcon 1.0 3.0 0 {:best 46 :rest 154}
+Pcon 3.0 4.0 0 {:best 17 :rest 78}
+Pcon 4.0 inf 0 {:best 7 :rest 41}
+
+Plex -inf 1.0 0 {:best 7 :rest 35}
+Plex 1.0 3.0 0 {:best 42 :rest 163}
+Plex 3.0 4.0 0 {:best 22 :rest 82}
+Plex 4.0 inf 0 {:best 8 :rest 36}
+
+Pmat -inf 1.0 0 {:best 5 :rest 38}
+Pmat 1.0 2.0 0 {:best 12 :rest 60}
+Pmat 2.0 3.0 0 {:best 19 :rest 65}
+Pmat 3.0 4.0 0 {:best 11 :rest 57}
+Pmat 4.0 5.0 0 {:best 18 :rest 67}
+Pmat 5.0 inf 0 {:best 14 :rest 29}
+
+Prec -inf 1.0 0 {:best 8 :rest 29}
+Prec 1.0 2.0 0 {:best 18 :rest 66}
+Prec 2.0 3.0 0 {:best 14 :rest 67}
+Prec 3.0 4.0 0 {:best 13 :rest 52}
+Prec 4.0 5.0 0 {:best 19 :rest 67}
+Prec 5.0 inf 0 {:best 7 :rest 35}
+
+Pvol -inf 2.0 0 {:best 14 :rest 51}
+Pvol 2.0 3.0 0 {:best 24 :rest 96}
+Pvol 3.0 4.0 0 {:best 29 :rest 99}
+Pvol 4.0 inf 0 {:best 12 :rest 70}
+
+Rely -inf 1.0 0 {:best 11 :rest 39}
+Rely 1.0 3.0 0 {:best 40 :rest 157}
+Rely 3.0 4.0 0 {:best 14 :rest 83}
+Rely 4.0 inf 0 {:best 14 :rest 37}
+
+Ruse -inf 3.0 0 {:best 34 :rest 124}
+Ruse 3.0 4.0 0 {:best 18 :rest 76}
+Ruse 4.0 5.0 0 {:best 18 :rest 73}
+Ruse 5.0 inf 0 {:best 9 :rest 43}
+
+Sced -inf 1.0 0 {:best 7 :rest 49}
+Sced 1.0 3.0 0 {:best 44 :rest 155}
+Sced 3.0 4.0 0 {:best 15 :rest 68}
+Sced 4.0 inf 0 {:best 13 :rest 44}
+
+Site -inf 1.0 0 {:best 7 :rest 39}
+Site 1.0 3.0 0 {:best 42 :rest 161}
+Site 3.0 4.0 0 {:best 23 :rest 81}
+Site 4.0 inf 0 {:best 7 :rest 35}
+
+Stor -inf 3.0 0 {:best 16 :rest 46}
+Stor 3.0 4.0 0 {:best 22 :rest 103}
+Stor 4.0 5.0 0 {:best 33 :rest 116}
+Stor 5.0 inf 0 {:best 8 :rest 51}
+
+Team -inf 1.0 0 {:best 13 :rest 38}
+Team 1.0 2.0 0 {:best 11 :rest 54}
+Team 2.0 3.0 0 {:best 13 :rest 53}
+Team 3.0 4.0 0 {:best 13 :rest 74}
+Team 4.0 5.0 0 {:best 21 :rest 72}
+Team 5.0 inf 0 {:best 8 :rest 25}
+
+Time -inf 3.0 0 {:best 8 :rest 56}
+Time 3.0 4.0 0 {:best 26 :rest 114}
+Time 4.0 5.0 0 {:best 20 :rest 92}
+Time 5.0 inf 0 {:best 25 :rest 54}
+
+Tool -inf 1.0 0 {:best 11 :rest 40}
+Tool 1.0 3.0 0 {:best 38 :rest 149}
+Tool 3.0 4.0 0 {:best 19 :rest 80}
+Tool 4.0 inf 0 {:best 11 :rest 47}
+
+Current file healthCloseIsses12mths0001-hard.csv
+all    {:best 79 :rest 316}
+
+N_estimators -inf 10.0 0 {:best 4 :rest 19}
+N_estimators 10.0 30.0 0 {:best 3 :rest 16}
+N_estimators 30.0 40.0 0 {:best 4 :rest 10}
+N_estimators 40.0 50.0 0 {:best 6 :rest 9}
+N_estimators 50.0 60.0 0 {:best 8 :rest 12}
+N_estimators 60.0 80.0 0 {:best 10 :rest 37}
+N_estimators 80.0 90.0 0 {:rest 18}
+N_estimators 90.0 100.0 0 {:best 3 :rest 11}
+N_estimators 100.0 120.0 0 {:best 13 :rest 42}
+N_estimators 120.0 130.0 0 {:best 3 :rest 23}
+N_estimators 130.0 140.0 0 {:best 5 :rest 12}
+N_estimators 140.0 150.0 0 {:best 6 :rest 25}
+N_estimators 150.0 170.0 0 {:best 4 :rest 36}
+N_estimators 170.0 180.0 0 {:best 4 :rest 14}
+N_estimators 180.0 190.0 0 {:best 4 :rest 13}
+N_estimators 190.0 inf 0 {:best 2 :rest 19}
+
+criterion 0.0 0.0 0 {:best 13 :rest 109}
+criterion 1.0 1.0 0 {:best 40 :rest 113}
+criterion 2.0 2.0 0 {:best 26 :rest 94}
+
+Min_sample_leaves -inf 1.0 0 {:best 1 :rest 13}
+Min_sample_leaves 1.0 3.0 0 {:best 10 :rest 30}
+Min_sample_leaves 3.0 4.0 0 {:best 2 :rest 17}
+Min_sample_leaves 4.0 5.0 0 {:best 6 :rest 20}
+Min_sample_leaves 5.0 6.0 0 {:best 1 :rest 19}
+Min_sample_leaves 6.0 8.0 0 {:best 6 :rest 27}
+Min_sample_leaves 8.0 9.0 0 {:best 6 :rest 21}
+Min_sample_leaves 9.0 10.0 0 {:best 6 :rest 11}
+Min_sample_leaves 10.0 12.0 0 {:best 8 :rest 33}
+Min_sample_leaves 12.0 13.0 0 {:best 9 :rest 13}
+Min_sample_leaves 13.0 14.0 0 {:best 4 :rest 19}
+Min_sample_leaves 14.0 15.0 0 {:best 2 :rest 20}
+Min_sample_leaves 15.0 17.0 0 {:best 6 :rest 24}
+Min_sample_leaves 17.0 18.0 0 {:best 5 :rest 13}
+Min_sample_leaves 18.0 19.0 0 {:best 2 :rest 21}
+Min_sample_leaves 19.0 inf 0 {:best 5 :rest 15}
+
+Min_impurity_decrease -inf 0.75 0 {:best 5 :rest 39}
+Min_impurity_decrease 0.75 1.5 0 {:best 6 :rest 25}
+Min_impurity_decrease 1.5 2.75 0 {:best 14 :rest 27}
+Min_impurity_decrease 2.75 3.5 0 {:best 5 :rest 23}
+Min_impurity_decrease 3.5 4.75 0 {:best 13 :rest 28}
+Min_impurity_decrease 4.75 5.5 0 {:best 5 :rest 16}
+Min_impurity_decrease 5.5 6.75 0 {:best 11 :rest 53}
+Min_impurity_decrease 6.75 7.5 0 {:best 3 :rest 23}
+Min_impurity_decrease 7.5 8.75 0 {:best 12 :rest 37}
+Min_impurity_decrease 8.75 9.5 0 {:best 3 :rest 19}
+Min_impurity_decrease 9.5 inf 0 {:best 2 :rest 26}
+
+Max_depth -inf 1.0 0 {:best 3 :rest 20}
+Max_depth 1.0 3.0 0 {:best 11 :rest 29}
+Max_depth 3.0 4.0 0 {:best 4 :rest 26}
+Max_depth 4.0 5.0 0 {:best 3 :rest 11}
+Max_depth 5.0 6.0 0 {:best 8 :rest 21}
+Max_depth 6.0 8.0 0 {:best 4 :rest 20}
+Max_depth 8.0 9.0 0 {:best 5 :rest 10}
+Max_depth 9.0 10.0 0 {:best 6 :rest 12}
+Max_depth 10.0 12.0 0 {:best 7 :rest 25}
+Max_depth 12.0 13.0 0 {:best 4 :rest 19}
+Max_depth 13.0 14.0 0 {:best 2 :rest 20}
+Max_depth 14.0 15.0 0 {:best 3 :rest 16}
+Max_depth 15.0 17.0 0 {:best 7 :rest 29}
+Max_depth 17.0 18.0 0 {:best 6 :rest 16}
+Max_depth 18.0 19.0 0 {:best 3 :rest 28}
+Max_depth 19.0 inf 0 {:best 3 :rest 14}
+
+Current file healthCloseIsses12mths0011-easy.csv
+all    {:best 79 :rest 316}
+
+N_estimators -inf 10.0 0 {:best 3 :rest 16}
+N_estimators 10.0 30.0 0 {:best 7 :rest 23}
+N_estimators 30.0 40.0 0 {:best 1 :rest 10}
+N_estimators 40.0 50.0 0 {:best 6 :rest 17}
+N_estimators 50.0 60.0 0 {:best 5 :rest 19}
+N_estimators 60.0 80.0 0 {:best 16 :rest 32}
+N_estimators 80.0 90.0 0 {:best 2 :rest 18}
+N_estimators 90.0 100.0 0 {:best 5 :rest 19}
+N_estimators 100.0 120.0 0 {:best 9 :rest 43}
+N_estimators 120.0 130.0 0 {:best 7 :rest 18}
+N_estimators 130.0 140.0 0 {:best 4 :rest 18}
+N_estimators 140.0 150.0 0 {:best 5 :rest 20}
+N_estimators 150.0 170.0 0 {:best 6 :rest 18}
+N_estimators 170.0 180.0 0 {:rest 14}
+N_estimators 180.0 190.0 0 {:best 2 :rest 12}
+N_estimators 190.0 inf 0 {:best 1 :rest 19}
+
+criterion 0.0 0.0 0 {:best 32 :rest 113}
+criterion 1.0 1.0 0 {:best 14 :rest 102}
+criterion 2.0 2.0 0 {:best 33 :rest 101}
+
+Min_sample_leaves -inf 1.0 0 {:best 3 :rest 17}
+Min_sample_leaves 1.0 3.0 0 {:best 7 :rest 33}
+Min_sample_leaves 3.0 4.0 0 {:best 5 :rest 16}
+Min_sample_leaves 4.0 5.0 0 {:best 7 :rest 11}
+Min_sample_leaves 5.0 6.0 0 {:best 5 :rest 20}
+Min_sample_leaves 6.0 8.0 0 {:best 8 :rest 36}
+Min_sample_leaves 8.0 9.0 0 {:best 6 :rest 10}
+Min_sample_leaves 9.0 10.0 0 {:best 4 :rest 13}
+Min_sample_leaves 10.0 12.0 0 {:best 16 :rest 33}
+Min_sample_leaves 12.0 13.0 0 {:best 3 :rest 22}
+Min_sample_leaves 13.0 14.0 0 {:best 2 :rest 21}
+Min_sample_leaves 14.0 15.0 0 {:best 3 :rest 7}
+Min_sample_leaves 15.0 17.0 0 {:best 4 :rest 30}
+Min_sample_leaves 17.0 18.0 0 {:best 4 :rest 21}
+Min_sample_leaves 18.0 19.0 0 {:best 2 :rest 17}
+Min_sample_leaves 19.0 inf 0 {:rest 9}
+
+Min_impurity_decrease -inf 0.75 0 {:best 3 :rest 22}
+Min_impurity_decrease 0.75 1.5 0 {:best 5 :rest 25}
+Min_impurity_decrease 1.5 2.75 0 {:best 12 :rest 38}
+Min_impurity_decrease 2.75 3.5 0 {:best 6 :rest 24}
+Min_impurity_decrease 3.5 4.75 0 {:best 10 :rest 37}
+Min_impurity_decrease 4.75 5.5 0 {:best 6 :rest 21}
+Min_impurity_decrease 5.5 6.75 0 {:best 9 :rest 31}
+Min_impurity_decrease 6.75 9.5 0 {:best 10 :rest 58}
+Min_impurity_decrease 9.5 9.5 0 {:best 5 :rest 29}
+Min_impurity_decrease 9.5 inf 0 {:best 7 :rest 15}
+
+Max_depth -inf 1.0 0 {:best 3 :rest 18}
+Max_depth 1.0 3.0 0 {:best 2 :rest 29}
+Max_depth 3.0 4.0 0 {:best 2 :rest 15}
+Max_depth 4.0 5.0 0 {:best 6 :rest 21}
+Max_depth 5.0 6.0 0 {:best 4 :rest 7}
+Max_depth 6.0 8.0 0 {:best 10 :rest 26}
+Max_depth 8.0 9.0 0 {:best 7 :rest 17}
+Max_depth 9.0 10.0 0 {:best 8 :rest 18}
+Max_depth 10.0 12.0 0 {:best 10 :rest 32}
+Max_depth 12.0 13.0 0 {:best 3 :rest 17}
+Max_depth 13.0 14.0 0 {:best 2 :rest 17}
+Max_depth 14.0 15.0 0 {:best 3 :rest 18}
+Max_depth 15.0 17.0 0 {:best 8 :rest 30}
+Max_depth 17.0 18.0 0 {:best 4 :rest 11}
+Max_depth 18.0 19.0 0 {:best 4 :rest 19}
+Max_depth 19.0 inf 0 {:best 3 :rest 21}
+
+Current file nasa93dem.csv
+all    {:best 6 :rest 24}
+
+prec 0.0 0.0 0 {:best 6 :rest 24}
+
+flex 0.0 0.0 0 {:best 6 :rest 24}
+
+resl 0.0 0.0 0 {:best 6 :rest 24}
+
+team 0.0 0.0 0 {:best 6 :rest 24}
+
+pmat 0.0 0.0 0 {:rest 9}
+pmat 1.0 1.0 1 {:best 5 :rest 4}
+pmat 2.0 2.0 0 {:best 1 :rest 11}
+
+rely 0.0 0.0 0 {:best 1 :rest 11}
+rely 1.0 1.0 0 {:rest 1}
+rely 2.0 2.0 0 {:best 4 :rest 11}
+rely 3.0 3.0 0 {:best 1 :rest 1}
+
+data 0.0 0.0 0 {:rest 4}
+data 1.0 1.0 0 {:best 2 :rest 8}
+data 2.0 2.0 0 {:best 4 :rest 11}
+data 3.0 3.0 0 {:rest 1}
+
+cplx 0.0 0.0 0 {:best 4 :rest 12}
+cplx 1.0 1.0 0 {:rest 2}
+cplx 2.0 2.0 0 {:best 2 :rest 4}
+cplx 3.0 3.0 0 {:rest 4}
+cplx 4.0 4.0 0 {:rest 2}
+
+ruse 0.0 0.0 0 {:best 6 :rest 24}
+
+docu 0.0 0.0 0 {:best 6 :rest 24}
+
+time 0.0 0.0 0 {:best 1 :rest 2}
+time 1.0 1.0 0 {:best 5 :rest 15}
+time 2.0 2.0 0 {:rest 5}
+time 3.0 3.0 0 {:rest 2}
+
+stor 0.0 0.0 0 {:rest 4}
+stor 1.0 1.0 0 {:best 1 :rest 13}
+stor 2.0 2.0 1 {:best 5 :rest 3}
+stor 3.0 3.0 0 {:rest 4}
+
+pvol 0.0 0.0 0 {:rest 4}
+pvol 1.0 1.0 1 {:best 6 :rest 13}
+pvol 2.0 2.0 0 {:rest 7}
+
+acap 0.0 0.0 1 {:best 6 :rest 12}
+acap 1.0 1.0 0 {:rest 11}
+acap 2.0 2.0 0 {:rest 1}
+
+pcap 0.0 0.0 1 {:best 6 :rest 7}
+pcap 1.0 1.0 0 {:rest 14}
+pcap 2.0 2.0 0 {:rest 3}
+
+pcon 0.0 0.0 0 {:best 6 :rest 24}
+
+apex 0.0 0.0 1 {:best 6 :rest 10}
+apex 2.0 2.0 0 {:rest 10}
+apex 3.0 3.0 0 {:rest 4}
+
+plex 0.0 0.0 1 {:best 5 :rest 1}
+plex 1.0 1.0 0 {:rest 4}
+plex 2.0 2.0 0 {:best 1 :rest 17}
+plex 3.0 3.0 0 {:rest 2}
+
+ltex 0.0 0.0 1 {:best 6 :rest 13}
+ltex 1.0 1.0 0 {:rest 3}
+ltex 2.0 2.0 0 {:rest 7}
+ltex 3.0 3.0 0 {:rest 1}
+
+tool 0.0 0.0 0 {:rest 3}
+tool 1.0 1.0 1 {:best 6 :rest 21}
+
+site 0.0 0.0 0 {:best 6 :rest 24}
+
+sced 0.0 0.0 1 {:best 5 :rest 4}
+sced 1.0 1.0 0 {:best 1 :rest 20}
+
+Current file pom.csv
+all    {:best 78 :rest 312}
+
+Culture -inf inf 0 {:best 78 :rest 312}
+
+Criticality -inf 1.009678424 0 {:best 31 :rest 132}
+Criticality 1.009678424 inf 0 {:best 47 :rest 180}
+
+Criticality Modifier -inf 2.0 0 {:best 13 :rest 53}
+Criticality Modifier 2.0 3.0 0 {:best 10 :rest 59}
+Criticality Modifier 3.0 4.0 0 {:best 13 :rest 56}
+Criticality Modifier 4.0 5.0 0 {:best 20 :rest 58}
+Criticality Modifier 5.0 6.0 0 {:best 12 :rest 42}
+Criticality Modifier 6.0 inf 0 {:best 10 :rest 44}
+
+Initial Known -inf inf 0 {:best 78 :rest 312}
+
+InterDependency -inf 80.0 0 {:best 4 :rest 15}
+InterDependency 80.0 81.0 0 {:best 4 :rest 21}
+InterDependency 81.0 82.0 0 {:best 8 :rest 24}
+InterDependency 82.0 84.0 0 {:best 7 :rest 35}
+InterDependency 84.0 85.0 0 {:best 3 :rest 17}
+InterDependency 85.0 86.0 0 {:best 4 :rest 12}
+InterDependency 86.0 88.0 0 {:best 8 :rest 33}
+InterDependency 88.0 89.0 0 {:best 4 :rest 10}
+InterDependency 89.0 90.0 0 {:best 4 :rest 15}
+InterDependency 90.0 91.0 0 {:best 5 :rest 17}
+InterDependency 91.0 93.0 0 {:best 8 :rest 24}
+InterDependency 93.0 94.0 0 {:best 1 :rest 17}
+InterDependency 94.0 95.0 0 {:best 4 :rest 8}
+InterDependency 95.0 96.0 0 {:rest 22}
+InterDependency 96.0 98.0 0 {:best 8 :rest 31}
+InterDependency 98.0 inf 0 {:best 6 :rest 11}
+
+Dynamism -inf 1.0 0 {:best 12 :rest 40}
+Dynamism 1.0 2.0 0 {:best 10 :rest 36}
+Dynamism 2.0 3.0 0 {:best 5 :rest 44}
+Dynamism 3.0 5.0 0 {:best 23 :rest 63}
+Dynamism 5.0 6.0 0 {:best 6 :rest 34}
+Dynamism 6.0 7.0 0 {:best 7 :rest 34}
+Dynamism 7.0 8.0 0 {:best 8 :rest 30}
+Dynamism 8.0 inf 0 {:best 7 :rest 31}
+
+Size -inf 0.0 0 {:best 42 :rest 157}
+Size 0.0 inf 0 {:best 36 :rest 155}
+
+Plan -inf 0.0 0 {:best 14 :rest 58}
+Plan 0.0 1.0 0 {:best 21 :rest 53}
+Plan 1.0 3.0 0 {:best 34 :rest 141}
+Plan 3.0 inf 0 {:best 9 :rest 60}
+
+Team Size -inf 11.0 0 {:best 11 :rest 68}
+Team Size 11.0 12.0 0 {:best 10 :rest 27}
+Team Size 12.0 14.0 0 {:best 15 :rest 62}
+Team Size 14.0 15.0 0 {:best 8 :rest 29}
+Team Size 15.0 17.0 0 {:best 15 :rest 53}
+Team Size 17.0 18.0 0 {:best 13 :rest 37}
+Team Size 18.0 inf 0 {:best 6 :rest 36}
+
+Score: -inf 0.96627497 0 {:best 63 :rest 252}
+Score: 0.96627497 inf 0 {:best 15 :rest 60}
+
+Current file SSM.csv
+all    {:best 468 :rest 1872}
+
+f 0.0 0.0 0 {:best 234 :rest 954}
+f 1.0 1.0 0 {:best 234 :rest 918}
+
+sMOOTHER 1.0 1.0 0 {:best 468 :rest 1872}
+
+cOLORGS 0.0 0.0 0 {:best 358 :rest 1386}
+cOLORGS 1.0 1.0 0 {:best 110 :rest 486}
+
+rELAXPARAMETER 0.0 0.0 0 {:best 235 :rest 908}
+rELAXPARAMETER 1.0 1.0 0 {:best 233 :rest 964}
+
+v 0.0 0.0 0 {:best 234 :rest 918}
+v 1.0 1.0 0 {:best 234 :rest 954}
+
+jACOBI 0.0 0.0 0 {:best 343 :rest 1416}
+jACOBI 1.0 1.0 0 {:best 125 :rest 456}
+
+lINE 0.0 0.0 0 {:best 343 :rest 1428}
+lINE 1.0 1.0 0 {:best 125 :rest 444}
+
+zEBRALINE 0.0 0.0 0 {:best 360 :rest 1386}
+zEBRALINE 1.0 1.0 0 {:best 108 :rest 486}
+
+cYCLE 1.0 1.0 0 {:best 468 :rest 1872}
+
+ALPHA -inf 45.0 0 {:rest 316}
+ALPHA 45.0 45.0 0 {:rest 112}
+ALPHA 45.0 50.0 1 {:best 446 :rest 113}
+ALPHA 50.0 55.0 0 {:best 22 :rest 120}
+ALPHA 55.0 90.0 0 {:rest 798}
+ALPHA 90.0 inf 0 {:rest 181}
+
+BETA -inf 90.0 0 {:rest 1085}
+BETA 90.0 inf 0 {:rest 165}
+
+PRESMOOTHING -inf 0.0 0 {:best 22 :rest 196}
+PRESMOOTHING 0.0 3.0 0 {:rest 443}
+PRESMOOTHING 3.0 3.0 0 {:rest 219}
+PRESMOOTHING 3.0 5.0 0 {:best 48 :rest 410}
+PRESMOOTHING 5.0 6.0 0 {:best 140 :rest 195}
+PRESMOOTHING 6.0 7.0 0 {:best 136 :rest 185}
+PRESMOOTHING 7.0 inf 0 {:best 122 :rest 229}
+
+POSTSMOOTHING -inf 0.0 0 {:best 48 :rest 168}
+POSTSMOOTHING 0.0 1.0 0 {:best 64 :rest 246}
+POSTSMOOTHING 1.0 2.0 0 {:best 54 :rest 202}
+POSTSMOOTHING 2.0 3.0 0 {:best 48 :rest 216}
+POSTSMOOTHING 3.0 5.0 0 {:best 94 :rest 397}
+POSTSMOOTHING 5.0 6.0 0 {:best 60 :rest 221}
+POSTSMOOTHING 6.0 7.0 0 {:best 54 :rest 230}
+POSTSMOOTHING 7.0 inf 0 {:best 46 :rest 192}
+
+Current file SSN.csv
+all    {:best 210 :rest 840}
+
+no_mbtree 0.0 0.0 1 {:best 210 :rest 622}
+no_mbtree 1.0 1.0 0 {:rest 218}
+
+no_asm 0.0 0.0 0 {:best 18 :rest 639}
+no_asm 1.0 1.0 1 {:best 192 :rest 201}
+
+no_cabac 0.0 0.0 1 {:best 210 :rest 652}
+no_cabac 1.0 1.0 0 {:rest 188}
+
+no_scenecut 0.0 0.0 0 {:best 192 :rest 645}
+no_scenecut 1.0 1.0 0 {:best 18 :rest 195}
+
+Aq_strength -inf 0.6 0 {:best 21 :rest 55}
+Aq_strength 0.6 1.8 0 {:best 168 :rest 745}
+Aq_strength 1.8 3.0 0 {:best 21 :rest 27}
+Aq_strength 3.0 18.0 0 {:rest 8}
+Aq_strength 18.0 inf 0 {:rest 2}
+
+Bframes -inf 2.0 0 {:best 19 :rest 23}
+Bframes 2.0 3.0 1 {:best 172 :rest 51}
+Bframes 3.0 24.0 0 {:rest 43}
+Bframes 24.0 24.0 0 {:rest 2}
+Bframes 24.0 inf 0 {:best 19 :rest 20}
+
+Qcomp -inf 1.0 1 {:best 210 :rest 824}
+Qcomp 1.0 8.0 0 {:rest 8}
+Qcomp 8.0 inf 0 {:rest 1}
+
+Qp -inf 0.0 0 {:best 19 :rest 23}
+Qp 0.0 49.0 0 {:rest 688}
+Qp 49.0 49.0 0 {:rest 6}
+Qp 49.0 inf 0 {:best 19 :rest 26}
+
+Ref -inf 0.0 0 {:best 19 :rest 21}
+Ref 0.0 10.0 0 {:rest 397}
+Ref 10.0 inf 0 {:rest 5}
+
+Rc_lookahead -inf 7.0 0 {:best 19 :rest 29}
+Rc_lookahead 7.0 236.0 0 {:rest 398}
+Rc_lookahead 236.0 236.0 0 {:rest 2}
+Rc_lookahead 236.0 inf 0 {:best 19 :rest 24}
+
+B_bias -inf -87.0 0 {:best 20 :rest 23}
+B_bias -87.0 97.0 0 {:rest 689}
+B_bias 97.0 97.0 0 {:rest 4}
+B_bias 97.0 inf 0 {:best 19 :rest 17}
+
+Threads -inf 4.0 1 {:best 210 :rest 69}
+Threads 4.0 128.0 0 {:rest 408}
+Threads 128.0 inf 0 {:rest 20}
+
+Keyint -inf 15.0 0 {:best 18 :rest 29}
+Keyint 15.0 962.0 0 {:rest 387}
+Keyint 962.0 962.0 0 {:rest 3}
+Keyint 962.0 inf 0 {:best 17 :rest 22}
+
+Crf -inf 201.0 1 {:best 210 :rest 827}
+Crf 201.0 493000000000000.0 0 {:rest 9}
+Crf 493000000000000.0 inf 0 {:rest 1}
+
+Scenecut -inf 2.0 0 {:best 18 :rest 22}
+Scenecut 2.0 95.0 0 {:rest 349}
+Scenecut 95.0 95.0 0 {:rest 5}
+Scenecut 95.0 inf 0 {:best 18 :rest 19}
+
+Seek -inf 0.0 1 {:best 210 :rest 145}
+Seek 0.0 1248.0 0 {:rest 364}
+Seek 1248.0 inf 0 {:rest 3}
+
+Ipratio -inf 0.6 0 {:best 21 :rest 54}
+Ipratio 0.6 1.8 0 {:best 168 :rest 740}
+Ipratio 1.8 3.0 0 {:best 21 :rest 27}
+Ipratio 3.0 19.0 0 {:rest 12}
+Ipratio 19.0 inf 0 {:rest 1}
+
+test_sway.py::test_sway PASSED                                           [ 50%]
+Current file auto2.csv
+<src.data.Data object at 0x1249ba7d0>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 18.0 :Class- 35.2 :HighwayMPG+ 23.0 :N 6 :Weight- 3515.0}
+     {:CityMPG+ -33.77 :Class- -79.88 :HighwayMPG+ -56.82 :N 6 :Weight- -32409.22}
+
+rest {:CityMPG+ 17.0 :Class- 18.8 :HighwayMPG+ 26.0 :N 24 :Weight- 3910.0}
+     {:CityMPG+ 1.05 :Class- 8.0 :HighwayMPG+ -8.46 :N 24 :Weight- -20603.48}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x125211410>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 16.7 :Lbs- 2745.0 :Mpg+ 20.0 :N 13}
+     {:Acc+ -5.11 :Lbs- -20311.04 :Mpg+ -12.43 :N 13}
+
+rest {:Acc+ 17.0 :Lbs- 3015.0 :Mpg+ 40.0 :N 52}
+     {:Acc+ 26.78 :Lbs- -17612.1 :Mpg+ 23.9 :N 52}
+
+all ~= best? {(False, 'Lbs-') (False, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x124e4dad0>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 16 :N_effort- 1158.0}
+     {:N 16 :N_effort- -25252.36}
+
+rest {:N 64 :N_effort- 1911.0}
+     {:N 64 :N_effort- -29220.32}
+
+all ~= best? {(False, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x1245df710>
+
+all  {:AEXP- 5.0 :EFFORT- 50725.0 :LOC+ 926.0 :N 1000 :PLEX- 4.0 :RISK- 11.0}
+     {:AEXP- 12.69 :EFFORT- -88022.54 :LOC+ -141.74 :N 1000 :PLEX- 12.73 :RISK- 22.35}
+
+best {:AEXP- 5.0 :EFFORT- 37716.0 :LOC+ 1587.0 :N 16 :PLEX- 3.0 :RISK- 4.0}
+     {:AEXP- 7.47 :EFFORT- -186409.36 :LOC+ -5572.59 :N 16 :PLEX- 6.96 :RISK- 4.86}
+
+rest {:AEXP- 3.0 :EFFORT- 37885.0 :LOC+ 1080.0 :N 64 :PLEX- 5.0 :RISK- 9.0}
+     {:AEXP- 13.36 :EFFORT- -326415.23 :LOC+ -4750.23 :N 64 :PLEX- 13.64 :RISK- 17.72}
+
+all ~= best? {(False, 'LOC+') (True, 'AEXP-') (False, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (False, 'AEXP-') (False, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x124121010>
+
+all  {:Effort- 27712.0 :Loc+ 1123.0 :N 10000 :Risk- 7.0}
+     {:Effort- -3706.0 :Loc+ 160.14 :N 10000 :Risk- 3.45}
+
+best {:Effort- 39773.0 :Loc+ 1616.0 :N 79 :Risk- 8.0}
+     {:Effort- -318597.62 :Loc+ -4166.1 :N 79 :Risk- 20.38}
+
+rest {:Effort- 5800.0 :Loc+ 845.0 :N 316 :Risk- 8.0}
+     {:Effort- -224309.54 :Loc+ -1842.49 :N 316 :Risk- 32.1}
+
+all ~= best? {(False, 'Loc+') (False, 'Risk-') (False, 'Effort-')}
+best ~= rest? {(False, 'Loc+') (False, 'Risk-') (False, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x13cd1ef10>
+
+all  {:ACC+ 0.0 :MRE- 100.0 :N 10000 :PRED40+ 37.5}
+     {:ACC+ 2.78 :MRE- 29.06 :N 10000 :PRED40+ 9.07}
+
+best {:ACC+ 7.69 :MRE- 74.31 :N 78 :PRED40+ 25.0}
+     {:ACC+ 25.93 :MRE- 6.44 :N 78 :PRED40+ 30.84}
+
+rest {:ACC+ 8.79 :MRE- 69.69 :N 312 :PRED40+ 25.0}
+     {:ACC+ 28.09 :MRE- 156.79 :N 312 :PRED40+ 71.33}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (False, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (False, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x124bba610>
+
+all  {:ACC+ -1.78 :MRE- 101.88 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 29.96 :N 10000 :PRED40+ 6.65}
+
+best {:ACC+ -12.93 :MRE- 121.11 :N 79 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- -46.58 :N 79 :PRED40+ -1.87}
+
+rest {:ACC+ 0.0 :MRE- 0.0 :N 316 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 135.67 :N 316 :PRED40+ 30.43}
+
+all ~= best? {(False, 'MRE-') (False, 'ACC+') (False, 'PRED40+')}
+best ~= rest? {(False, 'MRE-') (False, 'ACC+') (False, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x1246b6bd0>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 2743.0 :Effort- 162.0 :Kloc+ 90.0 :Months- 25.0 :N 6}
+     {:Defects- -27362.34 :Effort- -1830.16 :Kloc+ -522.09 :Months- -44.55 :N 6}
+
+rest {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 24}
+     {:Defects- -69555.84 :Effort- -4644.48 :Kloc+ -659.79 :Months- -17.98 :N 24}
+
+all ~= best? {(False, 'Kloc+') (True, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+best ~= rest? {(False, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x124662e10>
+
+all  {:Completion+ 0.75 :Cost- 310.4 :Idle- 0.0 :N 10000}
+     {:Completion+ 0.6 :Cost- 85.81 :Idle- 0.18 :N 10000}
+
+best {:Completion+ 0.6 :Cost- 682.52 :Idle- 0.0 :N 79}
+     {:Completion+ 5.71 :Cost- -914.08 :Idle- 1.98 :N 79}
+
+rest {:Completion+ 0.94 :Cost- 534.1 :Idle- 0.21 :N 316}
+     {:Completion+ 7.25 :Cost- -186.68 :Idle- 2.25 :N 316}
+
+all ~= best? {(False, 'Cost-') (False, 'Completion+') (False, 'Idle-')}
+best ~= rest? {(False, 'Cost-') (False, 'Completion+') (False, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x124984d50>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 77.04}
+     {:N 239360 :NUMBERITERATIONS- 3.13 :TIMETOSOLUTION- 22.38}
+
+best {:N 468 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 104.77}
+     {:N 468 :NUMBERITERATIONS- 53.35 :TIMETOSOLUTION- 160.96}
+
+rest {:N 1872 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 64.11}
+     {:N 1872 :NUMBERITERATIONS- 31.67 :TIMETOSOLUTION- -29.44}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (False, 'TIMETOSOLUTION-')}
+best ~= rest? {(False, 'NUMBERITERATIONS-') (False, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x13eef0c50>
+
+all  {:Energy- 1941.12 :N 53662 :PSNR- 44.17}
+     {:Energy- 135.11 :N 53662 :PSNR- 4.41}
+
+best {:Energy- 1077.2 :N 210 :PSNR- 38.62}
+     {:Energy- -2266.69 :N 210 :PSNR- 98.89}
+
+rest {:Energy- 493.73 :N 840 :PSNR- 40.24}
+     {:Energy- -1416.93 :N 840 :PSNR- 115.28}
+
+all ~= best? {(False, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+test_tree.py::test_tree PASSED                                           [ 75%]
+Current file auto2.csv
+[93]{'CityMPG+': 20.0, 'HighwayMPG+': 27.0, 'Weight-': 2885.0, 'Class-': 13.9, 'N': 93}
+|.. [47]
+|.. |.. [24]
+|.. |.. |.. [12]{'CityMPG+': 22.0, 'HighwayMPG+': 31.0, 'Weight-': 2880.0, 'Class-': 15.7, 'N': 12}
+|.. |.. |.. [12]{'CityMPG+': 17.0, 'HighwayMPG+': 26.0, 'Weight-': 3910.0, 'Class-': 18.8, 'N': 12}
+|.. |.. [23]
+|.. |.. |.. [12]{'CityMPG+': 20.0, 'HighwayMPG+': 28.0, 'Weight-': 3490.0, 'Class-': 19.3, 'N': 12}
+|.. |.. |.. [11]{'CityMPG+': 42.0, 'HighwayMPG+': 46.0, 'Weight-': 2350.0, 'Class-': 12.1, 'N': 11}
+|.. [46]
+|.. |.. [23]
+|.. |.. |.. [12]{'CityMPG+': 29.0, 'HighwayMPG+': 37.0, 'Weight-': 2325.0, 'Class-': 8.3, 'N': 12}
+|.. |.. |.. [11]{'CityMPG+': 24.0, 'HighwayMPG+': 30.0, 'Weight-': 3050.0, 'Class-': 15.7, 'N': 11}
+|.. |.. [23]
+|.. |.. |.. [12]{'CityMPG+': 19.0, 'HighwayMPG+': 27.0, 'Weight-': 3450.0, 'Class-': 18.5, 'N': 12}
+|.. |.. |.. [11]{'CityMPG+': 25.0, 'HighwayMPG+': 33.0, 'Weight-': 2240.0, 'Class-': 9.1, 'N': 11}
+
+Current file auto93.csv
+[398]{'Lbs-': 2254.0, 'Acc+': 23.5, 'Mpg+': 20.0, 'N': 398}
+|.. [199]
+|.. |.. [100]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 5140.0, 'Acc+': 12.0, 'Mpg+': 10.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 4154.0, 'Acc+': 13.5, 'Mpg+': 10.0, 'N': 25}
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 3158.0, 'Acc+': 19.5, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 4360.0, 'Acc+': 14.9, 'Mpg+': 20.0, 'N': 25}
+|.. |.. [99]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 3021.0, 'Acc+': 16.5, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 2930.0, 'Acc+': 15.5, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. [49]
+|.. |.. |.. |.. [25]{'Lbs-': 3155.0, 'Acc+': 18.2, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [24]{'Lbs-': 3353.0, 'Acc+': 14.5, 'Mpg+': 20.0, 'N': 24}
+|.. [199]
+|.. |.. [100]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 2278.0, 'Acc+': 15.5, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 2451.0, 'Acc+': 16.5, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 2164.0, 'Acc+': 15.0, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 1773.0, 'Acc+': 19.0, 'Mpg+': 30.0, 'N': 25}
+|.. |.. [99]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 2615.0, 'Acc+': 14.8, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 2434.0, 'Acc+': 15.0, 'Mpg+': 40.0, 'N': 25}
+|.. |.. |.. [49]
+|.. |.. |.. |.. [25]{'Lbs-': 2950.0, 'Acc+': 19.9, 'Mpg+': 40.0, 'N': 25}
+|.. |.. |.. |.. [24]{'Lbs-': 1835.0, 'Acc+': 20.5, 'Mpg+': 30.0, 'N': 24}
+
+Current file china.csv
+[499]{'N_effort-': 14698.0, 'N': 499}
+|.. [250]
+|.. |.. [125]
+|.. |.. |.. [63]
+|.. |.. |.. |.. [32]{'N_effort-': 911.0, 'N': 32}
+|.. |.. |.. |.. [31]{'N_effort-': 246.0, 'N': 31}
+|.. |.. |.. [62]
+|.. |.. |.. |.. [31]{'N_effort-': 2533.0, 'N': 31}
+|.. |.. |.. |.. [31]{'N_effort-': 502.0, 'N': 31}
+|.. |.. [125]
+|.. |.. |.. [63]
+|.. |.. |.. |.. [32]{'N_effort-': 2946.0, 'N': 32}
+|.. |.. |.. |.. [31]{'N_effort-': 8151.0, 'N': 31}
+|.. |.. |.. [62]
+|.. |.. |.. |.. [31]{'N_effort-': 3133.0, 'N': 31}
+|.. |.. |.. |.. [31]{'N_effort-': 300.0, 'N': 31}
+|.. [249]
+|.. |.. [125]
+|.. |.. |.. [63]
+|.. |.. |.. |.. [32]{'N_effort-': 780.0, 'N': 32}
+|.. |.. |.. |.. [31]{'N_effort-': 4112.0, 'N': 31}
+|.. |.. |.. [62]
+|.. |.. |.. |.. [31]{'N_effort-': 3703.0, 'N': 31}
+|.. |.. |.. |.. [31]{'N_effort-': 293.0, 'N': 31}
+|.. |.. [124]
+|.. |.. |.. [62]
+|.. |.. |.. |.. [31]{'N_effort-': 1210.0, 'N': 31}
+|.. |.. |.. |.. [31]{'N_effort-': 96.0, 'N': 31}
+|.. |.. |.. [62]
+|.. |.. |.. |.. [31]{'N_effort-': 4393.0, 'N': 31}
+|.. |.. |.. |.. [31]{'N_effort-': 1017.0, 'N': 31}
+
+Current file coc1000.csv
+[1000]{'LOC+': 926.0, 'AEXP-': 5.0, 'PLEX-': 4.0, 'RISK-': 11.0, 'EFFORT-': 50725.0, 'N': 1000}
+|.. [500]
+|.. |.. [250]
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 779.0, 'AEXP-': 3.0, 'PLEX-': 3.0, 'RISK-': 0.0, 'EFFORT-': 9958.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 1565.0, 'AEXP-': 3.0, 'PLEX-': 1.0, 'RISK-': 8.0, 'EFFORT-': 34450.0, 'N': 62}
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 922.0, 'AEXP-': 2.0, 'PLEX-': 1.0, 'RISK-': 13.0, 'EFFORT-': 71229.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 875.0, 'AEXP-': 4.0, 'PLEX-': 1.0, 'RISK-': 0.0, 'EFFORT-': 11174.0, 'N': 62}
+|.. |.. [250]
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 1855.0, 'AEXP-': 5.0, 'PLEX-': 2.0, 'RISK-': 18.0, 'EFFORT-': 40443.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 472.0, 'AEXP-': 5.0, 'PLEX-': 4.0, 'RISK-': 3.0, 'EFFORT-': 3609.0, 'N': 62}
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 1693.0, 'AEXP-': 3.0, 'PLEX-': 2.0, 'RISK-': 23.0, 'EFFORT-': 74915.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 1885.0, 'AEXP-': 3.0, 'PLEX-': 5.0, 'RISK-': 7.0, 'EFFORT-': 67624.0, 'N': 62}
+|.. [500]
+|.. |.. [250]
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 1918.0, 'AEXP-': 2.0, 'PLEX-': 3.0, 'RISK-': 4.0, 'EFFORT-': 69106.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 217.0, 'AEXP-': 2.0, 'PLEX-': 5.0, 'RISK-': 6.0, 'EFFORT-': 2464.0, 'N': 62}
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 669.0, 'AEXP-': 4.0, 'PLEX-': 2.0, 'RISK-': 8.0, 'EFFORT-': 29644.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 223.0, 'AEXP-': 4.0, 'PLEX-': 1.0, 'RISK-': 6.0, 'EFFORT-': 4071.0, 'N': 62}
+|.. |.. [250]
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 575.0, 'AEXP-': 2.0, 'PLEX-': 4.0, 'RISK-': 12.0, 'EFFORT-': 20868.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 145.0, 'AEXP-': 4.0, 'PLEX-': 2.0, 'RISK-': 14.0, 'EFFORT-': 4731.0, 'N': 62}
+|.. |.. |.. [125]
+|.. |.. |.. |.. [63]{'LOC+': 639.0, 'AEXP-': 2.0, 'PLEX-': 2.0, 'RISK-': 12.0, 'EFFORT-': 73839.0, 'N': 63}
+|.. |.. |.. |.. [62]{'LOC+': 1366.0, 'AEXP-': 3.0, 'PLEX-': 5.0, 'RISK-': 6.0, 'EFFORT-': 8843.0, 'N': 62}
+
+Current file coc10000.csv
+[10000]{'Loc+': 1123.0, 'Risk-': 7.0, 'Effort-': 27712.0, 'N': 10000}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1236.0, 'Risk-': 2.0, 'Effort-': 20601.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 273.0, 'Risk-': 0.0, 'Effort-': 6778.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1356.0, 'Risk-': 4.0, 'Effort-': 148322.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1067.0, 'Risk-': 0.0, 'Effort-': 11234.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 223.0, 'Risk-': 12.0, 'Effort-': 6638.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 35.0, 'Risk-': 15.0, 'Effort-': 1233.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1795.0, 'Risk-': 10.0, 'Effort-': 44032.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1368.0, 'Risk-': 0.0, 'Effort-': 21731.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1073.0, 'Risk-': 3.0, 'Effort-': 6681.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1196.0, 'Risk-': 2.0, 'Effort-': 31418.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 265.0, 'Risk-': 2.0, 'Effort-': 2377.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 643.0, 'Risk-': 6.0, 'Effort-': 20024.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1155.0, 'Risk-': 3.0, 'Effort-': 14241.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 106.0, 'Risk-': 8.0, 'Effort-': 1297.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1786.0, 'Risk-': 9.0, 'Effort-': 19409.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 353.0, 'Risk-': 1.0, 'Effort-': 4244.0, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 275.0, 'Risk-': 1.0, 'Effort-': 2349.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 708.0, 'Risk-': 17.0, 'Effort-': 16492.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1166.0, 'Risk-': 12.0, 'Effort-': 54608.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 337.0, 'Risk-': 1.0, 'Effort-': 4967.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1634.0, 'Risk-': 0.0, 'Effort-': 21917.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1256.0, 'Risk-': 2.0, 'Effort-': 9967.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 152.0, 'Risk-': 9.0, 'Effort-': 5320.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 221.0, 'Risk-': 4.0, 'Effort-': 3749.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 673.0, 'Risk-': 14.0, 'Effort-': 82430.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 470.0, 'Risk-': 10.0, 'Effort-': 8866.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1350.0, 'Risk-': 7.0, 'Effort-': 98486.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1883.0, 'Risk-': 9.0, 'Effort-': 28474.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1770.0, 'Risk-': 0.0, 'Effort-': 35068.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1079.0, 'Risk-': 0.0, 'Effort-': 9600.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 731.0, 'Risk-': 22.0, 'Effort-': 28792.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 958.0, 'Risk-': 0.0, 'Effort-': 49884.0, 'N': 156}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 662.0, 'Risk-': 14.0, 'Effort-': 18020.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1636.0, 'Risk-': 10.0, 'Effort-': 72325.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1139.0, 'Risk-': 12.0, 'Effort-': 56390.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1983.0, 'Risk-': 2.0, 'Effort-': 33066.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 200.0, 'Risk-': 4.0, 'Effort-': 7120.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1117.0, 'Risk-': 0.0, 'Effort-': 14556.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 281.0, 'Risk-': 6.0, 'Effort-': 4510.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 443.0, 'Risk-': 3.0, 'Effort-': 8208.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 392.0, 'Risk-': 3.0, 'Effort-': 6699.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 154.0, 'Risk-': 0.0, 'Effort-': 949.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1451.0, 'Risk-': 5.0, 'Effort-': 69690.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 503.0, 'Risk-': 0.0, 'Effort-': 9254.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1566.0, 'Risk-': 6.0, 'Effort-': 38526.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 413.0, 'Risk-': 6.0, 'Effort-': 16681.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 752.0, 'Risk-': 7.0, 'Effort-': 56629.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1957.0, 'Risk-': 2.0, 'Effort-': 92849.0, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 258.0, 'Risk-': 2.0, 'Effort-': 4212.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1969.0, 'Risk-': 7.0, 'Effort-': 48964.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 665.0, 'Risk-': 8.0, 'Effort-': 5730.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1925.0, 'Risk-': 19.0, 'Effort-': 169294.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1690.0, 'Risk-': 8.0, 'Effort-': 37695.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 613.0, 'Risk-': 15.0, 'Effort-': 11371.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1247.0, 'Risk-': 16.0, 'Effort-': 46016.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1057.0, 'Risk-': 8.0, 'Effort-': 46519.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 1289.0, 'Risk-': 10.0, 'Effort-': 32217.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 872.0, 'Risk-': 15.0, 'Effort-': 13564.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1714.0, 'Risk-': 0.0, 'Effort-': 11298.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1066.0, 'Risk-': 0.0, 'Effort-': 3697.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Loc+': 571.0, 'Risk-': 8.0, 'Effort-': 24255.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 737.0, 'Risk-': 3.0, 'Effort-': 11462.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 84.0, 'Risk-': 0.0, 'Effort-': 965.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Loc+': 1428.0, 'Risk-': 3.0, 'Effort-': 11159.0, 'N': 156}
+
+Current file healthCloseIsses12mths0001-hard.csv
+[10000]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 10000}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 74.78, 'ACC+': 7.21, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 77.44, 'ACC+': 8.13, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.77, 'ACC+': 7.52, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 70.61, 'ACC+': 8.5, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 73.98, 'ACC+': 7.46, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.73, 'ACC+': 7.84, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.65, 'ACC+': 7.87, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.42, 'ACC+': 7.63, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 75.82, 'ACC+': 6.89, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 76.84, 'ACC+': 6.58, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.65, 'ACC+': 0.09, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 75.33, 'ACC+': 7.04, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 73.81, 'ACC+': 7.51, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.32, 'ACC+': 7.66, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 72.53, 'ACC+': 7.9, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.09, 'ACC+': 8.04, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.55, 'ACC+': 7.9, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 73.9, 'ACC+': 7.48, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.94, 'ACC+': 7.78, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.53, 'ACC+': 7.59, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 77.55, 'ACC+': 7.58, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 72.98, 'ACC+': 7.76, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.37, 'ACC+': 7.22, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 70.83, 'ACC+': 8.43, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 71.03, 'ACC+': 8.37, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 76.51, 'ACC+': 6.68, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.62, 'ACC+': 7.26, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 70.29, 'ACC+': 8.61, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 74.2, 'ACC+': 7.39, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.31, 'ACC+': 7.66, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.75, 'ACC+': 7.84, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 71.68, 'ACC+': 8.17, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.95, 'ACC+': 7.77, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.46, 'ACC+': 7.61, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 71.73, 'ACC+': 5.1, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 70.65, 'ACC+': 8.49, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 71.77, 'ACC+': 8.14, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.04, 'ACC+': 7.44, 'PRED40+': 25.0, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 99.54, 'ACC+': 0.12, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.58, 'ACC+': 0.11, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.71, 'ACC+': 7.54, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.74, 'ACC+': 0.07, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.08, 'ACC+': 7.42, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.57, 'ACC+': 7.58, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 80.26, 'ACC+': 5.56, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 72.04, 'ACC+': 8.06, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 69.46, 'ACC+': 8.87, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.05, 'ACC+': 7.43, 'PRED40+': 25.0, 'N': 156}
+
+Current file healthCloseIsses12mths0011-easy.csv
+[10000]{'MRE-': 101.88, 'ACC+': -1.78, 'PRED40+': 0.0, 'N': 10000}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.75, 'ACC+': -12.79, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 101.0, 'ACC+': -0.97, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.36, 'ACC+': -12.64, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.0, 'ACC+': -11.69, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 119.56, 'ACC+': -12.32, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 116.0, 'ACC+': -10.81, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.74, 'ACC+': -12.78, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 102.0, 'ACC+': -1.89, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 101.25, 'ACC+': -1.2, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 101.67, 'ACC+': -1.59, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 101.11, 'ACC+': -1.08, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.95, 'ACC+': -12.08, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.97, 'ACC+': -12.87, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.93, 'ACC+': -12.47, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.87, 'ACC+': -12.83, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.0, 'ACC+': -12.5, 'PRED40+': 0.0, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 118.58, 'ACC+': -11.93, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 117.58, 'ACC+': -11.51, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 121.96, 'ACC+': -13.24, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.2, 'ACC+': -12.58, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 117.83, 'ACC+': -11.62, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.0, 'ACC+': -12.1, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.2, 'ACC+': -12.18, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 122.44, 'ACC+': -13.41, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.44, 'ACC+': -11.87, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 121.48, 'ACC+': -13.06, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 101.18, 'ACC+': -1.14, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.67, 'ACC+': -12.76, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.03, 'ACC+': -12.11, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 101.76, 'ACC+': -1.68, 'PRED40+': 0.0, 'N': 156}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.67, 'ACC+': -12.76, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.95, 'ACC+': -12.08, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 116.0, 'ACC+': -10.81, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.33, 'ACC+': -12.24, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 118.82, 'ACC+': -12.03, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.74, 'ACC+': -12.0, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.3, 'ACC+': -12.62, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.3, 'ACC+': -12.62, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.5, 'ACC+': -0.49, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.0, 'ACC+': -11.69, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 119.33, 'ACC+': -12.24, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 117.87, 'ACC+': -11.63, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.17, 'ACC+': -11.76, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 122.0, 'ACC+': -13.25, 'PRED40+': 0.0, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.22, 'ACC+': -12.59, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.31, 'ACC+': -12.62, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.04, 'ACC+': -12.52, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.63, 'ACC+': -12.74, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.78, 'ACC+': -12.8, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 120.77, 'ACC+': -12.8, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 121.41, 'ACC+': -13.04, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.52, 'ACC+': -12.31, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 101.43, 'ACC+': -1.37, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 120.49, 'ACC+': -12.69, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.74, 'ACC+': -12.0, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 119.33, 'ACC+': -12.24, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 118.85, 'ACC+': -12.04, 'PRED40+': 0.0, 'N': 156}
+
+Current file nasa93dem.csv
+[93]{'Kloc+': 190.0, 'Effort-': 420.0, 'Defects-': 5092.0, 'Months-': 30.3, 'N': 93}
+|.. [47]
+|.. |.. [24]
+|.. |.. |.. [12]{'Kloc+': 2.2, 'Effort-': 8.4, 'Defects-': 69.0, 'Months-': 6.6, 'N': 12}
+|.. |.. |.. [12]{'Kloc+': 31.5, 'Effort-': 60.0, 'Defects-': 986.0, 'Months-': 17.6, 'N': 12}
+|.. |.. [23]
+|.. |.. |.. [12]{'Kloc+': 302.0, 'Effort-': 2400.0, 'Defects-': 8543.0, 'Months-': 38.4, 'N': 12}
+|.. |.. |.. [11]{'Kloc+': 150.0, 'Effort-': 882.0, 'Defects-': 5848.0, 'Months-': 36.2, 'N': 11}
+|.. [46]
+|.. |.. [23]
+|.. |.. |.. [12]{'Kloc+': 16.0, 'Effort-': 114.0, 'Defects-': 887.0, 'Months-': 16.4, 'N': 12}
+|.. |.. |.. [11]{'Kloc+': 151.0, 'Effort-': 432.0, 'Defects-': 6136.0, 'Months-': 26.2, 'N': 11}
+|.. |.. [23]
+|.. |.. |.. [12]{'Kloc+': 352.0, 'Effort-': 1200.0, 'Defects-': 17597.0, 'Months-': 42.9, 'N': 12}
+|.. |.. |.. [11]{'Kloc+': 35.5, 'Effort-': 192.0, 'Defects-': 1763.0, 'Months-': 19.3, 'N': 11}
+
+Current file pom.csv
+[10000]{'Cost-': 310.4, 'Completion+': 0.75, 'Idle-': 0.0, 'N': 10000}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 294.77, 'Completion+': 0.25, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 594.07, 'Completion+': 0.97, 'Idle-': 0.57, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 179.91, 'Completion+': 0.84, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 303.06, 'Completion+': 0.83, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 417.36, 'Completion+': 0.89, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 215.83, 'Completion+': 0.86, 'Idle-': 0.6, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 396.71, 'Completion+': 0.88, 'Idle-': 0.46, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 495.7, 'Completion+': 0.93, 'Idle-': 0.02, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 414.16, 'Completion+': 0.87, 'Idle-': 0.32, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 405.93, 'Completion+': 0.9, 'Idle-': 0.17, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 599.21, 'Completion+': 0.88, 'Idle-': 0.19, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 97.06, 'Completion+': 1.0, 'Idle-': 0.41, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 178.32, 'Completion+': 0.79, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 225.63, 'Completion+': 0.56, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 766.21, 'Completion+': 0.97, 'Idle-': 0.27, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 173.32, 'Completion+': 0.94, 'Idle-': 0.52, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 688.62, 'Completion+': 0.57, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 358.25, 'Completion+': 0.89, 'Idle-': 0.38, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 549.22, 'Completion+': 1.0, 'Idle-': 0.59, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 287.62, 'Completion+': 0.91, 'Idle-': 0.6, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 269.68, 'Completion+': 0.86, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 99.89, 'Completion+': 0.88, 'Idle-': 0.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 248.36, 'Completion+': 0.94, 'Idle-': 0.34, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 637.54, 'Completion+': 0.92, 'Idle-': 0.12, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 373.82, 'Completion+': 0.98, 'Idle-': 0.4, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 1012.18, 'Completion+': 0.77, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 217.38, 'Completion+': 0.94, 'Idle-': 0.46, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 446.99, 'Completion+': 0.94, 'Idle-': 0.11, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 441.89, 'Completion+': 0.72, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 202.52, 'Completion+': 1.0, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 331.94, 'Completion+': 0.9, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 185.05, 'Completion+': 1.0, 'Idle-': 0.33, 'N': 156}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 588.29, 'Completion+': 0.96, 'Idle-': 0.25, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 503.68, 'Completion+': 0.93, 'Idle-': 0.52, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 630.62, 'Completion+': 0.97, 'Idle-': 0.39, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 697.5, 'Completion+': 0.95, 'Idle-': 0.18, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 641.81, 'Completion+': 0.91, 'Idle-': 0.09, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 159.24, 'Completion+': 0.89, 'Idle-': 0.06, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 269.95, 'Completion+': 0.8, 'Idle-': 0.32, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 628.57, 'Completion+': 0.95, 'Idle-': 0.35, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 336.25, 'Completion+': 0.82, 'Idle-': 0.14, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 376.28, 'Completion+': 0.77, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 683.31, 'Completion+': 0.97, 'Idle-': 0.49, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 105.44, 'Completion+': 0.5, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 116.88, 'Completion+': 0.88, 'Idle-': 0.56, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 656.16, 'Completion+': 0.68, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 110.91, 'Completion+': 0.9, 'Idle-': 0.53, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 987.18, 'Completion+': 0.94, 'Idle-': 0.45, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 531.47, 'Completion+': 0.94, 'Idle-': 0.51, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 316.01, 'Completion+': 0.61, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 453.62, 'Completion+': 0.94, 'Idle-': 0.44, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 583.19, 'Completion+': 0.97, 'Idle-': 0.45, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 299.89, 'Completion+': 0.88, 'Idle-': 0.53, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 709.52, 'Completion+': 0.93, 'Idle-': 0.22, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 122.81, 'Completion+': 0.91, 'Idle-': 0.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 223.3, 'Completion+': 0.84, 'Idle-': 0.22, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 515.44, 'Completion+': 0.84, 'Idle-': 0.18, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 243.35, 'Completion+': 0.92, 'Idle-': 0.08, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 524.94, 'Completion+': 0.67, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 367.4, 'Completion+': 0.79, 'Idle-': 0.15, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'Cost-': 313.08, 'Completion+': 0.62, 'Idle-': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 195.61, 'Completion+': 0.65, 'Idle-': 0.09, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 784.58, 'Completion+': 0.88, 'Idle-': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'Cost-': 557.37, 'Completion+': 0.97, 'Idle-': 0.39, 'N': 156}
+
+Current file SSM.csv
+[239360]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 77.04, 'N': 239360}
+|.. [119680]
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 77.04, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 3.0, 'TIMETOSOLUTION-': 115.02, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 341.0, 'TIMETOSOLUTION-': 6211.94, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 28.0, 'TIMETOSOLUTION-': 667.55, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 104.0, 'TIMETOSOLUTION-': 1658.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 34.0, 'TIMETOSOLUTION-': 665.38, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 101.94, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 133.66, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 160.0, 'TIMETOSOLUTION-': 1039.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 29.0, 'TIMETOSOLUTION-': 1209.26, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 40.0, 'TIMETOSOLUTION-': 782.45, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 4769.67, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 131.36, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 23.0, 'TIMETOSOLUTION-': 361.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 415.79, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 23.0, 'TIMETOSOLUTION-': 431.36, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 149.57, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 48.0, 'TIMETOSOLUTION-': 571.29, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 141.38, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 18.0, 'TIMETOSOLUTION-': 169.14, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 164.02, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 27.0, 'TIMETOSOLUTION-': 537.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 131.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 158.0, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 118.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 148.99, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 68.29, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 17315.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 99.0, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 54.0, 'TIMETOSOLUTION-': 600.67, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 101.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 75.27, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 136.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 75.12, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 150.84, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 95.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 174.79, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 112.96, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 68.63, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 107.13, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 174.42, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 163.77, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 101.17, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 86.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 95.72, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 74.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 157.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 102.88, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 119.05, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 103.84, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 84.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 133.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 68.66, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 180.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 132.9, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 175.5, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 74.35, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 112.96, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 135.01, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 86.01, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 147.36, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 174.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 77.39, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 136.28, 'N': 935}
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 20.0, 'TIMETOSOLUTION-': 147.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 131.61, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 91.76, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 57.74, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 142.21, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 113.75, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 132.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 90.98, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 123.04, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 7472.77, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 107.52, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 98.58, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 17.0, 'TIMETOSOLUTION-': 285.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 76.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 116.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 146.37, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 108.04, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 92.77, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 91.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 86.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 86.91, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 77.08, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 131.23, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 112.26, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 105.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 126.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 81.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 201.6, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 98.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 76.65, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 134.25, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 113.93, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 121.14, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 80.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 106.58, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 100.85, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 77.92, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 116.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 156.13, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 118.94, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 184.37, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 23.0, 'TIMETOSOLUTION-': 192.62, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 102.79, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 17.0, 'TIMETOSOLUTION-': 413.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 139.36, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 18.0, 'TIMETOSOLUTION-': 130.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 91.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 121.87, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 66.17, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 106.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 101.05, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 85.1, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 115.37, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 143.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 147.77, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 114.76, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 121.52, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 164.84, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 106.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 221.56, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 192.59, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 84.67, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 13.0, 'TIMETOSOLUTION-': 225.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 26.0, 'TIMETOSOLUTION-': 152.17, 'N': 935}
+|.. [119680]
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 133.45, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 139.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 104.66, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 91.74, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 124.12, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 122.38, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 141.24, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 117.52, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 16.0, 'TIMETOSOLUTION-': 147.56, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 185.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 149.22, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 179.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 66.32, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 79.54, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 38.0, 'TIMETOSOLUTION-': 469.85, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 20.0, 'TIMETOSOLUTION-': 153.13, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 14.0, 'TIMETOSOLUTION-': 176.45, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 202.52, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 125.57, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 145.2, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 85.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 129.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 114.44, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 121.11, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 118.96, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 125.14, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 160.28, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 182.61, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 188.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 35.0, 'TIMETOSOLUTION-': 371.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 247.09, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 304.55, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 40.0, 'TIMETOSOLUTION-': 566.44, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 15.0, 'TIMETOSOLUTION-': 160.09, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 18.0, 'TIMETOSOLUTION-': 354.3, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 177.75, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 154.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 98.59, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 134.79, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 130.12, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 92.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 158.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 123.69, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 143.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 165.61, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 152.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 178.75, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 133.23, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 280.73, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 72.69, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 30.0, 'TIMETOSOLUTION-': 697.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 86.0, 'TIMETOSOLUTION-': 1275.57, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 38.0, 'TIMETOSOLUTION-': 708.27, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 39.0, 'TIMETOSOLUTION-': 358.34, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 82.0, 'TIMETOSOLUTION-': 456.32, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 18.0, 'TIMETOSOLUTION-': 119.05, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 215.09, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 214.68, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 159.96, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 65.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 158.78, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 137.68, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 14.0, 'TIMETOSOLUTION-': 227.61, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 137.68, 'N': 935}
+|.. |.. [59840]
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 131.35, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 66.19, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 68.45, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 29.0, 'TIMETOSOLUTION-': 292.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 221.18, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 304.48, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 16.0, 'TIMETOSOLUTION-': 381.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 52.0, 'TIMETOSOLUTION-': 757.63, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 5152.93, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 118.9, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 21.0, 'TIMETOSOLUTION-': 223.45, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 241.8, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 21.0, 'TIMETOSOLUTION-': 200.24, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 162.33, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 35.0, 'TIMETOSOLUTION-': 473.26, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 80.67, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 130.7, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 101.11, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 84.72, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 115.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 157.46, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 9.0, 'TIMETOSOLUTION-': 177.53, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 85.88, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 89.28, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 86.0, 'TIMETOSOLUTION-': 875.27, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 47.0, 'TIMETOSOLUTION-': 269.01, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 142.26, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 112.0, 'TIMETOSOLUTION-': 3673.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 59.0, 'TIMETOSOLUTION-': 1517.4, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 5558.6, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 8.0, 'TIMETOSOLUTION-': 64.74, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 10.0, 'TIMETOSOLUTION-': 108.0, 'N': 935}
+|.. |.. |.. [29920]
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 69.06, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 2073.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 93.16, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 10292.92, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 80.55, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 97.5, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 106.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 19.0, 'TIMETOSOLUTION-': 127.17, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 501.0, 'TIMETOSOLUTION-': 3670.26, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 124.6, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 80.24, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 87.89, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 42.31, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 144.37, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 167.64, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 12.0, 'TIMETOSOLUTION-': 357.65, 'N': 935}
+|.. |.. |.. |.. [14960]
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 162.87, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 65.0, 'TIMETOSOLUTION-': 787.36, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 11.0, 'TIMETOSOLUTION-': 267.91, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 148.38, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 4.0, 'TIMETOSOLUTION-': 146.6, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 114.52, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 179.91, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 146.93, 'N': 935}
+|.. |.. |.. |.. |.. [7480]
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 176.97, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 175.84, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 7.0, 'TIMETOSOLUTION-': 114.74, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 139.03, 'N': 935}
+|.. |.. |.. |.. |.. |.. [3740]
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 5.0, 'TIMETOSOLUTION-': 63.88, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 6.0, 'TIMETOSOLUTION-': 105.84, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. [1870]
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 129.0, 'TIMETOSOLUTION-': 1742.67, 'N': 935}
+|.. |.. |.. |.. |.. |.. |.. |.. [935]{'NUMBERITERATIONS-': 41.0, 'TIMETOSOLUTION-': 756.16, 'N': 935}
+
+Current file SSN.csv
+[53662]{'PSNR-': 44.17, 'Energy-': 1941.12, 'N': 53662}
+|.. [26831]
+|.. |.. [13416]
+|.. |.. |.. [6708]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 47.11, 'Energy-': 6234.27, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.04, 'Energy-': 2155.08, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.8, 'Energy-': 1892.34, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 46.0, 'Energy-': 2844.25, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 46.83, 'Energy-': 2244.44, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 48.03, 'Energy-': 2257.07, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 27.0, 'Energy-': 900.02, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 42.09, 'Energy-': 1791.09, 'N': 419}
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 42.19, 'Energy-': 1119.91, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 37.44, 'Energy-': 3093.25, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 50.03, 'Energy-': 1968.76, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.95, 'Energy-': 4367.41, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 45.82, 'Energy-': 5223.2, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 50.17, 'Energy-': 1333.61, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.64, 'Energy-': 3435.97, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.55, 'Energy-': 1967.36, 'N': 419}
+|.. |.. |.. [6708]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 38.53, 'Energy-': 3474.05, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.27, 'Energy-': 5215.08, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.77, 'Energy-': 2224.83, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.88, 'Energy-': 1587.65, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 37.43, 'Energy-': 3556.3, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 37.19, 'Energy-': 4116.18, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.91, 'Energy-': 1429.99, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 46.04, 'Energy-': 5274.95, 'N': 419}
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 38.68, 'Energy-': 4525.22, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.76, 'Energy-': 1926.92, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.21, 'Energy-': 1973.27, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.79, 'Energy-': 2304.55, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 45.93, 'Energy-': 1419.65, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 46.06, 'Energy-': 1416.66, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 50.08, 'Energy-': 667.83, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.93, 'Energy-': 1404.87, 'N': 419}
+|.. |.. [13415]
+|.. |.. |.. [6708]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 37.48, 'Energy-': 1302.15, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.69, 'Energy-': 1099.13, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.74, 'Energy-': 566.32, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.31, 'Energy-': 1990.84, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 47.13, 'Energy-': 1466.36, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.3, 'Energy-': 1773.86, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 49.42, 'Energy-': 500.94, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.01, 'Energy-': 500.94, 'N': 419}
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 37.73, 'Energy-': 1229.86, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.91, 'Energy-': 1856.37, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 46.06, 'Energy-': 1505.0, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.12, 'Energy-': 2072.36, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 38.73, 'Energy-': 1234.94, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.29, 'Energy-': 499.91, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.77, 'Energy-': 673.77, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.28, 'Energy-': 2090.11, 'N': 419}
+|.. |.. |.. [6707]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 37.13, 'Energy-': 1096.77, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 37.73, 'Energy-': 1143.08, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.88, 'Energy-': 1833.74, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 37.52, 'Energy-': 1040.19, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 40.38, 'Energy-': 455.64, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.58, 'Energy-': 1039.43, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.24, 'Energy-': 1530.68, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.08, 'Energy-': 769.5, 'N': 419}
+|.. |.. |.. |.. [3353]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 47.19, 'Energy-': 1467.81, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.0, 'Energy-': 1246.53, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.85, 'Energy-': 1920.69, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.95, 'Energy-': 1354.31, 'N': 419}
+|.. |.. |.. |.. |.. [1676]
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 37.19, 'Energy-': 1392.11, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.83, 'Energy-': 1713.15, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.01, 'Energy-': 1514.28, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.8, 'Energy-': 546.64, 'N': 419}
+|.. [26831]
+|.. |.. [13416]
+|.. |.. |.. [6708]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 41.1, 'Energy-': 551.59, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.53, 'Energy-': 1239.94, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.42, 'Energy-': 658.08, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.81, 'Energy-': 1307.75, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 39.59, 'Energy-': 462.01, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.93, 'Energy-': 1251.26, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 49.93, 'Energy-': 460.58, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 46.07, 'Energy-': 1414.93, 'N': 419}
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 51.2, 'Energy-': 759.12, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.67, 'Energy-': 501.47, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.11, 'Energy-': 1563.6, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.67, 'Energy-': 1044.7, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 51.74, 'Energy-': 600.53, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 49.9, 'Energy-': 578.25, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.22, 'Energy-': 429.83, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 49.86, 'Energy-': 591.6, 'N': 419}
+|.. |.. |.. [6708]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 37.16, 'Energy-': 1392.99, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.39, 'Energy-': 510.99, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.56, 'Energy-': 504.89, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 38.79, 'Energy-': 1444.91, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 47.11, 'Energy-': 1636.87, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.12, 'Energy-': 1881.99, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.08, 'Energy-': 1181.26, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.38, 'Energy-': 1108.04, 'N': 419}
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 47.37, 'Energy-': 1856.59, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 55.19, 'Energy-': 838.02, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 55.31, 'Energy-': 631.75, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 40.59, 'Energy-': 1376.43, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 39.85, 'Energy-': 1047.71, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.81, 'Energy-': 953.15, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 53.19, 'Energy-': 734.5, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 53.66, 'Energy-': 573.44, 'N': 419}
+|.. |.. [13415]
+|.. |.. |.. [6708]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 39.8, 'Energy-': 1161.86, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 54.23, 'Energy-': 582.11, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 54.65, 'Energy-': 533.48, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 48.06, 'Energy-': 1588.0, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 55.33, 'Energy-': 786.22, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 53.2, 'Energy-': 578.08, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.88, 'Energy-': 2009.71, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.72, 'Energy-': 954.0, 'N': 419}
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 47.88, 'Energy-': 1551.66, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.77, 'Energy-': 1214.02, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 44.45, 'Energy-': 6789.69, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.1, 'Energy-': 2063.52, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 44.45, 'Energy-': 1983.23, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 48.94, 'Energy-': 2612.75, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.38, 'Energy-': 2163.14, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 46.09, 'Energy-': 2061.12, 'N': 419}
+|.. |.. |.. [6707]
+|.. |.. |.. |.. [3354]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 30.75, 'Energy-': 1703.93, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 47.99, 'Energy-': 739.76, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 66.31, 'Energy-': 199.89, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 30.04, 'Energy-': 692.84, 'N': 419}
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 45.2, 'Energy-': 4611.62, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 39.6, 'Energy-': 620.84, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 53.62, 'Energy-': 794.63, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 45.55, 'Energy-': 3172.79, 'N': 419}
+|.. |.. |.. |.. [3353]
+|.. |.. |.. |.. |.. [1677]
+|.. |.. |.. |.. |.. |.. [839]
+|.. |.. |.. |.. |.. |.. |.. [420]{'PSNR-': 44.19, 'Energy-': 792.41, 'N': 420}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 28.54, 'Energy-': 379.0, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 42.85, 'Energy-': 787.73, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 36.09, 'Energy-': 597.64, 'N': 419}
+|.. |.. |.. |.. |.. [1676]
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 51.68, 'Energy-': 4206.72, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 29.91, 'Energy-': 230.52, 'N': 419}
+|.. |.. |.. |.. |.. |.. [838]
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 35.46, 'Energy-': 4578.19, 'N': 419}
+|.. |.. |.. |.. |.. |.. |.. [419]{'PSNR-': 34.68, 'Energy-': 1049.02, 'N': 419}
+
+test_xpln.py::test_xpln PASSED                                           [100%]
+Current file auto2.csv
+
+maker 2.0 2.0
+maker 3.0 3.0
+maker 7.0 7.0
+maker 8.0 8.0
+maker 9.0 9.0
+maker 10.0 10.0
+maker 12.0 12.0
+maker 13.0 13.0
+maker 14.0 14.0
+maker 15.0 15.0
+maker 16.0 16.0
+maker 17.0 17.0
+maker 18.0 18.0
+maker 20.0 20.0
+maker 21.0 21.0
+maker 23.0 23.0
+maker 24.0 24.0
+maker 25.0 25.0
+maker 26.0 26.0
+maker 29.0 29.0
+maker 30.0 30.0
+
+type 0.0 0.0
+type 1.0 1.0
+type 2.0 2.0
+type 3.0 3.0
+type 4.0 4.0
+type 5.0 5.0
+
+Air_Bags_standard -inf 0.0
+Air_Bags_standard 0.0 1.0
+Air_Bags_standard 1.0 inf
+
+Drive_train_type -inf 0.0
+Drive_train_type 0.0 1.0
+Drive_train_type 1.0 inf
+
+Number_of_cylinders -inf 5.0
+Number_of_cylinders 5.0 5.0
+Number_of_cylinders 5.0 6.0
+Number_of_cylinders 6.0 inf
+
+Engine_size -inf 1.9
+Engine_size 1.9 2.4
+Engine_size 2.4 3.8
+Engine_size 3.8 inf
+
+Horsepower -inf 73.0
+Horsepower 73.0 85.0
+Horsepower 85.0 103.0
+Horsepower 103.0 114.0
+Horsepower 114.0 155.0
+Horsepower 155.0 170.0
+Horsepower 170.0 185.0
+Horsepower 185.0 190.0
+Horsepower 190.0 217.0
+Horsepower 217.0 inf
+
+RPM -inf 3800.0
+RPM 3800.0 4200.0
+RPM 4200.0 4400.0
+RPM 4400.0 4600.0
+RPM 4600.0 4800.0
+RPM 4800.0 5000.0
+RPM 5000.0 5200.0
+RPM 5200.0 6200.0
+RPM 6200.0 inf
+
+Engine_revolutions_per_mile -inf 1415.0
+Engine_revolutions_per_mile 1415.0 1570.0
+Engine_revolutions_per_mile 1570.0 1840.0
+Engine_revolutions_per_mile 1840.0 2325.0
+Engine_revolutions_per_mile 2325.0 2325.0
+Engine_revolutions_per_mile 2325.0 2505.0
+Engine_revolutions_per_mile 2505.0 3375.0
+Engine_revolutions_per_mile 3375.0 inf
+
+manual_transmission_available 0.0 0.0
+manual_transmission_available 1.0 1.0
+
+Fuel_tank_capacity -inf 12.4
+Fuel_tank_capacity 12.4 12.4
+Fuel_tank_capacity 12.4 13.2
+Fuel_tank_capacity 13.2 14.5
+Fuel_tank_capacity 14.5 15.9
+Fuel_tank_capacity 15.9 18.0
+Fuel_tank_capacity 18.0 19.3
+Fuel_tank_capacity 19.3 20.0
+Fuel_tank_capacity 20.0 21.1
+Fuel_tank_capacity 21.1 inf
+
+Passenger_capacity -inf 4.0
+Passenger_capacity 4.0 5.0
+Passenger_capacity 5.0 6.0
+Passenger_capacity 6.0 inf
+
+Length -inf 146.0
+Length 146.0 163.0
+Length 163.0 166.0
+Length 166.0 174.0
+Length 174.0 190.0
+Length 190.0 190.0
+Length 190.0 200.0
+Length 200.0 205.0
+Length 205.0 212.0
+Length 212.0 inf
+
+Wheelbase -inf 95.0
+Wheelbase 95.0 95.0
+Wheelbase 95.0 97.0
+Wheelbase 97.0 99.0
+Wheelbase 99.0 114.0
+Wheelbase 114.0 114.0
+Wheelbase 114.0 inf
+
+Width -inf 68.0
+Width 68.0 68.0
+Width 68.0 70.0
+Width 70.0 72.0
+Width 72.0 73.0
+Width 73.0 78.0
+Width 78.0 inf
+
+U-turn_space -inf 38.0
+U-turn_space 38.0 38.0
+U-turn_space 38.0 40.0
+U-turn_space 40.0 42.0
+U-turn_space 42.0 43.0
+U-turn_space 43.0 inf
+
+Rear_seat_room -inf 25.0
+Rear_seat_room 25.0 25.0
+Rear_seat_room 25.0 26.5
+Rear_seat_room 26.5 30.0
+Rear_seat_room 30.0 30.0
+Rear_seat_room 30.0 30.5
+Rear_seat_room 30.5 inf
+
+Luggage_capacity -inf 12.0
+Luggage_capacity 12.0 12.0
+Luggage_capacity 12.0 13.0
+Luggage_capacity 13.0 14.0
+Luggage_capacity 14.0 15.0
+Luggage_capacity 15.0 16.0
+Luggage_capacity 16.0 21.0
+Luggage_capacity 21.0 21.0
+Luggage_capacity 21.0 inf
+
+domestic 0.0 0.0
+domestic 1.0 1.0
+
+Rear_seat_room 26.5 30.0 0.44 {'best': 4, 'rest': 8}
+domestic 0.0 0.0 0.38 {'best': 4, 'rest': 12}
+type 2.0 2.0 0.38 {'best': 3, 'rest': 4}
+Drive_train_type 0.0 1.0 0.36 {'best': 4, 'rest': 14}
+maker 15.0 15.0 0.33 {'best': 2}
+Engine_revolutions_per_mile 1840.0 2325.0 0.33 {'best': 3, 'rest': 6}
+maker 16.0 16.0 0.3 {'best': 2, 'rest': 1}
+Number_of_cylinders 6.0 inf 0.3 {'best': 2, 'rest': 1}
+Engine_size 3.8 inf 0.3 {'best': 2, 'rest': 1}
+manual_transmission_available 0.0 0.0 0.27 {'best': 3, 'rest': 10}
+Engine_revolutions_per_mile 1570.0 1840.0 0.27 {'best': 2, 'rest': 2}
+Fuel_tank_capacity 18.0 19.3 0.27 {'best': 2, 'rest': 2}
+U-turn_space 40.0 42.0 0.27 {'best': 2, 'rest': 2}
+Passenger_capacity 4.0 5.0 0.26 {'best': 3, 'rest': 11}
+manual_transmission_available 1.0 1.0 0.23 {'best': 3, 'rest': 14}
+Engine_revolutions_per_mile 2325.0 2325.0 0.22 {'best': 2, 'rest': 4}
+Passenger_capacity 5.0 6.0 0.22 {'best': 2, 'rest': 4}
+Rear_seat_room 30.0 30.0 0.22 {'best': 2, 'rest': 4}
+type 3.0 3.0 0.21 {'best': 2, 'rest': 5}
+Air_Bags_standard 1.0 inf 0.21 {'best': 2, 'rest': 5}
+Drive_train_type -inf 0.0 0.19 {'best': 2, 'rest': 6}
+maker 13.0 13.0 0.17 {'best': 1}
+maker 14.0 14.0 0.17 {'best': 1}
+Number_of_cylinders 5.0 6.0 0.17 {'best': 2, 'rest': 8}
+Engine_size -inf 1.9 0.17 {'best': 2, 'rest': 8}
+Horsepower 170.0 185.0 0.17 {'best': 1}
+Horsepower 217.0 inf 0.17 {'best': 1}
+RPM 4200.0 4400.0 0.17 {'best': 1}
+Fuel_tank_capacity 13.2 14.5 0.17 {'best': 1}
+Fuel_tank_capacity 21.1 inf 0.17 {'best': 1}
+Length 212.0 inf 0.17 {'best': 1}
+Wheelbase 114.0 inf 0.17 {'best': 1}
+U-turn_space 43.0 inf 0.17 {'best': 1}
+Rear_seat_room 30.5 inf 0.17 {'best': 1}
+Luggage_capacity 15.0 16.0 0.17 {'best': 1}
+Luggage_capacity 21.0 inf 0.17 {'best': 1}
+Air_Bags_standard -inf 0.0 0.16 {'best': 2, 'rest': 9}
+Engine_size 2.4 3.8 0.16 {'best': 2, 'rest': 9}
+Air_Bags_standard 0.0 1.0 0.15 {'best': 2, 'rest': 10}
+RPM 4400.0 4600.0 0.13 {'best': 1, 'rest': 1}
+RPM 5000.0 5200.0 0.13 {'best': 1, 'rest': 1}
+Length 166.0 174.0 0.13 {'best': 1, 'rest': 1}
+Length 200.0 205.0 0.13 {'best': 1, 'rest': 1}
+Width 72.0 73.0 0.13 {'best': 1, 'rest': 1}
+domestic 1.0 1.0 0.13 {'best': 2, 'rest': 12}
+Horsepower 73.0 85.0 0.11 {'best': 1, 'rest': 2}
+Fuel_tank_capacity 12.4 13.2 0.11 {'best': 1, 'rest': 2}
+Wheelbase 95.0 97.0 0.11 {'best': 1, 'rest': 2}
+Wheelbase 97.0 99.0 0.11 {'best': 1, 'rest': 2}
+Width 70.0 72.0 0.11 {'best': 1, 'rest': 2}
+Luggage_capacity 12.0 13.0 0.11 {'best': 1, 'rest': 2}
+Horsepower 190.0 217.0 0.1 {'best': 1, 'rest': 3}
+RPM 4800.0 5000.0 0.1 {'best': 1, 'rest': 3}
+Fuel_tank_capacity 19.3 20.0 0.1 {'best': 1, 'rest': 3}
+Length 163.0 166.0 0.1 {'best': 1, 'rest': 3}
+Length 190.0 200.0 0.1 {'best': 1, 'rest': 3}
+Width 68.0 70.0 0.1 {'best': 1, 'rest': 3}
+type 1.0 1.0 0.08 {'best': 1, 'rest': 4}
+Horsepower 155.0 170.0 0.08 {'best': 1, 'rest': 4}
+Engine_revolutions_per_mile 2325.0 2505.0 0.08 {'best': 1, 'rest': 4}
+Horsepower 85.0 103.0 0.07 {'best': 1, 'rest': 5}
+Rear_seat_room 25.0 26.5 0.07 {'best': 1, 'rest': 5}
+Luggage_capacity 14.0 15.0 0.07 {'best': 1, 'rest': 5}
+Passenger_capacity -inf 4.0 0.06 {'best': 1, 'rest': 7}
+U-turn_space 38.0 40.0 0.06 {'best': 1, 'rest': 7}
+Luggage_capacity 13.0 14.0 0.06 {'best': 1, 'rest': 7}
+maker 2.0 2.0 0.0 {'rest': 1}
+maker 3.0 3.0 0.0 {'rest': 1}
+maker 7.0 7.0 0.0 {'rest': 1}
+maker 8.0 8.0 0.0 {'rest': 2}
+maker 9.0 9.0 0.0 {'rest': 1}
+maker 10.0 10.0 0.0 {'rest': 1}
+maker 12.0 12.0 0.0 {'rest': 1}
+maker 17.0 17.0 0.0 {'rest': 1}
+maker 18.0 18.0 0.0 {'rest': 2}
+maker 20.0 20.0 0.0 {'rest': 1}
+maker 21.0 21.0 0.0 {'rest': 2}
+maker 23.0 23.0 0.0 {'rest': 2}
+maker 24.0 24.0 0.0 {'rest': 1}
+maker 25.0 25.0 0.0 {'rest': 1}
+maker 26.0 26.0 0.0 {'rest': 2}
+maker 29.0 29.0 0.0 {'rest': 1}
+maker 30.0 30.0 0.0 {'rest': 2}
+type 0.0 0.0 0.0 {'rest': 5}
+type 4.0 4.0 0.0 {'rest': 4}
+type 5.0 5.0 0.0 {'rest': 2}
+Drive_train_type 1.0 inf 0.0 {'rest': 4}
+Number_of_cylinders -inf 5.0 0.0 {'rest': 2}
+Number_of_cylinders 5.0 5.0 0.0 {'rest': 1}
+Engine_size 1.9 2.4 0.0 {'rest': 6}
+Horsepower -inf 73.0 0.0 {'rest': 1}
+Horsepower 103.0 114.0 0.0 {'rest': 1}
+Horsepower 114.0 155.0 0.0 {'rest': 7}
+Horsepower 185.0 190.0 0.0 {'rest': 1}
+RPM -inf 3800.0 0.0 {'rest': 1}
+RPM 3800.0 4200.0 0.0 {'rest': 1}
+RPM 4600.0 4800.0 0.0 {'rest': 2}
+RPM 5200.0 6200.0 0.0 {'rest': 6}
+RPM 6200.0 inf 0.0 {'rest': 1}
+Engine_revolutions_per_mile -inf 1415.0 0.0 {'rest': 1}
+Engine_revolutions_per_mile 1415.0 1570.0 0.0 {'rest': 2}
+Engine_revolutions_per_mile 2505.0 3375.0 0.0 {'rest': 5}
+Engine_revolutions_per_mile 3375.0 inf 0.0 {'rest': 1}
+Fuel_tank_capacity -inf 12.4 0.0 {'rest': 4}
+Fuel_tank_capacity 12.4 12.4 0.0 {'rest': 3}
+Fuel_tank_capacity 14.5 15.9 0.0 {'rest': 6}
+Fuel_tank_capacity 15.9 18.0 0.0 {'rest': 5}
+Fuel_tank_capacity 20.0 21.1 0.0 {'rest': 1}
+Passenger_capacity 6.0 inf 0.0 {'rest': 2}
+Length -inf 146.0 0.0 {'rest': 1}
+Length 146.0 163.0 0.0 {'rest': 1}
+Length 174.0 190.0 0.0 {'rest': 6}
+Length 190.0 190.0 0.0 {'rest': 2}
+Length 205.0 212.0 0.0 {'rest': 1}
+Wheelbase -inf 95.0 0.0 {'rest': 3}
+Wheelbase 95.0 95.0 0.0 {'rest': 2}
+Wheelbase 99.0 114.0 0.0 {'rest': 9}
+Wheelbase 114.0 114.0 0.0 {'rest': 1}
+Width -inf 68.0 0.0 {'rest': 10}
+Width 68.0 68.0 0.0 {'rest': 1}
+Width 73.0 78.0 0.0 {'rest': 4}
+Width 78.0 inf 0.0 {'rest': 1}
+U-turn_space -inf 38.0 0.0 {'rest': 8}
+U-turn_space 38.0 38.0 0.0 {'rest': 2}
+U-turn_space 42.0 43.0 0.0 {'rest': 3}
+Rear_seat_room -inf 25.0 0.0 {'rest': 3}
+Rear_seat_room 25.0 25.0 0.0 {'rest': 2}
+Rear_seat_room 30.0 30.5 0.0 {'rest': 2}
+Luggage_capacity -inf 12.0 0.0 {'rest': 4}
+Luggage_capacity 12.0 12.0 0.0 {'rest': 1}
+Luggage_capacity 16.0 21.0 0.0 {'rest': 2}
+Luggage_capacity 21.0 21.0 0.0 {'rest': 1}
+Error at file auto2.csv, 18
+sort with 93 evals {'CityMPG+': 42.0, 'HighwayMPG+': 46.0, 'Weight-': 2350.0, 'Class-': 12.1, 'N': 6} {'CityMPG+': -98.38, 'HighwayMPG+': -119.7, 'Weight-': -17534.99, 'Class-': -6.18, 'N': 6}
+
+Current file auto93.csv
+
+Clndrs -inf 4.0
+Clndrs 4.0 6.0
+Clndrs 6.0 inf
+
+Volume -inf 258.0
+Volume 258.0 258.0
+Volume 258.0 318.0
+Volume 318.0 440.0
+Volume 440.0 440.0
+Volume 440.0 inf
+
+Model -inf 70.0
+Model 70.0 71.0
+Model 71.0 73.0
+Model 73.0 82.0
+Model 82.0 inf
+
+origin 1.0 1.0
+origin 2.0 2.0
+origin 3.0 3.0
+
+Clndrs 6.0 inf 0.78 {'best': 13, 'rest': 15}
+origin 1.0 1.0 0.57 {'best': 13, 'rest': 39}
+Model 71.0 73.0 0.49 {'best': 8, 'rest': 8}
+Volume 318.0 440.0 0.37 {'best': 6, 'rest': 6}
+Model -inf 70.0 0.21 {'best': 4, 'rest': 7}
+Volume 258.0 318.0 0.15 {'best': 3, 'rest': 6}
+Volume 440.0 440.0 0.12 {'best': 2, 'rest': 2}
+Volume 440.0 inf 0.05 {'best': 1, 'rest': 2}
+Model 70.0 71.0 0.03 {'best': 1, 'rest': 6}
+Clndrs -inf 4.0 0.0 {'rest': 24}
+Clndrs 4.0 6.0 0.0 {'rest': 13}
+Volume -inf 258.0 0.0 {'rest': 24}
+Volume 258.0 258.0 0.0 {'rest': 4}
+Model 73.0 82.0 0.0 {'rest': 16}
+Model 82.0 inf 0.0 {'rest': 2}
+origin 2.0 2.0 0.0 {'rest': 7}
+origin 3.0 3.0 0.0 {'rest': 6}
+Error at file auto93.csv, 0
+sort with 398 evals {'Lbs-': 1975.0, 'Acc+': 19.4, 'Mpg+': 40.0, 'N': 13} {'Lbs-': -14585.48, 'Acc+': -12.21, 'Mpg+': -67.35, 'N': 13}
+
+Current file china.csv
+
+AFP -inf 579.0
+AFP 579.0 1694.0
+AFP 1694.0 inf
+
+Input -inf 240.0
+Input 240.0 920.0
+Input 920.0 inf
+
+Output -inf 81.0
+Output 81.0 240.0
+Output 240.0 385.0
+Output 385.0 2455.0
+Output 2455.0 inf
+
+Enquiry -inf 30.0
+Enquiry 30.0 91.0
+Enquiry 91.0 135.0
+Enquiry 135.0 194.0
+Enquiry 194.0 385.0
+Enquiry 385.0 inf
+
+File -inf 91.0
+File 91.0 234.0
+File 234.0 378.0
+File 378.0 inf
+
+Interface -inf 50.0
+Interface 50.0 115.0
+Interface 115.0 inf
+
+Added -inf 443.0
+Added 443.0 1318.0
+Added 1318.0 inf
+
+Changed -inf 153.0
+Changed 153.0 498.0
+Changed 498.0 inf
+
+Deleted -inf 61.0
+Deleted 61.0 184.0
+Deleted 184.0 inf
+
+PDR_AFP -inf 2.3
+PDR_AFP 2.3 8.2
+PDR_AFP 8.2 13.5
+PDR_AFP 13.5 19.1
+PDR_AFP 19.1 23.1
+PDR_AFP 23.1 30.3
+PDR_AFP 30.3 77.7
+PDR_AFP 77.7 inf
+
+PDR_UFP -inf 2.9
+PDR_UFP 2.9 9.0
+PDR_UFP 9.0 16.0
+PDR_UFP 16.0 22.2
+PDR_UFP 22.2 28.4
+PDR_UFP 28.4 96.6
+PDR_UFP 96.6 inf
+
+NPDR_AFP -inf 3.3
+NPDR_AFP 3.3 9.9
+NPDR_AFP 9.9 16.5
+NPDR_AFP 16.5 22.6
+NPDR_AFP 22.6 27.9
+NPDR_AFP 27.9 36.6
+NPDR_AFP 36.6 39.4
+NPDR_AFP 39.4 45.5
+NPDR_AFP 45.5 inf
+
+NPDU_UFP -inf 3.5
+NPDU_UFP 3.5 10.6
+NPDU_UFP 10.6 17.3
+NPDU_UFP 17.3 25.1
+NPDU_UFP 25.1 96.6
+NPDU_UFP 96.6 inf
+
+Resource -inf 1.0
+Resource 1.0 2.0
+Resource 2.0 3.0
+Resource 3.0 inf
+
+DevType -inf inf
+
+Duration -inf 2.0
+Duration 2.0 8.0
+Duration 8.0 13.0
+Duration 13.0 19.0
+Duration 19.0 26.0
+Duration 26.0 inf
+
+Interface -inf 50.0 0.52 {'best': 16, 'rest': 59}
+Deleted -inf 61.0 0.51 {'best': 16, 'rest': 62}
+AFP -inf 579.0 0.5 {'best': 15, 'rest': 52}
+DevType -inf inf 0.5 {'best': 16, 'rest': 64}
+Input -inf 240.0 0.48 {'best': 15, 'rest': 56}
+File -inf 91.0 0.47 {'best': 14, 'rest': 49}
+Added -inf 443.0 0.45 {'best': 14, 'rest': 52}
+Changed -inf 153.0 0.43 {'best': 14, 'rest': 58}
+Output -inf 81.0 0.38 {'best': 12, 'rest': 46}
+Resource -inf 1.0 0.38 {'best': 12, 'rest': 48}
+Duration 2.0 8.0 0.37 {'best': 11, 'rest': 37}
+Enquiry -inf 30.0 0.29 {'best': 9, 'rest': 34}
+PDR_UFP 9.0 16.0 0.26 {'best': 6, 'rest': 10}
+NPDR_AFP 9.9 16.5 0.24 {'best': 6, 'rest': 13}
+NPDU_UFP 10.6 17.3 0.21 {'best': 5, 'rest': 10}
+PDR_UFP 16.0 22.2 0.19 {'best': 4, 'rest': 5}
+PDR_AFP 8.2 13.5 0.19 {'best': 5, 'rest': 13}
+NPDU_UFP 17.3 25.1 0.18 {'best': 4, 'rest': 6}
+NPDR_AFP 16.5 22.6 0.13 {'best': 3, 'rest': 5}
+Enquiry 30.0 91.0 0.13 {'best': 4, 'rest': 15}
+PDR_AFP 13.5 19.1 0.12 {'best': 3, 'rest': 7}
+PDR_AFP 19.1 23.1 0.11 {'best': 2, 'rest': 1}
+Resource 1.0 2.0 0.11 {'best': 3, 'rest': 9}
+Output 81.0 240.0 0.1 {'best': 3, 'rest': 11}
+Duration 8.0 13.0 0.09 {'best': 3, 'rest': 14}
+Changed 153.0 498.0 0.08 {'best': 2, 'rest': 5}
+Duration 19.0 26.0 0.06 {'best': 1}
+NPDU_UFP 3.5 10.6 0.06 {'best': 3, 'rest': 28}
+PDR_AFP 2.3 8.2 0.05 {'best': 3, 'rest': 29}
+NPDR_AFP 3.3 9.9 0.05 {'best': 3, 'rest': 30}
+File 91.0 234.0 0.05 {'best': 2, 'rest': 12}
+PDR_UFP 2.9 9.0 0.05 {'best': 3, 'rest': 33}
+NPDR_AFP 22.6 27.9 0.05 {'best': 1, 'rest': 1}
+NPDR_AFP 45.5 inf 0.05 {'best': 1, 'rest': 1}
+NPDU_UFP -inf 3.5 0.05 {'best': 2, 'rest': 14}
+PDR_AFP 23.1 30.3 0.04 {'best': 1, 'rest': 2}
+NPDR_AFP 27.9 36.6 0.04 {'best': 1, 'rest': 2}
+PDR_UFP 22.2 28.4 0.04 {'best': 1, 'rest': 3}
+Output 240.0 385.0 0.03 {'best': 1, 'rest': 4}
+Added 1318.0 inf 0.03 {'best': 1, 'rest': 4}
+Enquiry 135.0 194.0 0.03 {'best': 1, 'rest': 5}
+Resource 3.0 inf 0.03 {'best': 1, 'rest': 5}
+Input 240.0 920.0 0.02 {'best': 1, 'rest': 7}
+Duration 13.0 19.0 0.02 {'best': 1, 'rest': 7}
+Enquiry 91.0 135.0 0.02 {'best': 1, 'rest': 8}
+Added 443.0 1318.0 0.02 {'best': 1, 'rest': 8}
+PDR_AFP -inf 2.3 0.02 {'best': 1, 'rest': 9}
+PDR_UFP -inf 2.9 0.02 {'best': 1, 'rest': 10}
+NPDR_AFP -inf 3.3 0.02 {'best': 1, 'rest': 10}
+AFP 579.0 1694.0 0.02 {'best': 1, 'rest': 11}
+AFP 1694.0 inf 0.0 {'rest': 1}
+Input 920.0 inf 0.0 {'rest': 1}
+Output 385.0 2455.0 0.0 {'rest': 2}
+Output 2455.0 inf 0.0 {'rest': 1}
+Enquiry 194.0 385.0 0.0 {'rest': 2}
+Enquiry 385.0 inf 0.0 {'rest': 1}
+File 234.0 378.0 0.0 {'rest': 2}
+File 378.0 inf 0.0 {'rest': 1}
+Interface 50.0 115.0 0.0 {'rest': 4}
+Interface 115.0 inf 0.0 {'rest': 1}
+Changed 498.0 inf 0.0 {'rest': 1}
+Deleted 61.0 184.0 0.0 {'rest': 1}
+Deleted 184.0 inf 0.0 {'rest': 1}
+PDR_AFP 30.3 77.7 0.0 {'rest': 2}
+PDR_AFP 77.7 inf 0.0 {'rest': 1}
+PDR_UFP 28.4 96.6 0.0 {'rest': 2}
+PDR_UFP 96.6 inf 0.0 {'rest': 1}
+NPDR_AFP 36.6 39.4 0.0 {'rest': 1}
+NPDR_AFP 39.4 45.5 0.0 {'rest': 1}
+NPDU_UFP 25.1 96.6 0.0 {'rest': 6}
+NPDU_UFP 96.6 inf 0.0 {'rest': 1}
+Resource 2.0 3.0 0.0 {'rest': 2}
+Duration -inf 2.0 0.0 {'rest': 5}
+Duration 26.0 inf 0.0 {'rest': 1}
+Error at file china.csv, 6
+sort with 499 evals {'N_effort-': 145.0, 'N': 16} {'N_effort-': -484.05, 'N': 16}
+
+Current file coc1000.csv
+
+ACAP -inf 1.0
+ACAP 1.0 3.0
+ACAP 3.0 4.0
+ACAP 4.0 inf
+
+ARCH -inf 1.0
+ARCH 1.0 2.0
+ARCH 2.0 3.0
+ARCH 3.0 4.0
+ARCH 4.0 5.0
+ARCH 5.0 inf
+
+DATA -inf 2.0
+DATA 2.0 3.0
+DATA 3.0 4.0
+DATA 4.0 inf
+
+DOCU -inf 1.0
+DOCU 1.0 3.0
+DOCU 3.0 4.0
+DOCU 4.0 inf
+
+PCAP -inf 1.0
+PCAP 1.0 3.0
+PCAP 3.0 4.0
+PCAP 4.0 inf
+
+PCON -inf 1.0
+PCON 1.0 3.0
+PCON 3.0 4.0
+PCON 4.0 inf
+
+PMAT -inf 1.0
+PMAT 1.0 2.0
+PMAT 2.0 3.0
+PMAT 3.0 4.0
+PMAT 4.0 5.0
+PMAT 5.0 inf
+
+PREC -inf 1.0
+PREC 1.0 2.0
+PREC 2.0 3.0
+PREC 3.0 4.0
+PREC 4.0 5.0
+PREC 5.0 inf
+
+PVOL -inf 2.0
+PVOL 2.0 3.0
+PVOL 3.0 4.0
+PVOL 4.0 inf
+
+RELY -inf 1.0
+RELY 1.0 3.0
+RELY 3.0 4.0
+RELY 4.0 inf
+
+RUSE -inf 3.0
+RUSE 3.0 4.0
+RUSE 4.0 5.0
+RUSE 5.0 inf
+
+SCED -inf 1.0
+SCED 1.0 3.0
+SCED 3.0 4.0
+SCED 4.0 inf
+
+SITE -inf 1.0
+SITE 1.0 3.0
+SITE 3.0 4.0
+SITE 4.0 inf
+
+STOR -inf 3.0
+STOR 3.0 4.0
+STOR 4.0 5.0
+STOR 5.0 inf
+
+TEAM -inf 1.0
+TEAM 1.0 2.0
+TEAM 2.0 3.0
+TEAM 3.0 4.0
+TEAM 4.0 5.0
+TEAM 5.0 inf
+
+TIME -inf 3.0
+TIME 3.0 4.0
+TIME 4.0 5.0
+TIME 5.0 inf
+
+TOOL -inf 1.0
+TOOL 1.0 3.0
+TOOL 3.0 4.0
+TOOL 4.0 inf
+
+TIME 3.0 4.0 0.36 {'best': 10, 'rest': 29}
+SITE 1.0 3.0 0.31 {'best': 9, 'rest': 29}
+TOOL 1.0 3.0 0.31 {'best': 9, 'rest': 29}
+ARCH 1.0 2.0 0.31 {'best': 7, 'rest': 12}
+SCED 1.0 3.0 0.28 {'best': 9, 'rest': 36}
+TEAM 3.0 4.0 0.27 {'best': 6, 'rest': 9}
+STOR 4.0 5.0 0.27 {'best': 8, 'rest': 27}
+DOCU 1.0 3.0 0.26 {'best': 8, 'rest': 30}
+PCON 1.0 3.0 0.25 {'best': 8, 'rest': 31}
+PCAP 1.0 3.0 0.24 {'best': 8, 'rest': 34}
+PMAT 2.0 3.0 0.24 {'best': 6, 'rest': 14}
+PVOL 3.0 4.0 0.24 {'best': 6, 'rest': 14}
+RELY 3.0 4.0 0.23 {'best': 6, 'rest': 15}
+DATA 3.0 4.0 0.23 {'best': 7, 'rest': 26}
+PCAP 3.0 4.0 0.22 {'best': 5, 'rest': 8}
+DOCU 3.0 4.0 0.21 {'best': 6, 'rest': 19}
+SCED -inf 1.0 0.21 {'best': 5, 'rest': 10}
+RUSE 3.0 4.0 0.2 {'best': 6, 'rest': 22}
+RELY 1.0 3.0 0.19 {'best': 7, 'rest': 36}
+ACAP -inf 1.0 0.19 {'best': 4, 'rest': 5}
+RUSE 5.0 inf 0.19 {'best': 4, 'rest': 5}
+PREC 3.0 4.0 0.18 {'best': 5, 'rest': 14}
+PCON 4.0 inf 0.17 {'best': 4, 'rest': 7}
+ACAP 1.0 3.0 0.17 {'best': 6, 'rest': 30}
+TEAM 5.0 inf 0.17 {'best': 4, 'rest': 8}
+SITE 3.0 4.0 0.16 {'best': 5, 'rest': 20}
+DATA -inf 2.0 0.15 {'best': 4, 'rest': 10}
+DATA 2.0 3.0 0.14 {'best': 5, 'rest': 24}
+PREC 5.0 inf 0.14 {'best': 3, 'rest': 4}
+PMAT 4.0 5.0 0.14 {'best': 4, 'rest': 13}
+PVOL -inf 2.0 0.13 {'best': 4, 'rest': 15}
+ARCH 2.0 3.0 0.11 {'best': 3, 'rest': 8}
+STOR 5.0 inf 0.11 {'best': 3, 'rest': 8}
+ACAP 3.0 4.0 0.11 {'best': 4, 'rest': 20}
+PREC 2.0 3.0 0.11 {'best': 3, 'rest': 9}
+TEAM -inf 1.0 0.11 {'best': 3, 'rest': 9}
+TOOL 4.0 inf 0.1 {'best': 3, 'rest': 10}
+RUSE -inf 3.0 0.1 {'best': 4, 'rest': 24}
+STOR 3.0 4.0 0.1 {'best': 4, 'rest': 25}
+PVOL 4.0 inf 0.09 {'best': 3, 'rest': 12}
+ARCH 5.0 inf 0.09 {'best': 2, 'rest': 3}
+PMAT 5.0 inf 0.09 {'best': 2, 'rest': 3}
+TOOL 3.0 4.0 0.08 {'best': 3, 'rest': 16}
+PREC 4.0 5.0 0.07 {'best': 3, 'rest': 18}
+RELY -inf 1.0 0.07 {'best': 2, 'rest': 6}
+SITE -inf 1.0 0.07 {'best': 2, 'rest': 6}
+PVOL 2.0 3.0 0.06 {'best': 3, 'rest': 23}
+PMAT -inf 1.0 0.06 {'best': 2, 'rest': 8}
+ACAP 4.0 inf 0.06 {'best': 2, 'rest': 9}
+PCON -inf 1.0 0.06 {'best': 2, 'rest': 10}
+TEAM 2.0 3.0 0.06 {'best': 2, 'rest': 10}
+TIME -inf 3.0 0.06 {'best': 2, 'rest': 10}
+TIME 5.0 inf 0.06 {'best': 2, 'rest': 10}
+ARCH 3.0 4.0 0.05 {'best': 2, 'rest': 12}
+RUSE 4.0 5.0 0.05 {'best': 2, 'rest': 13}
+PCAP -inf 1.0 0.05 {'best': 2, 'rest': 14}
+TIME 4.0 5.0 0.04 {'best': 2, 'rest': 15}
+PCON 3.0 4.0 0.04 {'best': 2, 'rest': 16}
+STOR -inf 3.0 0.03 {'best': 1, 'rest': 4}
+SCED 4.0 inf 0.03 {'best': 1, 'rest': 5}
+DOCU 4.0 inf 0.02 {'best': 1, 'rest': 7}
+PREC -inf 1.0 0.02 {'best': 1, 'rest': 7}
+RELY 4.0 inf 0.02 {'best': 1, 'rest': 7}
+DOCU -inf 1.0 0.02 {'best': 1, 'rest': 8}
+PCAP 4.0 inf 0.02 {'best': 1, 'rest': 8}
+TOOL -inf 1.0 0.02 {'best': 1, 'rest': 9}
+ARCH -inf 1.0 0.02 {'best': 1, 'rest': 12}
+PMAT 1.0 2.0 0.02 {'best': 1, 'rest': 12}
+PREC 1.0 2.0 0.02 {'best': 1, 'rest': 12}
+TEAM 4.0 5.0 0.02 {'best': 1, 'rest': 12}
+SCED 3.0 4.0 0.01 {'best': 1, 'rest': 13}
+PMAT 3.0 4.0 0.01 {'best': 1, 'rest': 14}
+ARCH 4.0 5.0 0.01 {'best': 1, 'rest': 17}
+DATA 4.0 inf 0.0 {'rest': 4}
+SITE 4.0 inf 0.0 {'rest': 9}
+TEAM 1.0 2.0 0.0 {'rest': 16}
+Error at file coc1000.csv, 21
+sort with 1000 evals {'LOC+': 1673.0, 'AEXP-': 2.0, 'PLEX-': 2.0, 'RISK-': 1.0, 'EFFORT-': 6320.0, 'N': 16} {'LOC+': -10600.66, 'AEXP-': 5.2, 'PLEX-': 4.62, 'RISK-': 5.42, 'EFFORT-': -398186.8, 'N': 16}
+
+Current file coc10000.csv
+
+Acap -inf 1.0
+Acap 1.0 3.0
+Acap 3.0 4.0
+Acap 4.0 inf
+
+Aexp -inf 1.0
+Aexp 1.0 3.0
+Aexp 3.0 4.0
+Aexp 4.0 inf
+
+Arch -inf 1.0
+Arch 1.0 2.0
+Arch 2.0 3.0
+Arch 3.0 4.0
+Arch 4.0 5.0
+Arch 5.0 inf
+
+Cplx -inf 1.0
+Cplx 1.0 2.0
+Cplx 2.0 3.0
+Cplx 3.0 4.0
+Cplx 4.0 5.0
+Cplx 5.0 inf
+
+Data -inf 2.0
+Data 2.0 3.0
+Data 3.0 4.0
+Data 4.0 inf
+
+Docu -inf 1.0
+Docu 1.0 3.0
+Docu 3.0 4.0
+Docu 4.0 inf
+
+Flex -inf 1.0
+Flex 1.0 2.0
+Flex 2.0 3.0
+Flex 3.0 4.0
+Flex 4.0 5.0
+Flex 5.0 inf
+
+Ltex -inf 1.0
+Ltex 1.0 3.0
+Ltex 3.0 4.0
+Ltex 4.0 inf
+
+Pcap -inf 1.0
+Pcap 1.0 3.0
+Pcap 3.0 4.0
+Pcap 4.0 inf
+
+Pcon -inf 1.0
+Pcon 1.0 3.0
+Pcon 3.0 4.0
+Pcon 4.0 inf
+
+Plex -inf 1.0
+Plex 1.0 3.0
+Plex 3.0 4.0
+Plex 4.0 inf
+
+Pmat -inf 1.0
+Pmat 1.0 2.0
+Pmat 2.0 3.0
+Pmat 3.0 4.0
+Pmat 4.0 5.0
+Pmat 5.0 inf
+
+Prec -inf 1.0
+Prec 1.0 2.0
+Prec 2.0 3.0
+Prec 3.0 4.0
+Prec 4.0 5.0
+Prec 5.0 inf
+
+Pvol -inf 2.0
+Pvol 2.0 3.0
+Pvol 3.0 4.0
+Pvol 4.0 inf
+
+Rely -inf 1.0
+Rely 1.0 5.0
+Rely 5.0 inf
+
+Ruse -inf 3.0
+Ruse 3.0 4.0
+Ruse 4.0 5.0
+Ruse 5.0 inf
+
+Sced -inf 1.0
+Sced 1.0 3.0
+Sced 3.0 4.0
+Sced 4.0 inf
+
+Site -inf 1.0
+Site 1.0 3.0
+Site 3.0 4.0
+Site 4.0 inf
+
+Stor -inf 3.0
+Stor 3.0 4.0
+Stor 4.0 5.0
+Stor 5.0 inf
+
+Team -inf 1.0
+Team 1.0 2.0
+Team 2.0 3.0
+Team 3.0 4.0
+Team 4.0 5.0
+Team 5.0 inf
+
+Time -inf 3.0
+Time 3.0 4.0
+Time 4.0 5.0
+Time 5.0 inf
+
+Tool -inf 1.0
+Tool 1.0 3.0
+Tool 3.0 4.0
+Tool 4.0 inf
+
+Rely 1.0 5.0 0.3 {'best': 48, 'rest': 192}
+Ltex 1.0 3.0 0.28 {'best': 42, 'rest': 146}
+Acap 1.0 3.0 0.28 {'best': 42, 'rest': 151}
+Site 1.0 3.0 0.28 {'best': 44, 'rest': 177}
+Sced 1.0 3.0 0.27 {'best': 42, 'rest': 161}
+Stor 3.0 4.0 0.27 {'best': 36, 'rest': 100}
+Pcon 1.0 3.0 0.26 {'best': 42, 'rest': 171}
+Ruse 4.0 5.0 0.26 {'best': 33, 'rest': 79}
+Plex 1.0 3.0 0.26 {'best': 39, 'rest': 140}
+Tool 1.0 3.0 0.25 {'best': 40, 'rest': 163}
+Docu 1.0 3.0 0.24 {'best': 39, 'rest': 161}
+Aexp 1.0 3.0 0.24 {'best': 38, 'rest': 151}
+Pvol 2.0 3.0 0.24 {'best': 32, 'rest': 90}
+Pcap 1.0 3.0 0.24 {'best': 38, 'rest': 156}
+Time 3.0 4.0 0.21 {'best': 31, 'rest': 103}
+Data 2.0 3.0 0.2 {'best': 30, 'rest': 105}
+Pvol 3.0 4.0 0.2 {'best': 30, 'rest': 105}
+Data 3.0 4.0 0.2 {'best': 29, 'rest': 99}
+Docu 3.0 4.0 0.16 {'best': 23, 'rest': 79}
+Pmat 4.0 5.0 0.15 {'best': 22, 'rest': 73}
+Prec 2.0 3.0 0.15 {'best': 20, 'rest': 57}
+Pcap 3.0 4.0 0.15 {'best': 22, 'rest': 81}
+Arch 1.0 2.0 0.14 {'best': 20, 'rest': 64}
+Team 3.0 4.0 0.14 {'best': 19, 'rest': 58}
+Plex 3.0 4.0 0.13 {'best': 22, 'rest': 94}
+Stor 4.0 5.0 0.13 {'best': 23, 'rest': 107}
+Team 1.0 2.0 0.13 {'best': 20, 'rest': 76}
+Flex 2.0 3.0 0.13 {'best': 19, 'rest': 67}
+Prec 1.0 2.0 0.13 {'best': 18, 'rest': 57}
+Aexp 3.0 4.0 0.13 {'best': 20, 'rest': 82}
+Sced 3.0 4.0 0.12 {'best': 19, 'rest': 76}
+Tool 3.0 4.0 0.12 {'best': 19, 'rest': 78}
+Cplx 1.0 2.0 0.12 {'best': 18, 'rest': 67}
+Arch 4.0 5.0 0.12 {'best': 17, 'rest': 57}
+Pmat 1.0 2.0 0.12 {'best': 17, 'rest': 58}
+Site 3.0 4.0 0.12 {'best': 18, 'rest': 70}
+Pcon 4.0 inf 0.11 {'best': 15, 'rest': 40}
+Time 4.0 5.0 0.11 {'best': 20, 'rest': 103}
+Flex 4.0 5.0 0.11 {'best': 17, 'rest': 65}
+Ltex 3.0 4.0 0.11 {'best': 18, 'rest': 78}
+Time -inf 3.0 0.11 {'best': 16, 'rest': 57}
+Prec 4.0 5.0 0.1 {'best': 16, 'rest': 61}
+Acap 3.0 4.0 0.1 {'best': 18, 'rest': 87}
+Flex 3.0 4.0 0.1 {'best': 15, 'rest': 52}
+Pmat 3.0 4.0 0.1 {'best': 16, 'rest': 65}
+Flex 1.0 2.0 0.1 {'best': 16, 'rest': 69}
+Ruse 3.0 4.0 0.1 {'best': 17, 'rest': 83}
+Pcap -inf 1.0 0.1 {'best': 14, 'rest': 47}
+Cplx 4.0 5.0 0.1 {'best': 16, 'rest': 72}
+Pcon 3.0 4.0 0.1 {'best': 16, 'rest': 72}
+Cplx 2.0 3.0 0.09 {'best': 15, 'rest': 61}
+Docu -inf 1.0 0.09 {'best': 13, 'rest': 40}
+Ruse -inf 3.0 0.09 {'best': 18, 'rest': 113}
+Aexp -inf 1.0 0.09 {'best': 12, 'rest': 35}
+Cplx 5.0 inf 0.09 {'best': 11, 'rest': 27}
+Arch 5.0 inf 0.08 {'best': 11, 'rest': 30}
+Tool -inf 1.0 0.08 {'best': 12, 'rest': 43}
+Team 2.0 3.0 0.08 {'best': 13, 'rest': 55}
+Team 4.0 5.0 0.08 {'best': 13, 'rest': 58}
+Arch 3.0 4.0 0.08 {'best': 14, 'rest': 72}
+Prec 3.0 4.0 0.08 {'best': 14, 'rest': 73}
+Ltex -inf 1.0 0.08 {'best': 12, 'rest': 47}
+Cplx -inf 1.0 0.08 {'best': 10, 'rest': 27}
+Time 5.0 inf 0.07 {'best': 12, 'rest': 53}
+Acap -inf 1.0 0.07 {'best': 11, 'rest': 41}
+Ruse 5.0 inf 0.07 {'best': 11, 'rest': 41}
+Pmat 2.0 3.0 0.07 {'best': 12, 'rest': 58}
+Pmat 5.0 inf 0.06 {'best': 9, 'rest': 31}
+Stor 5.0 inf 0.06 {'best': 11, 'rest': 59}
+Plex 4.0 inf 0.06 {'best': 10, 'rest': 46}
+Sced 4.0 inf 0.06 {'best': 9, 'rest': 38}
+Flex 5.0 inf 0.05 {'best': 8, 'rest': 27}
+Data -inf 2.0 0.05 {'best': 10, 'rest': 53}
+Site -inf 1.0 0.05 {'best': 9, 'rest': 40}
+Sced -inf 1.0 0.05 {'best': 9, 'rest': 41}
+Site 4.0 inf 0.05 {'best': 8, 'rest': 29}
+Data 4.0 inf 0.05 {'best': 10, 'rest': 59}
+Rely 5.0 inf 0.05 {'best': 8, 'rest': 32}
+Tool 4.0 inf 0.05 {'best': 8, 'rest': 32}
+Arch 2.0 3.0 0.05 {'best': 10, 'rest': 62}
+Aexp 4.0 inf 0.05 {'best': 9, 'rest': 48}
+Stor -inf 3.0 0.05 {'best': 9, 'rest': 50}
+Plex -inf 1.0 0.05 {'best': 8, 'rest': 36}
+Team 5.0 inf 0.05 {'best': 8, 'rest': 36}
+Acap 4.0 inf 0.05 {'best': 8, 'rest': 37}
+Rely -inf 1.0 0.04 {'best': 8, 'rest': 41}
+Arch -inf 1.0 0.04 {'best': 7, 'rest': 31}
+Cplx 3.0 4.0 0.04 {'best': 9, 'rest': 62}
+Pvol -inf 2.0 0.04 {'best': 8, 'rest': 49}
+Pvol 4.0 inf 0.04 {'best': 9, 'rest': 72}
+Ltex 4.0 inf 0.03 {'best': 7, 'rest': 45}
+Pcon -inf 1.0 0.03 {'best': 6, 'rest': 33}
+Team -inf 1.0 0.03 {'best': 6, 'rest': 33}
+Prec -inf 1.0 0.03 {'best': 6, 'rest': 37}
+Prec 5.0 inf 0.02 {'best': 5, 'rest': 31}
+Pcap 4.0 inf 0.02 {'best': 5, 'rest': 32}
+Docu 4.0 inf 0.02 {'best': 4, 'rest': 36}
+Flex -inf 1.0 0.02 {'best': 4, 'rest': 36}
+Pmat -inf 1.0 0.01 {'best': 3, 'rest': 31}
+Error at file coc10000.csv, 15
+sort with 10000 evals {'Loc+': 1978.0, 'Risk-': 2.0, 'Effort-': 14860.0, 'N': 79} {'Loc+': -8968.33, 'Risk-': 2.31, 'Effort-': -159076.53, 'N': 79}
+
+Current file healthCloseIsses12mths0001-hard.csv
+
+N_estimators -inf 10.0
+N_estimators 10.0 30.0
+N_estimators 30.0 40.0
+N_estimators 40.0 50.0
+N_estimators 50.0 60.0
+N_estimators 60.0 80.0
+N_estimators 80.0 90.0
+N_estimators 90.0 100.0
+N_estimators 100.0 120.0
+N_estimators 120.0 150.0
+N_estimators 150.0 150.0
+N_estimators 150.0 170.0
+N_estimators 170.0 180.0
+N_estimators 180.0 190.0
+N_estimators 190.0 inf
+
+criterion 0.0 0.0
+criterion 1.0 1.0
+criterion 2.0 2.0
+
+Min_sample_leaves -inf 1.0
+Min_sample_leaves 1.0 3.0
+Min_sample_leaves 3.0 4.0
+Min_sample_leaves 4.0 5.0
+Min_sample_leaves 5.0 6.0
+Min_sample_leaves 6.0 8.0
+Min_sample_leaves 8.0 9.0
+Min_sample_leaves 9.0 10.0
+Min_sample_leaves 10.0 12.0
+Min_sample_leaves 12.0 13.0
+Min_sample_leaves 13.0 14.0
+Min_sample_leaves 14.0 15.0
+Min_sample_leaves 15.0 17.0
+Min_sample_leaves 17.0 18.0
+Min_sample_leaves 18.0 19.0
+Min_sample_leaves 19.0 inf
+
+Min_impurity_decrease -inf 0.75
+Min_impurity_decrease 0.75 1.5
+Min_impurity_decrease 1.5 2.75
+Min_impurity_decrease 2.75 3.5
+Min_impurity_decrease 3.5 4.75
+Min_impurity_decrease 4.75 5.5
+Min_impurity_decrease 5.5 6.75
+Min_impurity_decrease 6.75 7.5
+Min_impurity_decrease 7.5 8.75
+Min_impurity_decrease 8.75 9.5
+Min_impurity_decrease 9.5 inf
+
+Max_depth -inf 1.0
+Max_depth 1.0 3.0
+Max_depth 3.0 4.0
+Max_depth 4.0 5.0
+Max_depth 5.0 6.0
+Max_depth 6.0 8.0
+Max_depth 8.0 9.0
+Max_depth 9.0 10.0
+Max_depth 10.0 12.0
+Max_depth 12.0 13.0
+Max_depth 13.0 14.0
+Max_depth 14.0 15.0
+Max_depth 15.0 17.0
+Max_depth 17.0 18.0
+Max_depth 18.0 19.0
+Max_depth 19.0 inf
+
+criterion 1.0 1.0 0.27 {'best': 37, 'rest': 111}
+criterion 2.0 2.0 0.15 {'best': 24, 'rest': 102}
+N_estimators 60.0 80.0 0.12 {'best': 15, 'rest': 34}
+Min_impurity_decrease 3.5 4.75 0.11 {'best': 15, 'rest': 41}
+Min_sample_leaves 15.0 17.0 0.11 {'best': 14, 'rest': 36}
+criterion 0.0 0.0 0.09 {'best': 18, 'rest': 103}
+N_estimators 100.0 120.0 0.09 {'best': 12, 'rest': 37}
+Min_sample_leaves 17.0 18.0 0.08 {'best': 8, 'rest': 8}
+Min_impurity_decrease 7.5 8.75 0.07 {'best': 11, 'rest': 43}
+Max_depth 6.0 8.0 0.07 {'best': 10, 'rest': 35}
+Min_sample_leaves 9.0 10.0 0.06 {'best': 8, 'rest': 18}
+Max_depth 18.0 19.0 0.06 {'best': 7, 'rest': 14}
+Min_impurity_decrease 2.75 3.5 0.06 {'best': 8, 'rest': 26}
+N_estimators 90.0 100.0 0.05 {'best': 6, 'rest': 11}
+N_estimators 150.0 170.0 0.05 {'best': 7, 'rest': 21}
+Min_impurity_decrease 9.5 inf 0.05 {'best': 6, 'rest': 12}
+Max_depth 15.0 17.0 0.05 {'best': 8, 'rest': 33}
+Min_sample_leaves 6.0 8.0 0.05 {'best': 9, 'rest': 48}
+Min_impurity_decrease 5.5 6.75 0.05 {'best': 8, 'rest': 40}
+Min_impurity_decrease 6.75 7.5 0.04 {'best': 7, 'rest': 28}
+Max_depth 12.0 13.0 0.04 {'best': 6, 'rest': 18}
+Min_sample_leaves 10.0 12.0 0.04 {'best': 7, 'rest': 30}
+Min_impurity_decrease 1.5 2.75 0.04 {'best': 7, 'rest': 31}
+Max_depth 14.0 15.0 0.04 {'best': 5, 'rest': 12}
+Max_depth 13.0 14.0 0.04 {'best': 5, 'rest': 14}
+Max_depth 5.0 6.0 0.04 {'best': 5, 'rest': 16}
+N_estimators 120.0 150.0 0.03 {'best': 6, 'rest': 30}
+Min_impurity_decrease -inf 0.75 0.03 {'best': 6, 'rest': 32}
+Max_depth 19.0 inf 0.03 {'best': 4, 'rest': 12}
+N_estimators 40.0 50.0 0.03 {'best': 4, 'rest': 13}
+N_estimators 80.0 90.0 0.03 {'best': 4, 'rest': 15}
+Min_impurity_decrease 4.75 5.5 0.03 {'best': 4, 'rest': 15}
+N_estimators 50.0 60.0 0.03 {'best': 4, 'rest': 16}
+Min_sample_leaves 14.0 15.0 0.03 {'best': 4, 'rest': 16}
+Max_depth 9.0 10.0 0.03 {'best': 4, 'rest': 16}
+Max_depth 10.0 12.0 0.02 {'best': 5, 'rest': 32}
+Min_impurity_decrease 0.75 1.5 0.02 {'best': 4, 'rest': 18}
+N_estimators -inf 10.0 0.02 {'best': 4, 'rest': 19}
+Min_sample_leaves 13.0 14.0 0.02 {'best': 4, 'rest': 19}
+Min_sample_leaves 1.0 3.0 0.02 {'best': 5, 'rest': 35}
+Max_depth 3.0 4.0 0.02 {'best': 4, 'rest': 20}
+Max_depth 1.0 3.0 0.02 {'best': 5, 'rest': 38}
+Min_sample_leaves 3.0 4.0 0.02 {'best': 3, 'rest': 9}
+N_estimators 10.0 30.0 0.02 {'best': 4, 'rest': 28}
+Min_sample_leaves 8.0 9.0 0.02 {'best': 3, 'rest': 13}
+Min_sample_leaves 18.0 19.0 0.02 {'best': 3, 'rest': 13}
+Max_depth -inf 1.0 0.02 {'best': 3, 'rest': 13}
+Min_sample_leaves 4.0 5.0 0.02 {'best': 3, 'rest': 14}
+Max_depth 8.0 9.0 0.02 {'best': 3, 'rest': 14}
+N_estimators 150.0 150.0 0.02 {'best': 3, 'rest': 15}
+Max_depth 17.0 18.0 0.02 {'best': 3, 'rest': 17}
+Min_sample_leaves 12.0 13.0 0.02 {'best': 3, 'rest': 18}
+N_estimators 30.0 40.0 0.01 {'best': 3, 'rest': 25}
+N_estimators 180.0 190.0 0.01 {'best': 2, 'rest': 10}
+Min_sample_leaves 19.0 inf 0.01 {'best': 2, 'rest': 10}
+Min_impurity_decrease 8.75 9.5 0.01 {'best': 3, 'rest': 30}
+Max_depth 4.0 5.0 0.01 {'best': 2, 'rest': 12}
+Min_sample_leaves 5.0 6.0 0.01 {'best': 2, 'rest': 15}
+N_estimators 170.0 180.0 0.01 {'best': 2, 'rest': 21}
+N_estimators 190.0 inf 0.01 {'best': 2, 'rest': 23}
+Min_sample_leaves -inf 1.0 0.0 {'best': 1, 'rest': 14}
+Error at file healthCloseIsses12mths0001-hard.csv, 4
+sort with 10000 evals {'MRE-': 69.09, 'ACC+': 18.28, 'PRED40+': 25.0, 'N': 79} {'MRE-': 17.26, 'ACC+': 33.48, 'PRED40+': 41.21, 'N': 79}
+
+Current file healthCloseIsses12mths0011-easy.csv
+
+N_estimators -inf 10.0
+N_estimators 10.0 30.0
+N_estimators 30.0 40.0
+N_estimators 40.0 50.0
+N_estimators 50.0 60.0
+N_estimators 60.0 80.0
+N_estimators 80.0 90.0
+N_estimators 90.0 100.0
+N_estimators 100.0 120.0
+N_estimators 120.0 130.0
+N_estimators 130.0 140.0
+N_estimators 140.0 150.0
+N_estimators 150.0 170.0
+N_estimators 170.0 180.0
+N_estimators 180.0 190.0
+N_estimators 190.0 inf
+
+criterion 0.0 0.0
+criterion 1.0 1.0
+criterion 2.0 2.0
+
+Min_sample_leaves -inf 1.0
+Min_sample_leaves 1.0 3.0
+Min_sample_leaves 3.0 4.0
+Min_sample_leaves 4.0 5.0
+Min_sample_leaves 5.0 6.0
+Min_sample_leaves 6.0 8.0
+Min_sample_leaves 8.0 9.0
+Min_sample_leaves 9.0 10.0
+Min_sample_leaves 10.0 12.0
+Min_sample_leaves 12.0 13.0
+Min_sample_leaves 13.0 14.0
+Min_sample_leaves 14.0 15.0
+Min_sample_leaves 15.0 17.0
+Min_sample_leaves 17.0 18.0
+Min_sample_leaves 18.0 19.0
+Min_sample_leaves 19.0 inf
+
+Min_impurity_decrease -inf 0.75
+Min_impurity_decrease 0.75 1.5
+Min_impurity_decrease 1.5 2.75
+Min_impurity_decrease 2.75 3.5
+Min_impurity_decrease 3.5 4.75
+Min_impurity_decrease 4.75 5.5
+Min_impurity_decrease 5.5 6.75
+Min_impurity_decrease 6.75 7.5
+Min_impurity_decrease 7.5 8.75
+Min_impurity_decrease 8.75 9.5
+Min_impurity_decrease 9.5 inf
+
+Max_depth -inf 1.0
+Max_depth 1.0 5.0
+Max_depth 5.0 5.0
+Max_depth 5.0 6.0
+Max_depth 6.0 8.0
+Max_depth 8.0 9.0
+Max_depth 9.0 10.0
+Max_depth 10.0 14.0
+Max_depth 14.0 14.0
+Max_depth 14.0 15.0
+Max_depth 15.0 17.0
+Max_depth 17.0 18.0
+Max_depth 18.0 19.0
+Max_depth 19.0 inf
+
+criterion 2.0 2.0 0.25 {'best': 35, 'rest': 105}
+criterion 0.0 0.0 0.24 {'best': 34, 'rest': 105}
+Min_impurity_decrease 3.5 4.75 0.15 {'best': 19, 'rest': 42}
+Max_depth 10.0 14.0 0.15 {'best': 20, 'rest': 52}
+Min_impurity_decrease 1.5 2.75 0.15 {'best': 18, 'rest': 39}
+Min_sample_leaves 15.0 17.0 0.13 {'best': 15, 'rest': 25}
+Min_sample_leaves 1.0 3.0 0.11 {'best': 14, 'rest': 33}
+N_estimators 60.0 80.0 0.08 {'best': 11, 'rest': 30}
+Min_impurity_decrease 0.75 1.5 0.08 {'best': 9, 'rest': 18}
+Min_sample_leaves 10.0 12.0 0.07 {'best': 10, 'rest': 32}
+Max_depth 6.0 8.0 0.07 {'best': 10, 'rest': 32}
+Max_depth 14.0 15.0 0.07 {'best': 7, 'rest': 10}
+N_estimators 100.0 120.0 0.06 {'best': 10, 'rest': 42}
+Min_impurity_decrease 4.75 5.5 0.06 {'best': 8, 'rest': 22}
+Max_depth 19.0 inf 0.06 {'best': 7, 'rest': 14}
+Min_impurity_decrease -inf 0.75 0.05 {'best': 8, 'rest': 31}
+Min_impurity_decrease 2.75 3.5 0.05 {'best': 7, 'rest': 23}
+N_estimators 120.0 130.0 0.05 {'best': 6, 'rest': 15}
+N_estimators 170.0 180.0 0.05 {'best': 6, 'rest': 15}
+N_estimators 80.0 90.0 0.04 {'best': 6, 'rest': 17}
+Min_sample_leaves 13.0 14.0 0.04 {'best': 6, 'rest': 17}
+N_estimators 150.0 170.0 0.04 {'best': 8, 'rest': 41}
+N_estimators 130.0 140.0 0.04 {'best': 5, 'rest': 12}
+N_estimators 190.0 inf 0.04 {'best': 5, 'rest': 12}
+Max_depth 1.0 5.0 0.04 {'best': 8, 'rest': 52}
+Max_depth 14.0 14.0 0.04 {'best': 5, 'rest': 13}
+Min_impurity_decrease 5.5 6.75 0.04 {'best': 7, 'rest': 37}
+Min_sample_leaves 8.0 9.0 0.04 {'best': 5, 'rest': 14}
+Max_depth 17.0 18.0 0.04 {'best': 5, 'rest': 14}
+Max_depth 18.0 19.0 0.04 {'best': 5, 'rest': 14}
+Min_sample_leaves 6.0 8.0 0.04 {'best': 6, 'rest': 28}
+criterion 1.0 1.0 0.03 {'best': 10, 'rest': 106}
+Max_depth 15.0 17.0 0.03 {'best': 6, 'rest': 29}
+N_estimators 50.0 60.0 0.03 {'best': 4, 'rest': 11}
+Min_sample_leaves 5.0 6.0 0.03 {'best': 4, 'rest': 11}
+N_estimators 40.0 50.0 0.03 {'best': 4, 'rest': 12}
+N_estimators 180.0 190.0 0.03 {'best': 4, 'rest': 15}
+Min_sample_leaves 3.0 4.0 0.02 {'best': 4, 'rest': 18}
+N_estimators 140.0 150.0 0.02 {'best': 4, 'rest': 22}
+Min_sample_leaves -inf 1.0 0.02 {'best': 3, 'rest': 17}
+Min_sample_leaves 12.0 13.0 0.02 {'best': 3, 'rest': 17}
+N_estimators 10.0 30.0 0.01 {'best': 3, 'rest': 26}
+Max_depth 5.0 5.0 0.01 {'best': 2, 'rest': 13}
+N_estimators 90.0 100.0 0.01 {'best': 2, 'rest': 14}
+Min_sample_leaves 4.0 5.0 0.01 {'best': 2, 'rest': 16}
+Min_sample_leaves 17.0 18.0 0.01 {'best': 2, 'rest': 16}
+Min_sample_leaves 14.0 15.0 0.01 {'best': 2, 'rest': 19}
+Min_sample_leaves 19.0 inf 0.01 {'best': 2, 'rest': 22}
+Max_depth -inf 1.0 0.01 {'best': 2, 'rest': 23}
+Min_impurity_decrease 7.5 8.75 0.0 {'best': 2, 'rest': 38}
+Max_depth 5.0 6.0 0.0 {'best': 1, 'rest': 9}
+N_estimators 30.0 40.0 0.0 {'best': 1, 'rest': 17}
+Min_sample_leaves 9.0 10.0 0.0 {'best': 1, 'rest': 18}
+Max_depth 8.0 9.0 0.0 {'best': 1, 'rest': 20}
+Max_depth 9.0 10.0 0.0 {'best': 1, 'rest': 20}
+Min_impurity_decrease 8.75 9.5 0.0 {'best': 1, 'rest': 24}
+N_estimators -inf 10.0 0.0 {'rest': 15}
+Min_sample_leaves 18.0 19.0 0.0 {'rest': 13}
+Min_impurity_decrease 6.75 7.5 0.0 {'rest': 28}
+Min_impurity_decrease 9.5 inf 0.0 {'rest': 14}
+Error at file healthCloseIsses12mths0011-easy.csv, 4
+sort with 10000 evals {'MRE-': 0.0, 'ACC+': 0.0, 'PRED40+': 83.33, 'N': 79} {'MRE-': 0, 'ACC+': 0, 'PRED40+': -6.42, 'N': 79}
+
+Current file nasa93dem.csv
+
+prec 0.0 0.0
+
+flex 0.0 0.0
+
+resl 0.0 0.0
+
+team 0.0 0.0
+
+pmat 0.0 0.0
+pmat 1.0 1.0
+pmat 2.0 2.0
+
+rely 0.0 0.0
+rely 2.0 2.0
+rely 3.0 3.0
+
+data 0.0 0.0
+data 1.0 1.0
+data 2.0 2.0
+data 3.0 3.0
+
+cplx 0.0 0.0
+cplx 1.0 1.0
+cplx 2.0 2.0
+cplx 3.0 3.0
+cplx 4.0 4.0
+
+ruse 0.0 0.0
+
+docu 0.0 0.0
+
+time 0.0 0.0
+time 1.0 1.0
+time 2.0 2.0
+time 3.0 3.0
+
+stor 0.0 0.0
+stor 1.0 1.0
+stor 2.0 2.0
+stor 3.0 3.0
+
+pvol 0.0 0.0
+pvol 1.0 1.0
+pvol 2.0 2.0
+
+acap 0.0 0.0
+acap 1.0 1.0
+acap 2.0 2.0
+
+pcap 0.0 0.0
+pcap 1.0 1.0
+pcap 2.0 2.0
+
+pcon 0.0 0.0
+
+apex 0.0 0.0
+apex 2.0 2.0
+apex 3.0 3.0
+
+plex 0.0 0.0
+plex 1.0 1.0
+plex 2.0 2.0
+plex 3.0 3.0
+
+ltex 0.0 0.0
+ltex 1.0 1.0
+ltex 2.0 2.0
+ltex 3.0 3.0
+
+tool 0.0 0.0
+tool 1.0 1.0
+
+site 0.0 0.0
+
+sced 0.0 0.0
+sced 1.0 1.0
+
+pvol 2.0 2.0 0.67 {'best': 5, 'rest': 5}
+plex 2.0 2.0 0.65 {'best': 6, 'rest': 13}
+data 0.0 0.0 0.59 {'best': 4, 'rest': 2}
+sced 1.0 1.0 0.59 {'best': 6, 'rest': 17}
+apex 0.0 0.0 0.56 {'best': 5, 'rest': 10}
+stor 1.0 1.0 0.54 {'best': 5, 'rest': 11}
+prec 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+flex 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+resl 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+team 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+ruse 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+docu 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+pcon 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+site 0.0 0.0 0.5 {'best': 6, 'rest': 24}
+ltex 0.0 0.0 0.46 {'best': 5, 'rest': 16}
+pcap 0.0 0.0 0.44 {'best': 4, 'rest': 8}
+rely 2.0 2.0 0.41 {'best': 4, 'rest': 10}
+tool 1.0 1.0 0.41 {'best': 5, 'rest': 21}
+acap 0.0 0.0 0.38 {'best': 4, 'rest': 12}
+time 1.0 1.0 0.37 {'best': 4, 'rest': 13}
+cplx 0.0 0.0 0.36 {'best': 4, 'rest': 14}
+pmat 0.0 0.0 0.29 {'best': 3, 'rest': 9}
+pmat 1.0 1.0 0.22 {'best': 2, 'rest': 4}
+time 2.0 2.0 0.21 {'best': 2, 'rest': 5}
+cplx 1.0 1.0 0.17 {'best': 1}
+acap 1.0 1.0 0.16 {'best': 2, 'rest': 9}
+rely 0.0 0.0 0.14 {'best': 2, 'rest': 11}
+data 2.0 2.0 0.14 {'best': 2, 'rest': 11}
+pcap 1.0 1.0 0.13 {'best': 2, 'rest': 13}
+cplx 2.0 2.0 0.11 {'best': 1, 'rest': 2}
+stor 0.0 0.0 0.1 {'best': 1, 'rest': 3}
+tool 0.0 0.0 0.1 {'best': 1, 'rest': 3}
+ltex 2.0 2.0 0.08 {'best': 1, 'rest': 4}
+apex 2.0 2.0 0.05 {'best': 1, 'rest': 10}
+pmat 2.0 2.0 0.04 {'best': 1, 'rest': 11}
+pvol 1.0 1.0 0.03 {'best': 1, 'rest': 17}
+rely 3.0 3.0 0.0 {'rest': 3}
+data 1.0 1.0 0.0 {'rest': 9}
+data 3.0 3.0 0.0 {'rest': 2}
+cplx 3.0 3.0 0.0 {'rest': 6}
+cplx 4.0 4.0 0.0 {'rest': 2}
+time 0.0 0.0 0.0 {'rest': 4}
+time 3.0 3.0 0.0 {'rest': 2}
+stor 2.0 2.0 0.0 {'rest': 6}
+stor 3.0 3.0 0.0 {'rest': 4}
+pvol 0.0 0.0 0.0 {'rest': 2}
+acap 2.0 2.0 0.0 {'rest': 3}
+pcap 2.0 2.0 0.0 {'rest': 3}
+apex 3.0 3.0 0.0 {'rest': 4}
+plex 0.0 0.0 0.0 {'rest': 6}
+plex 1.0 1.0 0.0 {'rest': 4}
+plex 3.0 3.0 0.0 {'rest': 1}
+ltex 1.0 1.0 0.0 {'rest': 2}
+ltex 3.0 3.0 0.0 {'rest': 2}
+sced 0.0 0.0 0.0 {'rest': 7}
+Error at file nasa93dem.csv, 15
+sort with 93 evals {'Kloc+': 3.5, 'Effort-': 10.8, 'Defects-': 109.0, 'Months-': 7.8, 'N': 6} {'Kloc+': 1.05, 'Effort-': -28.01, 'Defects-': -634.26, 'Months-': -3.77, 'N': 6}
+
+Current file pom.csv
+
+Culture -inf inf
+
+Criticality -inf 1.0090502
+Criticality 1.0090502 inf
+
+Criticality Modifier -inf 2.0
+Criticality Modifier 2.0 3.0
+Criticality Modifier 3.0 4.0
+Criticality Modifier 4.0 5.0
+Criticality Modifier 5.0 6.0
+Criticality Modifier 6.0 inf
+
+Initial Known -inf inf
+
+InterDependency -inf 80.0
+InterDependency 80.0 81.0
+InterDependency 81.0 82.0
+InterDependency 82.0 84.0
+InterDependency 84.0 85.0
+InterDependency 85.0 86.0
+InterDependency 86.0 88.0
+InterDependency 88.0 89.0
+InterDependency 89.0 90.0
+InterDependency 90.0 91.0
+InterDependency 91.0 93.0
+InterDependency 93.0 94.0
+InterDependency 94.0 95.0
+InterDependency 95.0 96.0
+InterDependency 96.0 98.0
+InterDependency 98.0 inf
+
+Dynamism -inf 1.0
+Dynamism 1.0 2.0
+Dynamism 2.0 3.0
+Dynamism 3.0 5.0
+Dynamism 5.0 6.0
+Dynamism 6.0 7.0
+Dynamism 7.0 8.0
+Dynamism 8.0 inf
+
+Size -inf 0.0
+Size 0.0 inf
+
+Plan -inf 0.0
+Plan 0.0 1.0
+Plan 1.0 3.0
+Plan 3.0 inf
+
+Team Size -inf 11.0
+Team Size 11.0 12.0
+Team Size 12.0 14.0
+Team Size 14.0 15.0
+Team Size 15.0 17.0
+Team Size 17.0 18.0
+Team Size 18.0 inf
+
+Score: -inf 0.966657543
+Score: 0.966657543 inf
+
+Culture -inf inf 0.5 {'best': 79, 'rest': 316}
+Initial Known -inf inf 0.5 {'best': 79, 'rest': 316}
+Criticality 1.0090502 inf 0.38 {'best': 56, 'rest': 191}
+Score: -inf 0.966657543 0.38 {'best': 62, 'rest': 269}
+Size -inf 0.0 0.28 {'best': 42, 'rest': 153}
+Size 0.0 inf 0.22 {'best': 37, 'rest': 163}
+Plan 1.0 3.0 0.21 {'best': 34, 'rest': 147}
+Criticality Modifier 4.0 5.0 0.17 {'best': 20, 'rest': 40}
+Dynamism 3.0 5.0 0.16 {'best': 22, 'rest': 65}
+Score: 0.966657543 inf 0.13 {'best': 17, 'rest': 47}
+Plan 0.0 1.0 0.12 {'best': 18, 'rest': 60}
+Criticality -inf 1.0090502 0.12 {'best': 23, 'rest': 125}
+Team Size 12.0 14.0 0.12 {'best': 18, 'rest': 64}
+Plan -inf 0.0 0.12 {'best': 17, 'rest': 55}
+Team Size 18.0 inf 0.1 {'best': 13, 'rest': 30}
+InterDependency 86.0 88.0 0.09 {'best': 12, 'rest': 36}
+Criticality Modifier 6.0 inf 0.09 {'best': 13, 'rest': 48}
+Criticality Modifier -inf 2.0 0.08 {'best': 14, 'rest': 61}
+Team Size 14.0 15.0 0.08 {'best': 11, 'rest': 34}
+InterDependency 96.0 98.0 0.07 {'best': 9, 'rest': 22}
+Criticality Modifier 2.0 3.0 0.07 {'best': 12, 'rest': 57}
+InterDependency 91.0 93.0 0.07 {'best': 10, 'rest': 33}
+Team Size 15.0 17.0 0.07 {'best': 12, 'rest': 60}
+Dynamism -inf 1.0 0.07 {'best': 11, 'rest': 49}
+Team Size -inf 11.0 0.07 {'best': 12, 'rest': 63}
+Dynamism 2.0 3.0 0.06 {'best': 9, 'rest': 29}
+Dynamism 8.0 inf 0.06 {'best': 10, 'rest': 45}
+Criticality Modifier 5.0 6.0 0.05 {'best': 10, 'rest': 53}
+Plan 3.0 inf 0.05 {'best': 10, 'rest': 54}
+Criticality Modifier 3.0 4.0 0.05 {'best': 10, 'rest': 57}
+InterDependency 82.0 84.0 0.05 {'best': 8, 'rest': 34}
+Dynamism 6.0 7.0 0.05 {'best': 8, 'rest': 38}
+Dynamism 1.0 2.0 0.04 {'best': 7, 'rest': 29}
+InterDependency 88.0 89.0 0.04 {'best': 6, 'rest': 21}
+Team Size 11.0 12.0 0.04 {'best': 7, 'rest': 34}
+InterDependency 95.0 96.0 0.04 {'best': 5, 'rest': 12}
+InterDependency 81.0 82.0 0.04 {'best': 5, 'rest': 14}
+Dynamism 5.0 6.0 0.04 {'best': 6, 'rest': 27}
+Team Size 17.0 18.0 0.03 {'best': 6, 'rest': 31}
+Dynamism 7.0 8.0 0.03 {'best': 6, 'rest': 34}
+InterDependency 90.0 91.0 0.03 {'best': 4, 'rest': 12}
+InterDependency 80.0 81.0 0.03 {'best': 4, 'rest': 16}
+InterDependency 84.0 85.0 0.02 {'best': 4, 'rest': 17}
+InterDependency 98.0 inf 0.02 {'best': 3, 'rest': 18}
+InterDependency 94.0 95.0 0.01 {'best': 2, 'rest': 10}
+InterDependency 93.0 94.0 0.01 {'best': 2, 'rest': 11}
+InterDependency 85.0 86.0 0.01 {'best': 2, 'rest': 14}
+InterDependency 89.0 90.0 0.01 {'best': 2, 'rest': 28}
+InterDependency -inf 80.0 0.0 {'best': 1, 'rest': 18}
+Error at file pom.csv, 0
+sort with 10000 evals {'Cost-': 218.16, 'Completion+': 1.0, 'Idle-': 0.0, 'N': 79} {'Cost-': -149.98, 'Completion+': 6.13, 'Idle-': 0.01, 'N': 79}
+
+Current file SSM.csv
+
+f 0.0 0.0
+f 1.0 1.0
+
+sMOOTHER 1.0 1.0
+
+cOLORGS 0.0 0.0
+cOLORGS 1.0 1.0
+
+rELAXPARAMETER 0.0 0.0
+rELAXPARAMETER 1.0 1.0
+
+v 0.0 0.0
+v 1.0 1.0
+
+jACOBI 0.0 0.0
+jACOBI 1.0 1.0
+
+lINE 0.0 0.0
+lINE 1.0 1.0
+
+zEBRALINE 0.0 0.0
+zEBRALINE 1.0 1.0
+
+cYCLE 1.0 1.0
+
+ALPHA -inf 90.0
+ALPHA 90.0 inf
+
+BETA -inf 90.0
+BETA 90.0 inf
+
+PRESMOOTHING -inf 3.0
+PRESMOOTHING 3.0 3.0
+PRESMOOTHING 3.0 5.0
+PRESMOOTHING 5.0 6.0
+PRESMOOTHING 6.0 7.0
+PRESMOOTHING 7.0 inf
+
+POSTSMOOTHING -inf 0.0
+POSTSMOOTHING 0.0 1.0
+POSTSMOOTHING 1.0 2.0
+POSTSMOOTHING 2.0 3.0
+POSTSMOOTHING 3.0 5.0
+POSTSMOOTHING 5.0 6.0
+POSTSMOOTHING 6.0 7.0
+POSTSMOOTHING 7.0 inf
+
+sMOOTHER 1.0 1.0 0.5 {'best': 468, 'rest': 1872}
+cYCLE 1.0 1.0 0.5 {'best': 468, 'rest': 1872}
+PRESMOOTHING 3.0 5.0 0.41 {'best': 268, 'rest': 411}
+jACOBI 0.0 0.0 0.38 {'best': 352, 'rest': 1396}
+cOLORGS 0.0 0.0 0.38 {'best': 352, 'rest': 1406}
+lINE 0.0 0.0 0.37 {'best': 350, 'rest': 1407}
+zEBRALINE 0.0 0.0 0.37 {'best': 350, 'rest': 1407}
+f 1.0 1.0 0.26 {'best': 236, 'rest': 906}
+v 0.0 0.0 0.26 {'best': 236, 'rest': 906}
+rELAXPARAMETER 1.0 1.0 0.26 {'best': 234, 'rest': 896}
+rELAXPARAMETER 0.0 0.0 0.24 {'best': 234, 'rest': 976}
+f 0.0 0.0 0.24 {'best': 232, 'rest': 966}
+v 1.0 1.0 0.24 {'best': 232, 'rest': 966}
+PRESMOOTHING 5.0 6.0 0.22 {'best': 144, 'rest': 215}
+lINE 1.0 1.0 0.13 {'best': 118, 'rest': 465}
+zEBRALINE 1.0 1.0 0.13 {'best': 118, 'rest': 465}
+cOLORGS 1.0 1.0 0.12 {'best': 116, 'rest': 466}
+jACOBI 1.0 1.0 0.12 {'best': 116, 'rest': 476}
+POSTSMOOTHING 3.0 5.0 0.1 {'best': 96, 'rest': 443}
+POSTSMOOTHING 1.0 2.0 0.08 {'best': 64, 'rest': 204}
+POSTSMOOTHING 0.0 1.0 0.07 {'best': 60, 'rest': 212}
+POSTSMOOTHING 2.0 3.0 0.06 {'best': 56, 'rest': 216}
+PRESMOOTHING 6.0 7.0 0.06 {'best': 56, 'rest': 228}
+POSTSMOOTHING -inf 0.0 0.05 {'best': 48, 'rest': 175}
+POSTSMOOTHING 5.0 6.0 0.05 {'best': 48, 'rest': 188}
+POSTSMOOTHING 6.0 7.0 0.05 {'best': 48, 'rest': 207}
+POSTSMOOTHING 7.0 inf 0.05 {'best': 48, 'rest': 227}
+ALPHA -inf 90.0 0.0 {'rest': 1116}
+ALPHA 90.0 inf 0.0 {'rest': 183}
+BETA -inf 90.0 0.0 {'rest': 921}
+BETA 90.0 inf 0.0 {'rest': 174}
+PRESMOOTHING -inf 3.0 0.0 {'rest': 576}
+PRESMOOTHING 3.0 3.0 0.0 {'rest': 195}
+PRESMOOTHING 7.0 inf 0.0 {'rest': 211}
+Error at file SSM.csv, 1
+sort with 239360 evals {'NUMBERITERATIONS-': 3.0, 'TIMETOSOLUTION-': 92.14, 'N': 468} {'NUMBERITERATIONS-': 25.56, 'TIMETOSOLUTION-': 178.92, 'N': 468}
+
+Current file SSN.csv
+
+no_mbtree 0.0 0.0
+no_mbtree 1.0 1.0
+
+no_asm 0.0 0.0
+no_asm 1.0 1.0
+
+no_cabac 0.0 0.0
+no_cabac 1.0 1.0
+
+no_scenecut 0.0 0.0
+no_scenecut 1.0 1.0
+
+Aq_strength -inf 17.0
+Aq_strength 17.0 inf
+
+Bframes -inf 25.0
+Bframes 25.0 inf
+
+Qcomp -inf 1.0
+Qcomp 1.0 11.0
+Qcomp 11.0 inf
+
+Qp -inf 51.0
+Qp 51.0 inf
+
+Ref -inf 10.0
+Ref 10.0 inf
+
+Rc_lookahead -inf 250.0
+Rc_lookahead 250.0 inf
+
+B_bias -inf 100.0
+B_bias 100.0 inf
+
+Threads -inf 128.0
+Threads 128.0 inf
+
+Keyint -inf 1000.0
+Keyint 1000.0 inf
+
+Crf -inf 118.0
+Crf 118.0 435000000000000.0
+Crf 435000000000000.0 inf
+
+Scenecut -inf 100.0
+Scenecut 100.0 inf
+
+Seek -inf 1247.0
+Seek 1247.0 inf
+
+Ipratio -inf 14.0
+Ipratio 14.0 inf
+
+no_mbtree 0.0 0.0 0.57 {'best': 210, 'rest': 644}
+no_scenecut 0.0 0.0 0.56 {'best': 210, 'rest': 649}
+no_asm 0.0 0.0 0.56 {'best': 210, 'rest': 652}
+no_cabac 0.0 0.0 0.56 {'best': 210, 'rest': 653}
+Qcomp -inf 1.0 0.5 {'best': 210, 'rest': 827}
+Crf -inf 118.0 0.5 {'best': 210, 'rest': 829}
+no_mbtree 1.0 1.0 0.0 {'rest': 196}
+no_asm 1.0 1.0 0.0 {'rest': 188}
+no_cabac 1.0 1.0 0.0 {'rest': 187}
+no_scenecut 1.0 1.0 0.0 {'rest': 191}
+Aq_strength -inf 17.0 0.0 {'rest': 75}
+Aq_strength 17.0 inf 0.0 {'rest': 1}
+Bframes -inf 25.0 0.0 {'rest': 101}
+Bframes 25.0 inf 0.0 {'rest': 17}
+Qcomp 1.0 11.0 0.0 {'rest': 7}
+Qcomp 11.0 inf 0.0 {'rest': 1}
+Qp -inf 51.0 0.0 {'rest': 66}
+Qp 51.0 inf 0.0 {'rest': 16}
+Ref -inf 10.0 0.0 {'rest': 96}
+Ref 10.0 inf 0.0 {'rest': 8}
+Rc_lookahead -inf 250.0 0.0 {'rest': 142}
+Rc_lookahead 250.0 inf 0.0 {'rest': 16}
+B_bias -inf 100.0 0.0 {'rest': 63}
+B_bias 100.0 inf 0.0 {'rest': 15}
+Threads -inf 128.0 0.0 {'rest': 133}
+Threads 128.0 inf 0.0 {'rest': 16}
+Keyint -inf 1000.0 0.0 {'rest': 131}
+Keyint 1000.0 inf 0.0 {'rest': 17}
+Crf 118.0 435000000000000.0 0.0 {'rest': 10}
+Crf 435000000000000.0 inf 0.0 {'rest': 1}
+Scenecut -inf 100.0 0.0 {'rest': 154}
+Scenecut 100.0 inf 0.0 {'rest': 24}
+Seek -inf 1247.0 0.0 {'rest': 159}
+Seek 1247.0 inf 0.0 {'rest': 1}
+Ipratio -inf 14.0 0.0 {'rest': 65}
+Ipratio 14.0 inf 0.0 {'rest': 1}
+Error at file SSN.csv, 0
+sort with 53662 evals {'PSNR-': 26.33, 'Energy-': 607.91, 'N': 210} {'PSNR-': 78.06, 'Energy-': -736.81, 'N': 210}
+
+
+================== 4 passed, 4 warnings in 200.50s (0:03:20) ===================
+
+Process finished with exit code 0
