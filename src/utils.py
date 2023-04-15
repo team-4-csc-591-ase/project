@@ -299,7 +299,10 @@ def csv(file_name, fun):
 
 def delta(self, other):
     e, y, z = 1e-32, self, other
-    return abs(y.mu - z.mu) / ((e + y.sd**2 / y.n + z.sd**2 / z.n) ** 0.5)
+    try:
+        return abs(y.mu - z.mu) / ((e + y.sd**2 / y.n + z.sd**2 / z.n) ** 0.5)
+    except ZeroDivisionError:
+        return math.inf
 
 
 def bootstrap(y0, z0):

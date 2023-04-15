@@ -2,6 +2,7 @@ from src.utils import RX, scott_knot, tiles
 
 
 def test_scottknott():
+    print("HorsePower HI")
     for rx in tiles(
         scott_knot(
             [
