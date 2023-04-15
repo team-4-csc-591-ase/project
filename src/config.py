@@ -19,6 +19,11 @@ class CONSTS(Enum):
     Halves = "Halves"
     rest = "rest"
     d = "d"
+    cohen = "cohen"
+    cliff = "cliff"
+    bootstrap = "bootstrap"
+    conf = "conf"
+    width = "width"
 
 
 random_seeds = [1861316, 5558115, 6602314, 1705199, 143077, 3794878, 6905227, 7624225, 211415, 3982231, 380543, 9473979,
@@ -53,6 +58,11 @@ CONSTS_LIST: Dict[str, Any] = {
     CONSTS.Halves.name: 512,
     CONSTS.rest.name: 4,
     CONSTS.d.name: 0.35,
+    CONSTS.cohen.name: 0.35,
+    CONSTS.cliff.name: 0.4,
+    CONSTS.bootstrap.name: 512,
+    CONSTS.conf.name: 0.35,
+    CONSTS.width.name: 40,
 }
 
 # 1
@@ -73,6 +83,11 @@ CONSTS_LIST: Dict[str, Any] = {
 #     CONSTS.Halves.name: 512,
 #     CONSTS.rest.name: 3,
 #     CONSTS.d.name: 0.45,
+#     CONSTS.cohen.name: 0.35,
+#     CONSTS.cliff.name: 0.4,
+#     CONSTS.bootstrap.name: 512,
+#     CONSTS.conf.name: 0.35,
+#     CONSTS.width.name: 40,
 # }
 
 # 2
@@ -93,6 +108,11 @@ CONSTS_LIST: Dict[str, Any] = {
 #     CONSTS.Halves.name: 1024,
 #     CONSTS.rest.name: 4,
 #     CONSTS.d.name: 0.65,
+#     CONSTS.cohen.name: 0.35,
+#     CONSTS.cliff.name: 0.4,
+#     CONSTS.bootstrap.name: 512,
+#     CONSTS.conf.name: 0.35,
+#     CONSTS.width.name: 40,
 # }
 
 # 3
@@ -113,6 +133,11 @@ CONSTS_LIST: Dict[str, Any] = {
 #     CONSTS.Halves.name: 512,
 #     CONSTS.rest.name: 2,
 #     CONSTS.d.name: 0.50,
+#     CONSTS.cohen.name: 0.35,
+#     CONSTS.cliff.name: 0.4,
+#     CONSTS.bootstrap.name: 512,
+#     CONSTS.conf.name: 0.35,
+#     CONSTS.width.name: 40,
 # }
 
 # 4
