@@ -91,7 +91,7 @@ def half(data, rows=None, cols=None, above=None):
             return 1
 
     def proj(r):
-        return {"row": r, "x": cos(gap(r, A), gap(r, B), c)}
+        return {"row": r, "x": euclidean_distance(gap(r, A), gap(r, B), c)}
 
     rows = rows or data.rows
     some = lists.many(rows, CONSTS_LIST[CONSTS.Halves.name])
