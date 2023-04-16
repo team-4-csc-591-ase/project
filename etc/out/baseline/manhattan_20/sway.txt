@@ -1,0 +1,3352 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests/test_sway.py
+Testing started at 7:32 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests/test_sway.py --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 1 item
+
+test_sway.py::test_sway PASSED                                           [100%]
+Current iteration 0 Random Seed 1861316
+
+Current file auto2.csv
+<src.data.Data object at 0x123d05b50>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 23.0 :Class- 19.5 :HighwayMPG+ 30.0 :N 47 :Weight- 3085.0}
+     {:CityMPG+ 21.57 :Class- 22.94 :HighwayMPG+ 17.39 :N 47 :Weight- -15983.72}
+
+rest {:CityMPG+ 19.0 :Class- 15.1 :HighwayMPG+ 28.0 :N 188 :Weight- 3240.0}
+     {:CityMPG+ 63.8 :Class- 68.32 :HighwayMPG+ 75.34 :N 188 :Weight- -14356.68}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x123d3ced0>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 9.5 :Lbs- 3761.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 56.31 :Lbs- -12883.2 :Mpg+ 67.21 :N 199}
+
+rest {:Acc+ 21.5 :Lbs- 1985.0 :Mpg+ 40.0 :N 796}
+     {:Acc+ 89.51 :Lbs- -5173.38 :Mpg+ 126.03 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x123d82e90>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 450.0}
+     {:N 250 :N_effort- -28341.87}
+
+rest {:N 1000 :N_effort- 1440.0}
+     {:N 1000 :N_effort- -8978.19}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x123f0fcd0>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 2.0 :EFFORT- 13670.0 :LOC+ 394.0 :N 500 :PLEX- 4.0 :RISK- 7.0}
+     {:AEXP- 21.99 :EFFORT- -204243.06 :LOC+ -1270.36 :N 500 :PLEX- 22.37 :RISK- 44.21}
+
+rest {:AEXP- 4.0 :EFFORT- 26094.0 :LOC+ 1236.0 :N 2000 :PLEX- 2.0 :RISK- 2.0}
+     {:AEXP- 13.89 :EFFORT- -74382.63 :LOC+ 370.58 :N 2000 :PLEX- 14.12 :RISK- 20.93}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x123f6c590>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6949.31 :Loc+ 312.17 :N 10000 :Risk- 6.91}
+
+best {:Effort- 2855.0 :Loc+ 48.0 :N 5000 :Risk- 23.0}
+     {:Effort- -29816.62 :Loc+ 420.23 :N 5000 :Risk- 19.83}
+
+rest {:Effort- 3729.0 :Loc+ 720.0 :N 20000 :Risk- 6.0}
+     {:Effort- -1395.13 :Loc+ 202.94 :N 20000 :Risk- 2.81}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1243d9350>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.11 :N 10000 :PRED40+ 18.72}
+
+best {:ACC+ 0.22 :MRE- 99.17 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 6.19 :MRE- 105.59 :N 5000 :PRED40+ 36.3}
+
+rest {:ACC+ 7.19 :MRE- 74.84 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 3.48 :MRE- 32.5 :N 20000 :PRED40+ 10.44}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x12473fad0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.69 :N 10000 :PRED40+ 13.44}
+
+best {:ACC+ -12.85 :MRE- 120.92 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 122.76 :N 5000 :PRED40+ 6.63}
+
+rest {:ACC+ -12.11 :MRE- 119.03 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 32.31 :N 20000 :PRED40+ 9.09}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x123f61a90>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 5434.0 :Effort- 215.0 :Kloc+ 100.0 :Months- 30.1 :N 46}
+     {:Defects- -21951.49 :Effort- -3713.58 :Kloc+ -131.47 :Months- 18.82 :N 46}
+
+rest {:Defects- 1594.0 :Effort- 599.0 :Kloc+ 41.0 :Months- 23.0 :N 184}
+     {:Defects- -30035.49 :Effort- -1777.01 :Kloc+ -53.59 :Months- 65.06 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x123f8a190>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.13 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.89 :Cost- 383.27 :Idle- 0.47 :N 5000}
+     {:Completion+ 2.24 :Cost- 272.55 :Idle- 0.67 :N 5000}
+
+rest {:Completion+ 0.94 :Cost- 367.2 :Idle- 0.55 :N 20000}
+     {:Completion+ 0.63 :Cost- 101.39 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x1247302d0>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.62 :TIMETOSOLUTION- 48.1}
+
+best {:N 119680 :NUMBERITERATIONS- 168.0 :TIMETOSOLUTION- 2132.16}
+     {:N 119680 :NUMBERITERATIONS- 4.18 :TIMETOSOLUTION- 32.53}
+
+rest {:N 478720 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 92.62}
+     {:N 478720 :NUMBERITERATIONS- 0.98 :TIMETOSOLUTION- 10.63}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x127d23690>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.61 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1384.46 :N 26831 :PSNR- 37.44}
+     {:Energy- 253.02 :N 26831 :PSNR- 15.58}
+
+rest {:Energy- 6579.14 :N 107324 :PSNR- 28.03}
+     {:Energy- 95.78 :N 107324 :PSNR- 4.82}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 1 Random Seed 5558115
+
+Current file auto2.csv
+<src.data.Data object at 0x127d43f90>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 23.0 :Class- 10.1 :HighwayMPG+ 30.0 :N 46 :Weight- 2530.0}
+     {:CityMPG+ 21.71 :Class- 22.76 :HighwayMPG+ 17.47 :N 46 :Weight- -16552.83}
+
+rest {:CityMPG+ 19.0 :Class- 61.9 :HighwayMPG+ 25.0 :N 184 :Weight- 3525.0}
+     {:CityMPG+ 64.29 :Class- 65.76 :HighwayMPG+ 75.21 :N 184 :Weight- -14105.67}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x130236850>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 9.5 :Lbs- 3761.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 56.31 :Lbs- -12883.2 :Mpg+ 67.21 :N 199}
+
+rest {:Acc+ 16.5 :Lbs- 2100.0 :Mpg+ 30.0 :N 796}
+     {:Acc+ 88.96 :Lbs- -5258.06 :Mpg+ 125.87 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1323bad50>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 249 :N_effort- 3877.0}
+     {:N 249 :N_effort- -27000.94}
+
+rest {:N 996 :N_effort- 5864.0}
+     {:N 996 :N_effort- -10089.07}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x131898d90>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 2.0 :EFFORT- 8974.0 :LOC+ 508.0 :N 500 :PLEX- 3.0 :RISK- 8.0}
+     {:AEXP- 21.56 :EFFORT- -225213.25 :LOC+ -1437.02 :N 500 :PLEX- 21.99 :RISK- 32.23}
+
+rest {:AEXP- 4.0 :EFFORT- 10842.0 :LOC+ 859.0 :N 2000 :PLEX- 4.0 :RISK- 6.0}
+     {:AEXP- 14.01 :EFFORT- -65310.61 :LOC+ 387.74 :N 2000 :PLEX- 14.63 :RISK- 30.15}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x127d21950>
+
+all  {:Effort- 3799.0 :Loc+ 600.0 :N 10000 :Risk- 1.0}
+     {:Effort- -6971.91 :Loc+ 312.16 :N 10000 :Risk- 6.92}
+
+best {:Effort- 8641.0 :Loc+ 251.0 :N 5000 :Risk- 20.0}
+     {:Effort- -16160.29 :Loc+ 424.6 :N 5000 :Risk- 14.46}
+
+rest {:Effort- 45118.0 :Loc+ 1077.0 :N 20000 :Risk- 8.0}
+     {:Effort- -2182.12 :Loc+ 211.35 :N 20000 :Risk- 3.4}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1247d0490>
+
+all  {:ACC+ 0.0 :MRE- 100.0 :N 10000 :PRED40+ 37.5}
+     {:ACC+ 5.55 :MRE- 58.14 :N 10000 :PRED40+ 18.76}
+
+best {:ACC+ 9.69 :MRE- 66.89 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 6.75 :MRE- 104.6 :N 5000 :PRED40+ 37.68}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 3.45 :MRE- 32.5 :N 20000 :PRED40+ 10.13}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x123d87250>
+
+all  {:ACC+ 0.0 :MRE- 0.0 :N 10000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 59.54 :N 10000 :PRED40+ 13.56}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 75.09 :N 5000 :PRED40+ 39.58}
+
+rest {:ACC+ -14.39 :MRE- 125.33 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 43.07 :N 20000 :PRED40+ 1.66}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x124412350>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 4840.0 :Effort- 750.0 :Kloc+ 101.0 :Months- 32.4 :N 46}
+     {:Defects- -34140.15 :Effort- -5028.68 :Kloc+ -255.51 :Months- 15.5 :N 46}
+
+rest {:Defects- 1555.0 :Effort- 72.0 :Kloc+ 34.0 :Months- 16.2 :N 184}
+     {:Defects- -13313.0 :Effort- -548.51 :Kloc+ 34.99 :Months- 61.74 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x127ea62d0>
+
+all  {:Completion+ 0.94 :Cost- 179.47 :Idle- 0.32 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.18 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.97 :Cost- 278.38 :Idle- 0.19 :N 5000}
+     {:Completion+ 2.24 :Cost- 258.6 :Idle- 0.72 :N 5000}
+
+rest {:Completion+ 0.85 :Cost- 290.16 :Idle- 0.08 :N 20000}
+     {:Completion+ 0.64 :Cost- 104.39 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x127ea6390>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 80.47}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 9.0 :TIMETOSOLUTION- 95.24}
+     {:N 119680 :NUMBERITERATIONS- 1.72 :TIMETOSOLUTION- 17.21}
+
+rest {:N 478720 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 129.0}
+     {:N 478720 :NUMBERITERATIONS- 1.32 :TIMETOSOLUTION- 13.17}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x1249d1a10>
+
+all  {:Energy- 2420.43 :N 53662 :PSNR- 48.57}
+     {:Energy- 232.63 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1000.41 :N 26831 :PSNR- 39.72}
+     {:Energy- 223.31 :N 26831 :PSNR- 15.72}
+
+rest {:Energy- 494.91 :N 107324 :PSNR- 39.75}
+     {:Energy- 108.34 :N 107324 :PSNR- 4.77}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 2 Random Seed 6602314
+
+Current file auto2.csv
+<src.data.Data object at 0x1311e19d0>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 20.0 :Class- 28.7 :HighwayMPG+ 26.0 :N 47 :Weight- 2775.0}
+     {:CityMPG+ 21.95 :Class- 22.08 :HighwayMPG+ 18.26 :N 47 :Weight- -16874.6}
+
+rest {:CityMPG+ 19.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 188 :Weight- 3240.0}
+     {:CityMPG+ 64.87 :Class- 65.56 :HighwayMPG+ 76.09 :N 188 :Weight- -14007.46}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x123dec9d0>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 17.0 :Lbs- 2639.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 58.74 :Lbs- -9783.5 :Mpg+ 75.16 :N 199}
+
+rest {:Acc+ 18.0 :Lbs- 2735.0 :Mpg+ 30.0 :N 796}
+     {:Acc+ 84.46 :Lbs- -7039.68 :Mpg+ 109.25 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1312b5090>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 1911.0}
+     {:N 250 :N_effort- -23115.69}
+
+rest {:N 1000 :N_effort- 471.0}
+     {:N 1000 :N_effort- -12719.76}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x124442d10>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 8971.0 :LOC+ 1110.0 :N 500 :PLEX- 3.0 :RISK- 14.0}
+     {:AEXP- 21.54 :EFFORT- -190140.27 :LOC+ -1320.87 :N 500 :PLEX- 22.09 :RISK- 37.46}
+
+rest {:AEXP- 4.0 :EFFORT- 7696.0 :LOC+ 278.0 :N 2000 :PLEX- 5.0 :RISK- 11.0}
+     {:AEXP- 13.98 :EFFORT- -82988.6 :LOC+ 359.93 :N 2000 :PLEX- 14.21 :RISK- 26.4}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x123dec490>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6970.61 :Loc+ 312.15 :N 10000 :Risk- 6.93}
+
+best {:Effort- 34484.0 :Loc+ 1753.0 :N 5000 :Risk- 3.0}
+     {:Effort- -21321.71 :Loc+ 422.76 :N 5000 :Risk- 12.44}
+
+rest {:Effort- 1880.0 :Loc+ 267.0 :N 20000 :Risk- 0.0}
+     {:Effort- -1658.97 :Loc+ 209.89 :N 20000 :Risk- 3.97}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x123fc0150>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.11 :N 10000 :PRED40+ 18.72}
+
+best {:ACC+ 7.89 :MRE- 72.57 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.73 :MRE- 91.78 :N 5000 :PRED40+ 29.6}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 1.56 :MRE- 36.19 :N 20000 :PRED40+ 12.15}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x13068f450>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.7 :N 10000 :PRED40+ 13.44}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 54.95 :N 5000 :PRED40+ 55.7}
+
+rest {:ACC+ -11.58 :MRE- 117.73 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 45.34 :N 20000 :PRED40+ 0}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x127ebbf90>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 6136.0 :Effort- 432.0 :Kloc+ 151.0 :Months- 26.2 :N 47}
+     {:Defects- -41847.15 :Effort- -5087.26 :Kloc+ -288.39 :Months- 15.74 :N 47}
+
+rest {:Defects- 887.0 :Effort- 114.0 :Kloc+ 16.0 :Months- 16.4 :N 188}
+     {:Defects- -9722.12 :Effort- -562.95 :Kloc+ 29.55 :Months- 58.77 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x1306fad10>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.13 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.77 :Cost- 293.29 :Idle- 0.05 :N 5000}
+     {:Completion+ 2.2 :Cost- 252.81 :Idle- 0.72 :N 5000}
+
+rest {:Completion+ 0.83 :Cost- 155.93 :Idle- 0.04 :N 20000}
+     {:Completion+ 0.65 :Cost- 115.59 :Idle- 0.19 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x127e15a10>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.62 :TIMETOSOLUTION- 48.11}
+
+best {:N 119680 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 82.47}
+     {:N 119680 :NUMBERITERATIONS- 13.56 :TIMETOSOLUTION- 118.2}
+
+rest {:N 478720 :NUMBERITERATIONS- 44.0 :TIMETOSOLUTION- 732.36}
+     {:N 478720 :NUMBERITERATIONS- 0.33 :TIMETOSOLUTION- 3.93}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x124a78c50>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.95 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 369.75 :N 26831 :PSNR- 45.08}
+     {:Energy- 167.95 :N 26831 :PSNR- 15.82}
+
+rest {:Energy- 7945.74 :N 107324 :PSNR- 46.83}
+     {:Energy- 108.04 :N 107324 :PSNR- 4.72}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 3 Random Seed 1705199
+
+Current file auto2.csv
+<src.data.Data object at 0x1264e9f50>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 25.0 :Class- 18.4 :HighwayMPG+ 32.0 :N 46 :Weight- 2950.0}
+     {:CityMPG+ 20.94 :Class- 20.79 :HighwayMPG+ 16.58 :N 46 :Weight- -16664.28}
+
+rest {:CityMPG+ 22.0 :Class- 11.3 :HighwayMPG+ 27.0 :N 184 :Weight- 2690.0}
+     {:CityMPG+ 63.26 :Class- 64.15 :HighwayMPG+ 74.46 :N 184 :Weight- -13993.19}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x131a5bdd0>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 20.5 :Lbs- 3035.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 58.02 :Lbs- -9511.07 :Mpg+ 75.91 :N 199}
+
+rest {:Acc+ 13.2 :Lbs- 3940.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 85.92 :Lbs- -7050.36 :Mpg+ 109.08 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x13128d450>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 3030.0}
+     {:N 250 :N_effort- -20788.79}
+
+rest {:N 1000 :N_effort- 1252.0}
+     {:N 1000 :N_effort- -14091.95}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x127e97450>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 5.0 :EFFORT- 10774.0 :LOC+ 709.0 :N 500 :PLEX- 4.0 :RISK- 8.0}
+     {:AEXP- 21.99 :EFFORT- -187168.08 :LOC+ -1306.5 :N 500 :PLEX- 22.27 :RISK- 41.42}
+
+rest {:AEXP- 2.0 :EFFORT- 37837.0 :LOC+ 1638.0 :N 2000 :PLEX- 5.0 :RISK- 10.0}
+     {:AEXP- 13.94 :EFFORT- -83032.51 :LOC+ 375.56 :N 2000 :PLEX- 14.16 :RISK- 23.29}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x127bfc350>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6984.36 :Loc+ 312.14 :N 10000 :Risk- 6.94}
+
+best {:Effort- 2331.0 :Loc+ 37.0 :N 5000 :Risk- 10.0}
+     {:Effort- -21526.19 :Loc+ 422.29 :N 5000 :Risk- 11.66}
+
+rest {:Effort- 18264.0 :Loc+ 1868.0 :N 20000 :Risk- 2.0}
+     {:Effort- -1439.16 :Loc+ 210.47 :N 20000 :Risk- 3.79}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x127df2450>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 0.0 :MRE- 100.0 :N 5000 :PRED40+ 37.5}
+     {:ACC+ 7.28 :MRE- 103.8 :N 5000 :PRED40+ 36.77}
+
+rest {:ACC+ 7.66 :MRE- 73.31 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 4.02 :MRE- 31.3 :N 20000 :PRED40+ 9.96}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x131f6d750>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.55 :N 10000 :PRED40+ 13.56}
+
+best {:ACC+ -12.26 :MRE- 119.39 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 120.43 :N 5000 :PRED40+ 7.88}
+
+rest {:ACC+ -12.66 :MRE- 120.41 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 31.55 :N 20000 :PRED40+ 9.62}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x131599090>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 7553.0 :Effort- 756.0 :Kloc+ 162.0 :Months- 32.4 :N 47}
+     {:Defects- -31521.12 :Effort- -4248.52 :Kloc+ -191.37 :Months- 18.57 :N 47}
+
+rest {:Defects- 4868.0 :Effort- 324.0 :Kloc+ 150.0 :Months- 32.5 :N 188}
+     {:Defects- -18421.04 :Effort- -1022.01 :Kloc+ -18.29 :Months- 60.76 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x131ac7110>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.06 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 1.0 :Cost- 443.24 :Idle- 0.16 :N 5000}
+     {:Completion+ 2.19 :Cost- 221.47 :Idle- 0.67 :N 5000}
+
+rest {:Completion+ 0.91 :Cost- 443.99 :Idle- 0.26 :N 20000}
+     {:Completion+ 0.65 :Cost- 115.01 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x127df0d90>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.63 :TIMETOSOLUTION- 48.19}
+
+best {:N 119680 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 100.71}
+     {:N 119680 :NUMBERITERATIONS- 4.52 :TIMETOSOLUTION- 46.87}
+
+rest {:N 478720 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 137.17}
+     {:N 478720 :NUMBERITERATIONS- 0.4 :TIMETOSOLUTION- 4.31}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x131f90090>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.75 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1867.14 :N 26831 :PSNR- 44.59}
+     {:Energy- 205.4 :N 26831 :PSNR- 15.76}
+
+rest {:Energy- 3631.55 :N 107324 :PSNR- 54.34}
+     {:Energy- 110.95 :N 107324 :PSNR- 4.73}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 4 Random Seed 143077
+
+Current file auto2.csv
+<src.data.Data object at 0x127eb3e10>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 19.0 :Class- 14.9 :HighwayMPG+ 26.0 :N 46 :Weight- 3610.0}
+     {:CityMPG+ 23.94 :Class- 19.77 :HighwayMPG+ 20.72 :N 46 :Weight- -21351.18}
+
+rest {:CityMPG+ 23.0 :Class- 19.5 :HighwayMPG+ 30.0 :N 184 :Weight- 3085.0}
+     {:CityMPG+ 71.77 :Class- 53.52 :HighwayMPG+ 79.54 :N 184 :Weight- -10527.31}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x1266bf750>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 16.4 :Lbs- 2019.0 :Mpg+ 40.0 :N 199}
+     {:Acc+ 58.82 :Lbs- -8773.59 :Mpg+ 79.63 :N 199}
+
+rest {:Acc+ 16.2 :Lbs- 3645.0 :Mpg+ 20.0 :N 796}
+     {:Acc+ 83.59 :Lbs- -7779.89 :Mpg+ 97.87 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1266cc190>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 1538.0}
+     {:N 250 :N_effort- -31347.67}
+
+rest {:N 1000 :N_effort- 26940.0}
+     {:N 1000 :N_effort- -6814.23}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x127eb0b50>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 21090.0 :LOC+ 1974.0 :N 500 :PLEX- 2.0 :RISK- 13.0}
+     {:AEXP- 21.34 :EFFORT- -171925.41 :LOC+ -1303.2 :N 500 :PLEX- 22.15 :RISK- 42.62}
+
+rest {:AEXP- 2.0 :EFFORT- 1428.0 :LOC+ 109.0 :N 2000 :PLEX- 5.0 :RISK- 8.0}
+     {:AEXP- 14.23 :EFFORT- -81839.27 :LOC+ 372.54 :N 2000 :PLEX- 14.2 :RISK- 22.68}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x131bb7950>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6970.16 :Loc+ 312.17 :N 10000 :Risk- 6.91}
+
+best {:Effort- 10949.0 :Loc+ 1469.0 :N 5000 :Risk- 0.0}
+     {:Effort- -18750.75 :Loc+ 415.66 :N 5000 :Risk- 11.91}
+
+rest {:Effort- 7673.0 :Loc+ 1574.0 :N 20000 :Risk- 3.0}
+     {:Effort- -2605.75 :Loc+ 212.24 :N 20000 :Risk- 4.09}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1267a9d50>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 7.34 :MRE- 74.37 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.63 :MRE- 92.05 :N 5000 :PRED40+ 25.07}
+
+rest {:ACC+ 8.03 :MRE- 72.12 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 1.84 :MRE- 35.52 :N 20000 :PRED40+ 12.01}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x130bce1d0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 43.4 :N 5000 :PRED40+ 66.43}
+
+rest {:ACC+ -12.66 :MRE- 120.41 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 45.38 :N 20000 :PRED40+ 0.01}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x126276f50>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 4907.0 :Effort- 300.0 :Kloc+ 98.0 :Months- 24.4 :N 47}
+     {:Defects- -40733.69 :Effort- -4900.86 :Kloc+ -305.95 :Months- 16.03 :N 47}
+
+rest {:Defects- 324.0 :Effort- 50.0 :Kloc+ 10.4 :Months- 11.2 :N 188}
+     {:Defects- -8675.59 :Effort- -465.14 :Kloc+ 49.34 :Months- 58.89 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x1265cd750>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.22 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 1.0 :Cost- 472.02 :Idle- 0.32 :N 5000}
+     {:Completion+ 2.23 :Cost- 216.87 :Idle- 0.7 :N 5000}
+
+rest {:Completion+ 0.88 :Cost- 99.89 :Idle- 0.5 :N 20000}
+     {:Completion+ 0.64 :Cost- 114.08 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x12650d710>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.6 :TIMETOSOLUTION- 47.87}
+
+best {:N 119680 :NUMBERITERATIONS- 11.0 :TIMETOSOLUTION- 169.51}
+     {:N 119680 :NUMBERITERATIONS- 2.33 :TIMETOSOLUTION- 23.21}
+
+rest {:N 478720 :NUMBERITERATIONS- 8.0 :TIMETOSOLUTION- 120.73}
+     {:N 478720 :NUMBERITERATIONS- 0.62 :TIMETOSOLUTION- 6.9}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x131f18690>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.54 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1806.39 :N 26831 :PSNR- 42.25}
+     {:Energy- 202.18 :N 26831 :PSNR- 16.01}
+
+rest {:Energy- 604.49 :N 107324 :PSNR- 40.49}
+     {:Energy- 96.35 :N 107324 :PSNR- 4.75}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 5 Random Seed 3794878
+
+Current file auto2.csv
+<src.data.Data object at 0x132254c10>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 21.0 :Class- 20.0 :HighwayMPG+ 30.0 :N 47 :Weight- 2985.0}
+     {:CityMPG+ 22.02 :Class- 19.87 :HighwayMPG+ 18.09 :N 47 :Weight- -17389.25}
+
+rest {:CityMPG+ 25.0 :Class- 18.4 :HighwayMPG+ 32.0 :N 188 :Weight- 2950.0}
+     {:CityMPG+ 65.11 :Class- 59.75 :HighwayMPG+ 75.79 :N 188 :Weight- -13455.93}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x130e01a90>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 18.0 :Lbs- 2395.0 :Mpg+ 30.0 :N 199}
+     {:Acc+ 58.6 :Lbs- -8506.97 :Mpg+ 79.74 :N 199}
+
+rest {:Acc+ 13.0 :Lbs- 4129.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 84.67 :Lbs- -7805.11 :Mpg+ 98.91 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x123d58f90>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 249 :N_effort- 5732.0}
+     {:N 249 :N_effort- -27615.54}
+
+rest {:N 996 :N_effort- 3995.0}
+     {:N 996 :N_effort- -10448.24}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x124b67910>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 5.0 :EFFORT- 16885.0 :LOC+ 1117.0 :N 500 :PLEX- 5.0 :RISK- 3.0}
+     {:AEXP- 21.91 :EFFORT- -187398.9 :LOC+ -1264.07 :N 500 :PLEX- 21.9 :RISK- 26.36}
+
+rest {:AEXP- 1.0 :EFFORT- 60441.0 :LOC+ 1027.0 :N 2000 :PLEX- 4.0 :RISK- 14.0}
+     {:AEXP- 13.91 :EFFORT- -76888.05 :LOC+ 352.24 :N 2000 :PLEX- 14.65 :RISK- 33.85}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x124c8a050>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6975.63 :Loc+ 312.36 :N 10000 :Risk- 6.94}
+
+best {:Effort- 8888.0 :Loc+ 619.0 :N 5000 :Risk- 3.0}
+     {:Effort- -21464.54 :Loc+ 420.0 :N 5000 :Risk- 12.46}
+
+rest {:Effort- 68598.0 :Loc+ 1527.0 :N 20000 :Risk- 8.0}
+     {:Effort- -1889.67 :Loc+ 206.59 :N 20000 :Risk- 4.09}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x12427ae10>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.55 :MRE- 58.12 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 0.0 :MRE- 100.0 :N 5000 :PRED40+ 37.5}
+     {:ACC+ 6.4 :MRE- 105.18 :N 5000 :PRED40+ 34.47}
+
+rest {:ACC+ 7.51 :MRE- 73.79 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 3.2 :MRE- 32.91 :N 20000 :PRED40+ 10.46}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x1242e08d0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -11.97 :MRE- 118.67 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 132.28 :N 5000 :PRED40+ 0}
+
+rest {:ACC+ -12.87 :MRE- 120.97 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 25.84 :N 20000 :PRED40+ 13.5}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x131be0610>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 3340.0 :Effort- 703.0 :Kloc+ 100.0 :Months- 29.6 :N 46}
+     {:Defects- -25833.58 :Effort- -4112.83 :Kloc+ -185.69 :Months- 17.25 :N 46}
+
+rest {:Defects- 7998.0 :Effort- 1248.0 :Kloc+ 177.9 :Months- 31.5 :N 184}
+     {:Defects- -21986.27 :Effort- -1215.33 :Kloc+ 9.36 :Months- 67.68 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x131b66e10>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.31 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.76 :Cost- 158.26 :Idle- 0.08 :N 5000}
+     {:Completion+ 2.19 :Cost- 190.86 :Idle- 0.69 :N 5000}
+
+rest {:Completion+ 0.51 :Cost- 355.18 :Idle- 0.0 :N 20000}
+     {:Completion+ 0.64 :Cost- 117.79 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x131f8ec90>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 177.14}
+     {:N 119680 :NUMBERITERATIONS- 9.39 :TIMETOSOLUTION- 109.89}
+
+rest {:N 478720 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 83.57}
+     {:N 478720 :NUMBERITERATIONS- 0.41 :TIMETOSOLUTION- 4.24}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x127138290>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.86 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 698.15 :N 26831 :PSNR- 43.66}
+     {:Energy- 181.66 :N 26831 :PSNR- 16.19}
+
+rest {:Energy- 51.33 :N 107324 :PSNR- 40.23}
+     {:Energy- 104.13 :N 107324 :PSNR- 4.7}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 6 Random Seed 6905227
+
+Current file auto2.csv
+<src.data.Data object at 0x130a9d690>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 16.0 :Class- 40.1 :HighwayMPG+ 25.0 :N 47 :Weight- 3935.0}
+     {:CityMPG+ 22.36 :Class- 19.95 :HighwayMPG+ 18.8 :N 47 :Weight- -18164.2}
+
+rest {:CityMPG+ 22.0 :Class- 15.7 :HighwayMPG+ 31.0 :N 188 :Weight- 2880.0}
+     {:CityMPG+ 66.97 :Class- 57.9 :HighwayMPG+ 76.76 :N 188 :Weight- -12715.3}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x126b24190>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 17.3 :Lbs- 2050.0 :Mpg+ 40.0 :N 199}
+     {:Acc+ 58.93 :Lbs- -9743.39 :Mpg+ 76.61 :N 199}
+
+rest {:Acc+ 12.2 :Lbs- 1825.0 :Mpg+ 30.0 :N 796}
+     {:Acc+ 83.9 :Lbs- -7169.21 :Mpg+ 106.74 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x123d61b90>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 471.0}
+     {:N 250 :N_effort- -28866.03}
+
+rest {:N 1000 :N_effort- 375.0}
+     {:N 1000 :N_effort- -8105.65}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x1278519d0>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 5.0 :EFFORT- 60885.0 :LOC+ 1504.0 :N 500 :PLEX- 2.0 :RISK- 6.0}
+     {:AEXP- 21.56 :EFFORT- -202957.51 :LOC+ -1300.76 :N 500 :PLEX- 21.6 :RISK- 31.42}
+
+rest {:AEXP- 2.0 :EFFORT- 51565.0 :LOC+ 1109.0 :N 2000 :PLEX- 4.0 :RISK- 7.0}
+     {:AEXP- 14.1 :EFFORT- -72762.9 :LOC+ 375.39 :N 2000 :PLEX- 15.04 :RISK- 30.36}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x123d635d0>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6970.86 :Loc+ 312.11 :N 10000 :Risk- 6.93}
+
+best {:Effort- 69212.0 :Loc+ 1403.0 :N 5000 :Risk- 15.0}
+     {:Effort- -12603.97 :Loc+ 415.95 :N 5000 :Risk- 10.56}
+
+rest {:Effort- 18120.0 :Loc+ 360.0 :N 20000 :Risk- 6.0}
+     {:Effort- -2339.58 :Loc+ 212.38 :N 20000 :Risk- 3.67}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x123dc1350>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.11 :N 10000 :PRED40+ 18.7}
+
+best {:ACC+ 7.32 :MRE- 74.42 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.67 :MRE- 92.45 :N 5000 :PRED40+ 29.2}
+
+rest {:ACC+ 7.54 :MRE- 73.7 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 2.64 :MRE- 33.97 :N 20000 :PRED40+ 10.94}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x13056bc50>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.7 :N 10000 :PRED40+ 13.44}
+
+best {:ACC+ -12.05 :MRE- 118.87 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 101.44 :N 5000 :PRED40+ 22.08}
+
+rest {:ACC+ -12.4 :MRE- 119.73 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 42.47 :N 20000 :PRED40+ 1.97}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x1305eaf10>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 6266.0 :Effort- 4178.2 :Kloc+ 165.0 :Months- 47.3 :N 47}
+     {:Defects- -36607.41 :Effort- -5212.22 :Kloc+ -273.2 :Months- 16.31 :N 47}
+
+rest {:Defects- 2227.0 :Effort- 480.0 :Kloc+ 53.0 :Months- 28.8 :N 188}
+     {:Defects- -13666.11 :Effort- -415.07 :Kloc+ 44.52 :Months- 62.72 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x1305eb3d0>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.06 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.78 :Cost- 152.36 :Idle- 0.0 :N 5000}
+     {:Completion+ 2.19 :Cost- 199.32 :Idle- 0.69 :N 5000}
+
+rest {:Completion+ 0.88 :Cost- 214.02 :Idle- 0.36 :N 20000}
+     {:Completion+ 0.64 :Cost- 117.15 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x130531e10>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 119.39}
+     {:N 119680 :NUMBERITERATIONS- 1.15 :TIMETOSOLUTION- 12.91}
+
+rest {:N 478720 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 81.89}
+     {:N 478720 :NUMBERITERATIONS- 1.3 :TIMETOSOLUTION- 13.02}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x12547ff10>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.33 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 2838.07 :N 26831 :PSNR- 45.98}
+     {:Energy- 290.14 :N 26831 :PSNR- 16.48}
+
+rest {:Energy- 5781.3 :N 107324 :PSNR- 54.18}
+     {:Energy- 78.99 :N 107324 :PSNR- 4.71}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 7 Random Seed 7624225
+
+Current file auto2.csv
+<src.data.Data object at 0x127afca50>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 31.0 :Class- 9.0 :HighwayMPG+ 41.0 :N 46 :Weight- 2350.0}
+     {:CityMPG+ 21.93 :Class- 21.97 :HighwayMPG+ 17.61 :N 46 :Weight- -17649.65}
+
+rest {:CityMPG+ 17.0 :Class- 19.7 :HighwayMPG+ 21.0 :N 184 :Weight- 3960.0}
+     {:CityMPG+ 65.36 :Class- 61.57 :HighwayMPG+ 74.96 :N 184 :Weight- -13319.12}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x127e1f550>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 18.0 :Lbs- 2511.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 59.42 :Lbs- -10105.52 :Mpg+ 75.36 :N 199}
+
+rest {:Acc+ 10.0 :Lbs- 4425.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 83.45 :Lbs- -6813.08 :Mpg+ 110.28 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x127ed9a10>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 935.0}
+     {:N 250 :N_effort- -23154.96}
+
+rest {:N 1000 :N_effort- 3133.0}
+     {:N 1000 :N_effort- -13090.44}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x127ce4290>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 1.0 :EFFORT- 6332.0 :LOC+ 755.0 :N 500 :PLEX- 3.0 :RISK- 4.0}
+     {:AEXP- 21.3 :EFFORT- -204420.47 :LOC+ -1314.02 :N 500 :PLEX- 21.92 :RISK- 42.85}
+
+rest {:AEXP- 4.0 :EFFORT- 45518.0 :LOC+ 1539.0 :N 2000 :PLEX- 5.0 :RISK- 19.0}
+     {:AEXP- 14.5 :EFFORT- -75847.34 :LOC+ 366.11 :N 2000 :PLEX- 14.34 :RISK- 21.86}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x126007450>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6992.13 :Loc+ 312.34 :N 10000 :Risk- 6.93}
+
+best {:Effort- 19342.0 :Loc+ 1893.0 :N 5000 :Risk- 15.0}
+     {:Effort- -13526.58 :Loc+ 423.04 :N 5000 :Risk- 11.96}
+
+rest {:Effort- 75932.0 :Loc+ 1378.0 :N 20000 :Risk- 11.0}
+     {:Effort- -2501.79 :Loc+ 207.04 :N 20000 :Risk- 3.78}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x12663b590>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.13 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 0.0 :MRE- 100.0 :N 5000 :PRED40+ 37.5}
+     {:ACC+ 6.1 :MRE- 105.75 :N 5000 :PRED40+ 37.08}
+
+rest {:ACC+ 7.56 :MRE- 73.63 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 3.27 :MRE- 32.9 :N 20000 :PRED40+ 10.4}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x127cfa210>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -12.07 :MRE- 118.92 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 132.3 :N 5000 :PRED40+ 0.03}
+
+rest {:ACC+ -0.58 :MRE- 100.59 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 25.93 :N 20000 :PRED40+ 13.47}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x124021ad0>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 7553.0 :Effort- 756.0 :Kloc+ 162.0 :Months- 32.4 :N 47}
+     {:Defects- -31521.12 :Effort- -4248.52 :Kloc+ -191.37 :Months- 18.57 :N 47}
+
+rest {:Defects- 188.0 :Effort- 24.0 :Kloc+ 6.0 :Months- 9.9 :N 188}
+     {:Defects- -14471.21 :Effort- -834.41 :Kloc+ 8.85 :Months- 60.42 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x124053050>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.12 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.6 :Cost- 682.52 :Idle- 0.0 :N 5000}
+     {:Completion+ 2.21 :Cost- 257.14 :Idle- 0.7 :N 5000}
+
+rest {:Completion+ 0.91 :Cost- 232.88 :Idle- 0.17 :N 20000}
+     {:Completion+ 0.64 :Cost- 119.72 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x124018790>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 7.0 :TIMETOSOLUTION- 168.96}
+     {:N 119680 :NUMBERITERATIONS- 1.34 :TIMETOSOLUTION- 18.2}
+
+rest {:N 478720 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 148.11}
+     {:N 478720 :NUMBERITERATIONS- 1.08 :TIMETOSOLUTION- 11.5}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x126e27b90>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.85 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1066.69 :N 26831 :PSNR- 63.5}
+     {:Energy- 228.08 :N 26831 :PSNR- 16.86}
+
+rest {:Energy- 509.48 :N 107324 :PSNR- 40.6}
+     {:Energy- 95.6 :N 107324 :PSNR- 4.7}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 8 Random Seed 211415
+
+Current file auto2.csv
+<src.data.Data object at 0x127cf8050>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 20.0 :Class- 29.5 :HighwayMPG+ 26.0 :N 46 :Weight- 3570.0}
+     {:CityMPG+ 23.76 :Class- 21.83 :HighwayMPG+ 20.43 :N 46 :Weight- -20845.14}
+
+rest {:CityMPG+ 23.0 :Class- 19.5 :HighwayMPG+ 30.0 :N 184 :Weight- 3085.0}
+     {:CityMPG+ 70.26 :Class- 59.36 :HighwayMPG+ 78.97 :N 184 :Weight- -11240.62}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x126e27d90>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 13.4 :Lbs- 3445.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 58.87 :Lbs- -10565.12 :Mpg+ 73.6 :N 199}
+
+rest {:Acc+ 13.2 :Lbs- 3425.0 :Mpg+ 20.0 :N 796}
+     {:Acc+ 84.2 :Lbs- -6586.78 :Mpg+ 113.16 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1256c2490>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 2551.0}
+     {:N 250 :N_effort- -35590.95}
+
+rest {:N 1000 :N_effort- 5801.0}
+     {:N 1000 :N_effort- -3875.22}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x1245368d0>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 3.0 :EFFORT- 26555.0 :LOC+ 639.0 :N 500 :PLEX- 5.0 :RISK- 7.0}
+     {:AEXP- 21.65 :EFFORT- -206021.64 :LOC+ -1307.49 :N 500 :PLEX- 22.09 :RISK- 36.7}
+
+rest {:AEXP- 4.0 :EFFORT- 4802.0 :LOC+ 447.0 :N 2000 :PLEX- 4.0 :RISK- 6.0}
+     {:AEXP- 13.91 :EFFORT- -70940.87 :LOC+ 356.23 :N 2000 :PLEX- 14.39 :RISK- 26.02}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x131477f50>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6949.97 :Loc+ 311.82 :N 10000 :Risk- 6.94}
+
+best {:Effort- 3895.0 :Loc+ 487.0 :N 5000 :Risk- 1.0}
+     {:Effort- -18953.46 :Loc+ 421.88 :N 5000 :Risk- 14.28}
+
+rest {:Effort- 12957.0 :Loc+ 785.0 :N 20000 :Risk- 3.0}
+     {:Effort- -2040.66 :Loc+ 214.17 :N 20000 :Risk- 3.13}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x127ef5f90>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.75}
+
+best {:ACC+ 0.0 :MRE- 100.0 :N 5000 :PRED40+ 37.5}
+     {:ACC+ 5.33 :MRE- 107.02 :N 5000 :PRED40+ 37.59}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 3.44 :MRE- 32.58 :N 20000 :PRED40+ 10.4}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x127388290>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 102.56 :N 5000 :PRED40+ 21.51}
+
+rest {:ACC+ -0.88 :MRE- 100.91 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 32.46 :N 20000 :PRED40+ 8.86}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x130504050>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 226.0 :Effort- 72.0 :Kloc+ 7.5 :Months- 13.6 :N 46}
+     {:Defects- -16958.06 :Effort- -1275.91 :Kloc+ -123.64 :Months- 20.07 :N 46}
+
+rest {:Defects- 50961.0 :Effort- 4560.0 :Kloc+ 980.0 :Months- 96.4 :N 184}
+     {:Defects- -37532.79 :Effort- -3484.05 :Kloc+ -79.89 :Months- 71.41 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x1248cdf10>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.23 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.94 :Cost- 316.62 :Idle- 0.19 :N 5000}
+     {:Completion+ 2.23 :Cost- 267.98 :Idle- 0.71 :N 5000}
+
+rest {:Completion+ 0.88 :Cost- 488.29 :Idle- 0.09 :N 20000}
+     {:Completion+ 0.65 :Cost- 105.17 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x124c04590>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.63 :TIMETOSOLUTION- 48.06}
+
+best {:N 119680 :NUMBERITERATIONS- 7.0 :TIMETOSOLUTION- 165.93}
+     {:N 119680 :NUMBERITERATIONS- 6.31 :TIMETOSOLUTION- 52.6}
+
+rest {:N 478720 :NUMBERITERATIONS- 12.0 :TIMETOSOLUTION- 181.0}
+     {:N 478720 :NUMBERITERATIONS- 1.01 :TIMETOSOLUTION- 10.34}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x1278d41d0>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.86 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 570.29 :N 26831 :PSNR- 38.77}
+     {:Energy- 213.26 :N 26831 :PSNR- 15.88}
+
+rest {:Energy- 1498.2 :N 107324 :PSNR- 39.01}
+     {:Energy- 83.39 :N 107324 :PSNR- 4.74}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 9 Random Seed 3982231
+
+Current file auto2.csv
+<src.data.Data object at 0x130747050>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 22.0 :Class- 15.7 :HighwayMPG+ 31.0 :N 46 :Weight- 2880.0}
+     {:CityMPG+ 23.28 :Class- 22.56 :HighwayMPG+ 19.34 :N 46 :Weight- -19433.42}
+
+rest {:CityMPG+ 29.0 :Class- 9.2 :HighwayMPG+ 33.0 :N 184 :Weight- 2270.0}
+     {:CityMPG+ 67.91 :Class- 61.66 :HighwayMPG+ 76.64 :N 184 :Weight- -12233.52}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x127aa8590>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 14.5 :Lbs- 2506.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 57.79 :Lbs- -9953.62 :Mpg+ 75.4 :N 199}
+
+rest {:Acc+ 8.0 :Lbs- 3609.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 85.96 :Lbs- -6934.59 :Mpg+ 107.95 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1315b1510>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 903.0}
+     {:N 250 :N_effort- -28227.59}
+
+rest {:N 1000 :N_effort- 4220.0}
+     {:N 1000 :N_effort- -9407.92}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x124ce3a50>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 16763.0 :LOC+ 1380.0 :N 500 :PLEX- 3.0 :RISK- 4.0}
+     {:AEXP- 21.63 :EFFORT- -218597.35 :LOC+ -1300.23 :N 500 :PLEX- 22.02 :RISK- 39.51}
+
+rest {:AEXP- 2.0 :EFFORT- 13740.0 :LOC+ 450.0 :N 2000 :PLEX- 4.0 :RISK- 14.0}
+     {:AEXP- 14.01 :EFFORT- -71657.76 :LOC+ 378.08 :N 2000 :PLEX- 14.37 :RISK- 26.05}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x130fbad50>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6974.45 :Loc+ 312.25 :N 10000 :Risk- 6.92}
+
+best {:Effort- 834.0 :Loc+ 28.0 :N 5000 :Risk- 11.0}
+     {:Effort- -28438.86 :Loc+ 418.99 :N 5000 :Risk- 17.11}
+
+rest {:Effort- 54111.0 :Loc+ 1074.0 :N 20000 :Risk- 3.0}
+     {:Effort- -1518.65 :Loc+ 204.65 :N 20000 :Risk- 2.93}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x130f0bb90>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.55 :MRE- 58.14 :N 10000 :PRED40+ 18.7}
+
+best {:ACC+ 7.66 :MRE- 73.32 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 9.7 :MRE- 99.76 :N 5000 :PRED40+ 33.99}
+
+rest {:ACC+ 7.54 :MRE- 73.71 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 3.98 :MRE- 31.41 :N 20000 :PRED40+ 9.69}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x1248e1010>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.61 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -13.01 :MRE- 121.33 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 90.3 :N 5000 :PRED40+ 31.06}
+
+rest {:ACC+ -12.41 :MRE- 119.78 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 42.59 :N 20000 :PRED40+ 2.01}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x130a1c250>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 8477.0 :Effort- 444.0 :Kloc+ 339.0 :Months- 45.9 :N 47}
+     {:Defects- -41163.36 :Effort- -2794.8 :Kloc+ -308.66 :Months- 17.39 :N 47}
+
+rest {:Defects- 2409.0 :Effort- 239.0 :Kloc+ 48.5 :Months- 21.4 :N 188}
+     {:Defects- -9790.86 :Effort- -2003.05 :Kloc+ 44.12 :Months- 61.52 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x13086f850>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.13 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.85 :Cost- 129.33 :Idle- 0.15 :N 5000}
+     {:Completion+ 2.17 :Cost- 220.06 :Idle- 0.66 :N 5000}
+
+rest {:Completion+ 0.85 :Cost- 304.52 :Idle- 0.32 :N 20000}
+     {:Completion+ 0.64 :Cost- 117.59 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x1273fc150>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.59 :TIMETOSOLUTION- 47.92}
+
+best {:N 119680 :NUMBERITERATIONS- 10.0 :TIMETOSOLUTION- 169.86}
+     {:N 119680 :NUMBERITERATIONS- 1.44 :TIMETOSOLUTION- 14.35}
+
+rest {:N 478720 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 124.55}
+     {:N 478720 :NUMBERITERATIONS- 1.13 :TIMETOSOLUTION- 11.34}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x12631bb50>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.35 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 4383.42 :N 26831 :PSNR- 49.7}
+     {:Energy- 184.39 :N 26831 :PSNR- 16.58}
+
+rest {:Energy- 2084.07 :N 107324 :PSNR- 47.3}
+     {:Energy- 103.25 :N 107324 :PSNR- 4.67}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 10 Random Seed 380543
+
+Current file auto2.csv
+<src.data.Data object at 0x123d31d90>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 25.0 :Class- 15.9 :HighwayMPG+ 31.0 :N 46 :Weight- 2705.0}
+     {:CityMPG+ 22.58 :Class- 22.22 :HighwayMPG+ 18.74 :N 46 :Weight- -18288.04}
+
+rest {:CityMPG+ 15.0 :Class- 19.9 :HighwayMPG+ 20.0 :N 184 :Weight- 3735.0}
+     {:CityMPG+ 66.85 :Class- 59.49 :HighwayMPG+ 76.6 :N 184 :Weight- -12898.87}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x124df1890>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 13.0 :Lbs- 2370.0 :Mpg+ 40.0 :N 199}
+     {:Acc+ 59.09 :Lbs- -8718.45 :Mpg+ 79.81 :N 199}
+
+rest {:Acc+ 14.0 :Lbs- 4141.0 :Mpg+ 20.0 :N 796}
+     {:Acc+ 84.0 :Lbs- -7643.92 :Mpg+ 99.39 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1239f3850>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 698.0}
+     {:N 250 :N_effort- -29153.92}
+
+rest {:N 1000 :N_effort- 3986.0}
+     {:N 1000 :N_effort- -8507.98}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x124500bd0>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 3.0 :EFFORT- 192847.0 :LOC+ 1674.0 :N 500 :PLEX- 2.0 :RISK- 11.0}
+     {:AEXP- 21.61 :EFFORT- -181525.43 :LOC+ -1330.89 :N 500 :PLEX- 21.91 :RISK- 38.61}
+
+rest {:AEXP- 2.0 :EFFORT- 6000.0 :LOC+ 174.0 :N 2000 :PLEX- 4.0 :RISK- 1.0}
+     {:AEXP- 14.07 :EFFORT- -81349.32 :LOC+ 374.46 :N 2000 :PLEX- 14.55 :RISK- 25.1}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x131db1350>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6977.37 :Loc+ 312.28 :N 10000 :Risk- 6.92}
+
+best {:Effort- 4396.0 :Loc+ 1439.0 :N 5000 :Risk- 0.0}
+     {:Effort- -22890.05 :Loc+ 421.88 :N 5000 :Risk- 12.78}
+
+rest {:Effort- 45985.0 :Loc+ 1833.0 :N 20000 :Risk- 15.0}
+     {:Effort- -1621.18 :Loc+ 204.63 :N 20000 :Risk- 3.39}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x127db66d0>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.76}
+
+best {:ACC+ 8.21 :MRE- 71.56 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.58 :MRE- 91.98 :N 5000 :PRED40+ 25.79}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 1.99 :MRE- 35.23 :N 20000 :PRED40+ 11.65}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x1264f1010>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.55 :N 10000 :PRED40+ 13.56}
+
+best {:ACC+ -12.86 :MRE- 120.95 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 132.28 :N 5000 :PRED40+ 0}
+
+rest {:ACC+ 0.0 :MRE- 0.0 :N 20000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 25.14 :N 20000 :PRED40+ 14.07}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x1254e9b90>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 109.0 :Effort- 10.8 :Kloc+ 3.5 :Months- 7.8 :N 46}
+     {:Defects- -22615.64 :Effort- -4055.85 :Kloc+ -139.38 :Months- 17.94 :N 46}
+
+rest {:Defects- 4256.0 :Effort- 300.0 :Kloc+ 85.0 :Months- 23.2 :N 184}
+     {:Defects- -30630.29 :Effort- -1532.8 :Kloc+ -60.5 :Months- 68.38 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x127d99110>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.24 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.71 :Cost- 107.96 :Idle- 0.0 :N 5000}
+     {:Completion+ 2.17 :Cost- 185.63 :Idle- 0.65 :N 5000}
+
+rest {:Completion+ 0.86 :Cost- 234.77 :Idle- 0.0 :N 20000}
+     {:Completion+ 0.64 :Cost- 120.95 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x12543a2d0>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 7.0 :TIMETOSOLUTION- 381.12}
+     {:N 119680 :NUMBERITERATIONS- 0.77 :TIMETOSOLUTION- 16.75}
+
+rest {:N 478720 :NUMBERITERATIONS- 501.0 :TIMETOSOLUTION- 7750.38}
+     {:N 478720 :NUMBERITERATIONS- 1.18 :TIMETOSOLUTION- 11.29}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x124255dd0>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.66 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 516.64 :N 26831 :PSNR- 50.98}
+     {:Energy- 189.75 :N 26831 :PSNR- 15.91}
+
+rest {:Energy- 1289.84 :N 107324 :PSNR- 39.15}
+     {:Energy- 80.22 :N 107324 :PSNR- 4.77}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 11 Random Seed 9473979
+
+Current file auto2.csv
+<src.data.Data object at 0x123d7a210>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 31.0 :Class- 9.0 :HighwayMPG+ 41.0 :N 47 :Weight- 2350.0}
+     {:CityMPG+ 22.6 :Class- 20.26 :HighwayMPG+ 18.74 :N 47 :Weight- -18196.11}
+
+rest {:CityMPG+ 25.0 :Class- 18.4 :HighwayMPG+ 32.0 :N 188 :Weight- 2950.0}
+     {:CityMPG+ 67.36 :Class- 61.31 :HighwayMPG+ 76.84 :N 188 :Weight- -12658.83}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x1240f46d0>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 20.5 :Lbs- 3035.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 57.96 :Lbs- -9589.22 :Mpg+ 75.71 :N 199}
+
+rest {:Acc+ 13.5 :Lbs- 4502.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 86.61 :Lbs- -7000.18 :Mpg+ 109.62 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x12526a2d0>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 1775.0}
+     {:N 250 :N_effort- -29249.76}
+
+rest {:N 1000 :N_effort- 375.0}
+     {:N 1000 :N_effort- -8751.16}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x124d4e290>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 38426.0 :LOC+ 1706.0 :N 500 :PLEX- 3.0 :RISK- 5.0}
+     {:AEXP- 21.86 :EFFORT- -208193.25 :LOC+ -1319.62 :N 500 :PLEX- 21.97 :RISK- 31.81}
+
+rest {:AEXP- 2.0 :EFFORT- 7471.0 :LOC+ 515.0 :N 2000 :PLEX- 2.0 :RISK- 0.0}
+     {:AEXP- 13.84 :EFFORT- -68629.43 :LOC+ 383.84 :N 2000 :PLEX- 14.56 :RISK- 30.35}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x1243ec750>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6993.23 :Loc+ 312.19 :N 10000 :Risk- 6.94}
+
+best {:Effort- 8390.0 :Loc+ 186.0 :N 5000 :Risk- 26.0}
+     {:Effort- -21355.95 :Loc+ 421.15 :N 5000 :Risk- 11.52}
+
+rest {:Effort- 40682.0 :Loc+ 1596.0 :N 20000 :Risk- 10.0}
+     {:Effort- -2080.08 :Loc+ 209.22 :N 20000 :Risk- 4.26}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1254ebc50>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 8.57 :MRE- 70.39 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.46 :MRE- 91.83 :N 5000 :PRED40+ 29.3}
+
+rest {:ACC+ 7.55 :MRE- 73.68 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 1.9 :MRE- 35.44 :N 20000 :PRED40+ 11.88}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x131d011d0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -13.73 :MRE- 123.33 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 132.31 :N 5000 :PRED40+ 0.08}
+
+rest {:ACC+ 0.0 :MRE- 0.0 :N 20000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 25.64 :N 20000 :PRED40+ 13.61}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x12639a1d0>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 11761.0 :Effort- 2120.0 :Kloc+ 219.0 :Months- 42.8 :N 46}
+     {:Defects- -17411.53 :Effort- -1417.06 :Kloc+ -113.72 :Months- 20.0 :N 46}
+
+rest {:Defects- 1553.0 :Effort- 210.0 :Kloc+ 38.0 :Months- 21.3 :N 184}
+     {:Defects- -27255.92 :Effort- -3148.95 :Kloc+ -24.55 :Months- 70.08 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x12619ad90>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.03 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.86 :Cost- 223.95 :Idle- 0.67 :N 5000}
+     {:Completion+ 2.2 :Cost- 273.08 :Idle- 0.67 :N 5000}
+
+rest {:Completion+ 0.97 :Cost- 223.77 :Idle- 0.43 :N 20000}
+     {:Completion+ 0.65 :Cost- 103.29 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x12614cb10>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 48.01}
+
+best {:N 119680 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 152.22}
+     {:N 119680 :NUMBERITERATIONS- 1.54 :TIMETOSOLUTION- 16.51}
+
+rest {:N 478720 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 196.25}
+     {:N 478720 :NUMBERITERATIONS- 1.25 :TIMETOSOLUTION- 13.25}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x12527afd0>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.37 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 7313.77 :N 26831 :PSNR- 51.1}
+     {:Energy- 243.75 :N 26831 :PSNR- 15.53}
+
+rest {:Energy- 1410.04 :N 107324 :PSNR- 38.59}
+     {:Energy- 81.55 :N 107324 :PSNR- 4.77}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 12 Random Seed 2496648
+
+Current file auto2.csv
+<src.data.Data object at 0x126c46650>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 46 :Weight- 2885.0}
+     {:CityMPG+ 21.84 :Class- 21.35 :HighwayMPG+ 17.61 :N 46 :Weight- -17423.65}
+
+rest {:CityMPG+ 20.0 :Class- 29.5 :HighwayMPG+ 26.0 :N 184 :Weight- 3570.0}
+     {:CityMPG+ 64.79 :Class- 61.46 :HighwayMPG+ 75.24 :N 184 :Weight- -13605.8}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x1243a8250>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 14.0 :Lbs- 2123.0 :Mpg+ 30.0 :N 199}
+     {:Acc+ 54.83 :Lbs- -13767.06 :Mpg+ 65.16 :N 199}
+
+rest {:Acc+ 15.5 :Lbs- 2278.0 :Mpg+ 20.0 :N 796}
+     {:Acc+ 92.02 :Lbs- -4577.76 :Mpg+ 129.64 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x126c05610>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 1092.0}
+     {:N 250 :N_effort- -22949.9}
+
+rest {:N 1000 :N_effort- 3613.0}
+     {:N 1000 :N_effort- -11512.75}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x126abe710>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 2.0 :EFFORT- 34284.0 :LOC+ 416.0 :N 500 :PLEX- 3.0 :RISK- 9.0}
+     {:AEXP- 21.47 :EFFORT- -212861.8 :LOC+ -1235.7 :N 500 :PLEX- 21.95 :RISK- 41.56}
+
+rest {:AEXP- 3.0 :EFFORT- 43953.0 :LOC+ 1334.0 :N 2000 :PLEX- 3.0 :RISK- 9.0}
+     {:AEXP- 14.2 :EFFORT- -69092.11 :LOC+ 359.18 :N 2000 :PLEX- 14.15 :RISK- 23.23}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x126c078d0>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6967.14 :Loc+ 312.04 :N 10000 :Risk- 6.93}
+
+best {:Effort- 65671.0 :Loc+ 1393.0 :N 5000 :Risk- 14.0}
+     {:Effort- -19713.06 :Loc+ 414.08 :N 5000 :Risk- 11.68}
+
+rest {:Effort- 41322.0 :Loc+ 1816.0 :N 20000 :Risk- 3.0}
+     {:Effort- -1659.36 :Loc+ 205.57 :N 20000 :Risk- 4.36}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x126a05690>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 7.48 :MRE- 73.9 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.23 :MRE- 92.39 :N 5000 :PRED40+ 29.87}
+
+rest {:ACC+ 8.02 :MRE- 72.15 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 2.01 :MRE- 35.22 :N 20000 :PRED40+ 11.83}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x1248424d0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -12.02 :MRE- 118.79 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 121.17 :N 5000 :PRED40+ 7.8}
+
+rest {:ACC+ 0.0 :MRE- 0.0 :N 20000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 31.6 :N 20000 :PRED40+ 9.66}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x1253c7510>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 1619.0 :Effort- 170.0 :Kloc+ 32.6 :Months- 18.7 :N 47}
+     {:Defects- -26673.24 :Effort- -4572.03 :Kloc+ -177.0 :Months- 17.51 :N 47}
+
+rest {:Defects- 566.0 :Effort- 72.0 :Kloc+ 20.0 :Months- 14.4 :N 188}
+     {:Defects- -21806.3 :Effort- -936.43 :Kloc+ 8.08 :Months- 68.45 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x1253059d0>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.23 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 1.0 :Cost- 133.83 :Idle- 0.5 :N 5000}
+     {:Completion+ 2.21 :Cost- 259.52 :Idle- 0.67 :N 5000}
+
+rest {:Completion+ 1.0 :Cost- 116.58 :Idle- 0.36 :N 20000}
+     {:Completion+ 0.64 :Cost- 115.14 :Idle- 0.19 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x1265e0210>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 48.0}
+
+best {:N 119680 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 63.18}
+     {:N 119680 :NUMBERITERATIONS- 0.81 :TIMETOSOLUTION- 12.85}
+
+rest {:N 478720 :NUMBERITERATIONS- 8.0 :TIMETOSOLUTION- 178.82}
+     {:N 478720 :NUMBERITERATIONS- 1.26 :TIMETOSOLUTION- 12.2}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x127127790>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.66 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1229.13 :N 26831 :PSNR- 55.37}
+     {:Energy- 167.94 :N 26831 :PSNR- 16.52}
+
+rest {:Energy- 4501.81 :N 107324 :PSNR- 45.94}
+     {:Energy- 109.91 :N 107324 :PSNR- 4.74}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 13 Random Seed 6192962
+
+Current file auto2.csv
+<src.data.Data object at 0x1257bb050>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 23.0 :Class- 10.1 :HighwayMPG+ 30.0 :N 46 :Weight- 2530.0}
+     {:CityMPG+ 20.81 :Class- 22.18 :HighwayMPG+ 16.49 :N 46 :Weight- -16361.05}
+
+rest {:CityMPG+ 22.0 :Class- 11.3 :HighwayMPG+ 27.0 :N 184 :Weight- 2690.0}
+     {:CityMPG+ 63.25 :Class- 65.94 :HighwayMPG+ 74.47 :N 184 :Weight- -14181.21}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x1247f9d90>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 16.4 :Lbs- 2865.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 58.16 :Lbs- -8925.48 :Mpg+ 77.83 :N 199}
+
+rest {:Acc+ 14.9 :Lbs- 1990.0 :Mpg+ 30.0 :N 796}
+     {:Acc+ 85.5 :Lbs- -7524.52 :Mpg+ 103.57 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1247c8410>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 1661.0}
+     {:N 250 :N_effort- -28784.3}
+
+rest {:N 1000 :N_effort- 606.0}
+     {:N 1000 :N_effort- -9818.11}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x1307c1f90>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 3697.0 :LOC+ 1130.0 :N 500 :PLEX- 4.0 :RISK- 1.0}
+     {:AEXP- 21.78 :EFFORT- -171364.57 :LOC+ -1310.85 :N 500 :PLEX- 21.76 :RISK- 35.21}
+
+rest {:AEXP- 3.0 :EFFORT- 123105.0 :LOC+ 1959.0 :N 2000 :PLEX- 4.0 :RISK- 18.0}
+     {:AEXP- 14.03 :EFFORT- -83301.45 :LOC+ 372.15 :N 2000 :PLEX- 14.58 :RISK- 27.4}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x130931b50>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6970.91 :Loc+ 312.18 :N 10000 :Risk- 6.92}
+
+best {:Effort- 4063.0 :Loc+ 258.0 :N 5000 :Risk- 2.0}
+     {:Effort- -20286.33 :Loc+ 422.47 :N 5000 :Risk- 10.94}
+
+rest {:Effort- 7141.0 :Loc+ 447.0 :N 20000 :Risk- 7.0}
+     {:Effort- -1881.89 :Loc+ 205.85 :N 20000 :Risk- 4.13}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1271b6190>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.13 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 6.74 :MRE- 76.33 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 14.8 :MRE- 91.71 :N 5000 :PRED40+ 29.96}
+
+rest {:ACC+ 7.86 :MRE- 72.67 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 1.59 :MRE- 36.08 :N 20000 :PRED40+ 12.08}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x124804790>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -12.44 :MRE- 119.85 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 89.61 :N 5000 :PRED40+ 30.15}
+
+rest {:ACC+ -12.43 :MRE- 119.81 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 42.56 :N 20000 :PRED40+ 1.95}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x125ca5a50>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 17597.0 :Effort- 1200.0 :Kloc+ 352.0 :Months- 42.9 :N 47}
+     {:Defects- -29810.18 :Effort- -2154.46 :Kloc+ -193.6 :Months- 18.86 :N 47}
+
+rest {:Defects- 2685.0 :Effort- 370.0 :Kloc+ 50.0 :Months- 25.4 :N 188}
+     {:Defects- -18559.88 :Effort- -2717.39 :Kloc+ 22.68 :Months- 71.01 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x125ca4e50>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.11 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.91 :Cost- 109.66 :Idle- 0.17 :N 5000}
+     {:Completion+ 2.19 :Cost- 177.49 :Idle- 0.69 :N 5000}
+
+rest {:Completion+ 0.88 :Cost- 999.91 :Idle- 0.56 :N 20000}
+     {:Completion+ 0.64 :Cost- 123.83 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x125c49050>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 48.0}
+
+best {:N 119680 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 131.54}
+     {:N 119680 :NUMBERITERATIONS- 3.96 :TIMETOSOLUTION- 42.12}
+
+rest {:N 478720 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 105.65}
+     {:N 478720 :NUMBERITERATIONS- 1.19 :TIMETOSOLUTION- 12.53}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x127f029d0>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.72 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 1805.46 :N 26831 :PSNR- 47.48}
+     {:Energy- 229.07 :N 26831 :PSNR- 15.73}
+
+rest {:Energy- 5588.62 :N 107324 :PSNR- 45.91}
+     {:Energy- 104.73 :N 107324 :PSNR- 4.82}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 14 Random Seed 9907226
+
+Current file auto2.csv
+<src.data.Data object at 0x127219290>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 19.0 :Class- 17.7 :HighwayMPG+ 28.0 :N 47 :Weight- 3240.0}
+     {:CityMPG+ 22.15 :Class- 22.27 :HighwayMPG+ 18.24 :N 47 :Weight- -17004.88}
+
+rest {:CityMPG+ 22.0 :Class- 15.7 :HighwayMPG+ 31.0 :N 188 :Weight- 2880.0}
+     {:CityMPG+ 65.52 :Class- 67.05 :HighwayMPG+ 76.23 :N 188 :Weight- -13740.16}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x13055b650>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 19.0 :Lbs- 3785.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 58.86 :Lbs- -9769.89 :Mpg+ 76.61 :N 199}
+
+rest {:Acc+ 19.6 :Lbs- 3160.0 :Mpg+ 30.0 :N 796}
+     {:Acc+ 84.62 :Lbs- -7172.78 :Mpg+ 104.63 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x130281bd0>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 702.0}
+     {:N 250 :N_effort- -26711.19}
+
+rest {:N 1000 :N_effort- 3607.0}
+     {:N 1000 :N_effort- -9891.0}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x130356290>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 14891.0 :LOC+ 521.0 :N 500 :PLEX- 1.0 :RISK- 16.0}
+     {:AEXP- 21.33 :EFFORT- -213431.74 :LOC+ -1316.5 :N 500 :PLEX- 21.82 :RISK- 32.34}
+
+rest {:AEXP- 4.0 :EFFORT- 8408.0 :LOC+ 1301.0 :N 2000 :PLEX- 2.0 :RISK- 4.0}
+     {:AEXP- 14.53 :EFFORT- -64253.8 :LOC+ 368.29 :N 2000 :PLEX- 14.64 :RISK- 29.11}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x1248c72d0>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6979.3 :Loc+ 312.37 :N 10000 :Risk- 6.92}
+
+best {:Effort- 11393.0 :Loc+ 1550.0 :N 5000 :Risk- 0.0}
+     {:Effort- -20933.01 :Loc+ 420.5 :N 5000 :Risk- 12.07}
+
+rest {:Effort- 52106.0 :Loc+ 1745.0 :N 20000 :Risk- 0.0}
+     {:Effort- -1718.54 :Loc+ 207.04 :N 20000 :Risk- 3.88}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x127c96b50>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.13 :N 10000 :PRED40+ 18.7}
+
+best {:ACC+ 7.5 :MRE- 73.82 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.93 :MRE- 91.77 :N 5000 :PRED40+ 29.87}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 1.82 :MRE- 35.59 :N 20000 :PRED40+ 12.32}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x1272352d0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ -13.25 :MRE- 122.0 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 132.19 :N 5000 :PRED40+ 0}
+
+rest {:ACC+ -7.69 :MRE- 110.0 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 23.96 :N 20000 :PRED40+ 14.84}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x1305438d0>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 240.0 :Effort- 31.2 :Kloc+ 7.7 :Months- 10.1 :N 46}
+     {:Defects- -20400.49 :Effort- -1138.19 :Kloc+ -111.58 :Months- 21.02 :N 46}
+
+rest {:Defects- 50961.0 :Effort- 4560.0 :Kloc+ 980.0 :Months- 96.4 :N 184}
+     {:Defects- -30666.42 :Effort- -3438.33 :Kloc+ -62.48 :Months- 70.78 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x127e5fc10>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.04 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.9 :Cost- 408.0 :Idle- 0.18 :N 5000}
+     {:Completion+ 2.21 :Cost- 286.84 :Idle- 0.71 :N 5000}
+
+rest {:Completion+ 0.89 :Cost- 256.23 :Idle- 0.31 :N 20000}
+     {:Completion+ 0.64 :Cost- 89.85 :Idle- 0.19 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x127bfd2d0>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 356.0 :TIMETOSOLUTION- 1942.35}
+     {:N 119680 :NUMBERITERATIONS- 17.83 :TIMETOSOLUTION- 148.56}
+
+rest {:N 478720 :NUMBERITERATIONS- 42.0 :TIMETOSOLUTION- 421.38}
+     {:N 478720 :NUMBERITERATIONS- 0.27 :TIMETOSOLUTION- 3.88}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x12780f390>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.7 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 791.44 :N 26831 :PSNR- 55.19}
+     {:Energy- 156.74 :N 26831 :PSNR- 16.45}
+
+rest {:Energy- 3265.71 :N 107324 :PSNR- 37.41}
+     {:Energy- 111.09 :N 107324 :PSNR- 4.74}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 15 Random Seed 6041808
+
+Current file auto2.csv
+<src.data.Data object at 0x124bae450>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 21.0 :Class- 22.7 :HighwayMPG+ 28.0 :N 46 :Weight- 2985.0}
+     {:CityMPG+ 21.84 :Class- 21.91 :HighwayMPG+ 17.77 :N 46 :Weight- -17396.34}
+
+rest {:CityMPG+ 18.0 :Class- 20.9 :HighwayMPG+ 26.0 :N 184 :Weight- 3950.0}
+     {:CityMPG+ 64.9 :Class- 61.03 :HighwayMPG+ 75.16 :N 184 :Weight- -13735.63}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x127fc2850>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 20.7 :Lbs- 2380.0 :Mpg+ 30.0 :N 199}
+     {:Acc+ 58.36 :Lbs- -9574.71 :Mpg+ 76.74 :N 199}
+
+rest {:Acc+ 12.0 :Lbs- 4055.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 85.17 :Lbs- -7115.11 :Mpg+ 106.53 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x124baf8d0>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 249 :N_effort- 4504.0}
+     {:N 249 :N_effort- -16625.0}
+
+rest {:N 996 :N_effort- 770.0}
+     {:N 996 :N_effort- -17160.93}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x125e4a750>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 1.0 :EFFORT- 1435.0 :LOC+ 108.0 :N 500 :PLEX- 5.0 :RISK- 12.0}
+     {:AEXP- 21.6 :EFFORT- -174279.19 :LOC+ -1296.17 :N 500 :PLEX- 21.93 :RISK- 29.61}
+
+rest {:AEXP- 2.0 :EFFORT- 17677.0 :LOC+ 425.0 :N 2000 :PLEX- 3.0 :RISK- 7.0}
+     {:AEXP- 14.07 :EFFORT- -87089.43 :LOC+ 364.59 :N 2000 :PLEX- 14.64 :RISK- 31.42}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x130543490>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6966.7 :Loc+ 312.18 :N 10000 :Risk- 6.93}
+
+best {:Effort- 14419.0 :Loc+ 952.0 :N 5000 :Risk- 4.0}
+     {:Effort- -20648.14 :Loc+ 417.74 :N 5000 :Risk- 11.88}
+
+rest {:Effort- 20692.0 :Loc+ 983.0 :N 20000 :Risk- 7.0}
+     {:Effort- -2141.51 :Loc+ 211.45 :N 20000 :Risk- 4.05}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x125c3d950>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.11 :N 10000 :PRED40+ 18.72}
+
+best {:ACC+ 0.0 :MRE- 100.0 :N 5000 :PRED40+ 37.5}
+     {:ACC+ 2.4 :MRE- 111.69 :N 5000 :PRED40+ 38.58}
+
+rest {:ACC+ 7.86 :MRE- 72.66 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 4.43 :MRE- 30.56 :N 20000 :PRED40+ 8.95}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x12755edd0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.7 :N 10000 :PRED40+ 13.44}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 55.14 :N 5000 :PRED40+ 55.33}
+
+rest {:ACC+ -12.12 :MRE- 119.05 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 45.36 :N 20000 :PRED40+ 0.01}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x125e30a90>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 324.0 :Effort- 50.0 :Kloc+ 10.4 :Months- 11.2 :N 46}
+     {:Defects- -12607.34 :Effort- -1046.03 :Kloc+ -66.71 :Months- 20.95 :N 46}
+
+rest {:Defects- 7553.0 :Effort- 756.0 :Kloc+ 162.0 :Months- 32.4 :N 184}
+     {:Defects- -37304.78 :Effort- -3255.96 :Kloc+ -64.17 :Months- 72.8 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (True, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x12723d150>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.19 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.94 :Cost- 497.72 :Idle- 0.45 :N 5000}
+     {:Completion+ 2.21 :Cost- 300.73 :Idle- 0.68 :N 5000}
+
+rest {:Completion+ 0.98 :Cost- 273.3 :Idle- 0.34 :N 20000}
+     {:Completion+ 0.64 :Cost- 98.26 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x125e31e50>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.63 :TIMETOSOLUTION- 48.19}
+
+best {:N 119680 :NUMBERITERATIONS- 7.0 :TIMETOSOLUTION- 69.93}
+     {:N 119680 :NUMBERITERATIONS- 14.13 :TIMETOSOLUTION- 77.96}
+
+rest {:N 478720 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 97.23}
+     {:N 478720 :NUMBERITERATIONS- 0.26 :TIMETOSOLUTION- 4.06}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x132609190>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.47 :N 53662 :PSNR- 8.89}
+
+best {:Energy- 8796.81 :N 26831 :PSNR- 47.35}
+     {:Energy- 195.66 :N 26831 :PSNR- 15.72}
+
+rest {:Energy- 5846.04 :N 107324 :PSNR- 46.06}
+     {:Energy- 95.94 :N 107324 :PSNR- 4.77}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 16 Random Seed 4822213
+
+Current file auto2.csv
+<src.data.Data object at 0x1279ce010>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 19.0 :Class- 18.5 :HighwayMPG+ 27.0 :N 47 :Weight- 3450.0}
+     {:CityMPG+ 22.69 :Class- 20.83 :HighwayMPG+ 19.17 :N 47 :Weight- -17913.5}
+
+rest {:CityMPG+ 19.0 :Class- 20.7 :HighwayMPG+ 28.0 :N 188 :Weight- 3470.0}
+     {:CityMPG+ 67.03 :Class- 61.78 :HighwayMPG+ 77.75 :N 188 :Weight- -12946.4}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x127a4ead0>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 14.1 :Lbs- 2190.0 :Mpg+ 30.0 :N 199}
+     {:Acc+ 56.64 :Lbs- -13534.2 :Mpg+ 65.93 :N 199}
+
+rest {:Acc+ 16.9 :Lbs- 1755.0 :Mpg+ 40.0 :N 796}
+     {:Acc+ 88.14 :Lbs- -4817.87 :Mpg+ 127.75 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x127a4e550>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 903.0}
+     {:N 250 :N_effort- -18235.82}
+
+rest {:N 1000 :N_effort- 8227.0}
+     {:N 1000 :N_effort- -16185.58}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x1266fd6d0>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 2.0 :EFFORT- 90166.0 :LOC+ 743.0 :N 500 :PLEX- 3.0 :RISK- 18.0}
+     {:AEXP- 21.48 :EFFORT- -176696.9 :LOC+ -1245.04 :N 500 :PLEX- 22.13 :RISK- 40.11}
+
+rest {:AEXP- 4.0 :EFFORT- 4496.0 :LOC+ 244.0 :N 2000 :PLEX- 3.0 :RISK- 0.0}
+     {:AEXP- 14.15 :EFFORT- -81659.37 :LOC+ 362.87 :N 2000 :PLEX- 14.2 :RISK- 22.94}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x131883b50>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6971.8 :Loc+ 312.33 :N 10000 :Risk- 6.92}
+
+best {:Effort- 29804.0 :Loc+ 486.0 :N 5000 :Risk- 3.0}
+     {:Effort- -12998.88 :Loc+ 420.61 :N 5000 :Risk- 12.08}
+
+rest {:Effort- 30743.0 :Loc+ 1138.0 :N 20000 :Risk- 1.0}
+     {:Effort- -2425.4 :Loc+ 212.93 :N 20000 :Risk- 3.43}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1273ec410>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.7}
+
+best {:ACC+ 6.79 :MRE- 76.15 :N 5000 :PRED40+ 0.0}
+     {:ACC+ 9.05 :MRE- 100.94 :N 5000 :PRED40+ 33.54}
+
+rest {:ACC+ 7.86 :MRE- 72.67 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 4.17 :MRE- 31.06 :N 20000 :PRED40+ 9.7}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x132558390>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.69 :N 10000 :PRED40+ 13.44}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 90.11 :N 5000 :PRED40+ 31.11}
+
+rest {:ACC+ -12.84 :MRE- 120.89 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 41.03 :N 20000 :PRED40+ 3.17}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x13045c610>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 5434.0 :Effort- 215.0 :Kloc+ 100.0 :Months- 30.1 :N 46}
+     {:Defects- -21951.49 :Effort- -3713.58 :Kloc+ -131.47 :Months- 18.82 :N 46}
+
+rest {:Defects- 2077.0 :Effort- 300.0 :Kloc+ 66.6 :Months- 21.0 :N 184}
+     {:Defects- -26677.4 :Effort- -1620.57 :Kloc+ -40.28 :Months- 64.35 :N 184}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x130e8ed90>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.21 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.92 :Cost- 255.88 :Idle- 0.62 :N 5000}
+     {:Completion+ 2.2 :Cost- 249.78 :Idle- 0.65 :N 5000}
+
+rest {:Completion+ 0.88 :Cost- 244.5 :Idle- 0.42 :N 20000}
+     {:Completion+ 0.64 :Cost- 106.93 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x131312750>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 47.99}
+
+best {:N 119680 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 73.01}
+     {:N 119680 :NUMBERITERATIONS- 2.08 :TIMETOSOLUTION- 14.11}
+
+rest {:N 478720 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 132.97}
+     {:N 478720 :NUMBERITERATIONS- 1.05 :TIMETOSOLUTION- 11.09}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x1325b2450>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.83 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 2586.99 :N 26831 :PSNR- 45.95}
+     {:Energy- 254.43 :N 26831 :PSNR- 16.59}
+
+rest {:Energy- 2704.0 :N 107324 :PSNR- 47.03}
+     {:Energy- 70.99 :N 107324 :PSNR- 4.79}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 17 Random Seed 2573038
+
+Current file auto2.csv
+<src.data.Data object at 0x125b2f210>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 28.0 :Class- 11.6 :HighwayMPG+ 36.0 :N 47 :Weight- 2440.0}
+     {:CityMPG+ 21.7 :Class- 20.34 :HighwayMPG+ 17.68 :N 47 :Weight- -16288.59}
+
+rest {:CityMPG+ 24.0 :Class- 15.7 :HighwayMPG+ 30.0 :N 188 :Weight- 3050.0}
+     {:CityMPG+ 64.35 :Class- 63.47 :HighwayMPG+ 75.24 :N 188 :Weight- -14230.29}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x125ae0210>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 17.0 :Lbs- 2288.0 :Mpg+ 30.0 :N 199}
+     {:Acc+ 57.99 :Lbs- -9828.07 :Mpg+ 76.06 :N 199}
+
+rest {:Acc+ 12.0 :Lbs- 4746.0 :Mpg+ 10.0 :N 796}
+     {:Acc+ 85.6 :Lbs- -7022.15 :Mpg+ 107.98 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x125a99c10>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 1102.0}
+     {:N 250 :N_effort- -33173.1}
+
+rest {:N 1000 :N_effort- 2897.0}
+     {:N 1000 :N_effort- -5390.86}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x124387790>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 23417.0 :LOC+ 986.0 :N 500 :PLEX- 3.0 :RISK- 4.0}
+     {:AEXP- 21.6 :EFFORT- -177299.88 :LOC+ -1245.19 :N 500 :PLEX- 22.06 :RISK- 38.99}
+
+rest {:AEXP- 3.0 :EFFORT- 27909.0 :LOC+ 536.0 :N 2000 :PLEX- 2.0 :RISK- 6.0}
+     {:AEXP- 14.17 :EFFORT- -78348.32 :LOC+ 371.78 :N 2000 :PLEX- 14.36 :RISK- 24.3}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x1325b1090>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6976.26 :Loc+ 312.25 :N 10000 :Risk- 6.92}
+
+best {:Effort- 37350.0 :Loc+ 1286.0 :N 5000 :Risk- 0.0}
+     {:Effort- -19260.52 :Loc+ 414.61 :N 5000 :Risk- 11.53}
+
+rest {:Effort- 129696.0 :Loc+ 1447.0 :N 20000 :Risk- 12.0}
+     {:Effort- -1806.57 :Loc+ 209.84 :N 20000 :Risk- 3.72}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1304bc1d0>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.12 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 0.0 :MRE- 100.0 :N 5000 :PRED40+ 37.5}
+     {:ACC+ 3.51 :MRE- 110.02 :N 5000 :PRED40+ 40.96}
+
+rest {:ACC+ 7.71 :MRE- 73.16 :N 20000 :PRED40+ 25.0}
+     {:ACC+ 4.41 :MRE- 30.54 :N 20000 :PRED40+ 9.6}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x1273f4bd0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 48.04 :N 5000 :PRED40+ 59.74}
+
+rest {:ACC+ -12.53 :MRE- 120.08 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 45.35 :N 20000 :PRED40+ 0.01}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x125ba4c50>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 7553.0 :Effort- 756.0 :Kloc+ 162.0 :Months- 32.4 :N 47}
+     {:Defects- -31521.12 :Effort- -4248.52 :Kloc+ -191.37 :Months- 18.57 :N 47}
+
+rest {:Defects- 9308.0 :Effort- 2460.0 :Kloc+ 271.0 :Months- 43.4 :N 188}
+     {:Defects- -16581.4 :Effort- -1222.51 :Kloc+ -7.53 :Months- 62.19 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x132012710>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 171.1 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.72 :Cost- 301.2 :Idle- 0.0 :N 5000}
+     {:Completion+ 2.24 :Cost- 275.84 :Idle- 0.66 :N 5000}
+
+rest {:Completion+ 0.94 :Cost- 239.63 :Idle- 0.17 :N 20000}
+     {:Completion+ 0.64 :Cost- 102.47 :Idle- 0.2 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x12735fd90>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.61 :TIMETOSOLUTION- 48.01}
+
+best {:N 119680 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 91.6}
+     {:N 119680 :NUMBERITERATIONS- 13.67 :TIMETOSOLUTION- 77.58}
+
+rest {:N 478720 :NUMBERITERATIONS- 7.0 :TIMETOSOLUTION- 158.67}
+     {:N 478720 :NUMBERITERATIONS- 0.31 :TIMETOSOLUTION- 4.18}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x1273b9c90>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.71 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 4147.2 :N 26831 :PSNR- 37.21}
+     {:Energy- 282.0 :N 26831 :PSNR- 15.41}
+
+rest {:Energy- 498.09 :N 107324 :PSNR- 39.01}
+     {:Energy- 79.12 :N 107324 :PSNR- 4.72}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 18 Random Seed 1905055
+
+Current file auto2.csv
+<src.data.Data object at 0x1323f2710>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 47 :Weight- 2885.0}
+     {:CityMPG+ 21.73 :Class- 22.17 :HighwayMPG+ 17.8 :N 47 :Weight- -16442.27}
+
+rest {:CityMPG+ 19.0 :Class- 20.7 :HighwayMPG+ 28.0 :N 188 :Weight- 3470.0}
+     {:CityMPG+ 63.97 :Class- 66.21 :HighwayMPG+ 75.58 :N 188 :Weight- -14145.89}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x125a999d0>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 14.7 :Lbs- 2125.0 :Mpg+ 40.0 :N 199}
+     {:Acc+ 58.92 :Lbs- -8597.38 :Mpg+ 79.78 :N 199}
+
+rest {:Acc+ 8.5 :Lbs- 3850.0 :Mpg+ 20.0 :N 796}
+     {:Acc+ 83.62 :Lbs- -7913.02 :Mpg+ 97.94 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x125f0bb50>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 31.0}
+     {:N 250 :N_effort- -33805.05}
+
+rest {:N 1000 :N_effort- 1429.0}
+     {:N 1000 :N_effort- -5006.02}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x125fdeb50>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 3.0 :EFFORT- 482.0 :LOC+ 40.0 :N 500 :PLEX- 5.0 :RISK- 8.0}
+     {:AEXP- 21.33 :EFFORT- -204979.01 :LOC+ -1233.02 :N 500 :PLEX- 21.93 :RISK- 48.94}
+
+rest {:AEXP- 2.0 :EFFORT- 39227.0 :LOC+ 1650.0 :N 2000 :PLEX- 3.0 :RISK- 9.0}
+     {:AEXP- 14.05 :EFFORT- -73679.01 :LOC+ 357.25 :N 2000 :PLEX- 14.65 :RISK- 16.66}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x125f6c310>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6974.77 :Loc+ 312.07 :N 10000 :Risk- 6.93}
+
+best {:Effort- 16505.0 :Loc+ 1168.0 :N 5000 :Risk- 6.0}
+     {:Effort- -19754.35 :Loc+ 416.51 :N 5000 :Risk- 11.33}
+
+rest {:Effort- 10435.0 :Loc+ 1007.0 :N 20000 :Risk- 0.0}
+     {:Effort- -2584.48 :Loc+ 207.47 :N 20000 :Risk- 3.97}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x126039bd0>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.55 :MRE- 58.14 :N 10000 :PRED40+ 18.73}
+
+best {:ACC+ 7.65 :MRE- 73.37 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.56 :MRE- 91.73 :N 5000 :PRED40+ 31.22}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 2.01 :MRE- 35.25 :N 20000 :PRED40+ 12.06}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x13254a750>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.54 :N 10000 :PRED40+ 13.56}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 65.5 :N 5000 :PRED40+ 48.06}
+
+rest {:ACC+ -12.39 :MRE- 119.71 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 45.35 :N 20000 :PRED40+ 0}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x125ae2d90>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 933.0 :Effort- 430.0 :Kloc+ 24.0 :Months- 19.2 :N 47}
+     {:Defects- -40146.96 :Effort- -4637.88 :Kloc+ -283.04 :Months- 16.52 :N 47}
+
+rest {:Defects- 1253.0 :Effort- 480.0 :Kloc+ 16.3 :Months- 21.5 :N 188}
+     {:Defects- -10886.88 :Effort- -996.03 :Kloc+ 31.78 :Months- 61.5 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (False, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x126e047d0>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 170.9 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.9 :Cost- 161.84 :Idle- 0.35 :N 5000}
+     {:Completion+ 2.21 :Cost- 268.27 :Idle- 0.68 :N 5000}
+
+rest {:Completion+ 0.98 :Cost- 301.05 :Idle- 0.25 :N 20000}
+     {:Completion+ 0.64 :Cost- 115.18 :Idle- 0.18 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x125ada650>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.6 :TIMETOSOLUTION- 47.87}
+
+best {:N 119680 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 251.51}
+     {:N 119680 :NUMBERITERATIONS- 0.86 :TIMETOSOLUTION- 20.01}
+
+rest {:N 478720 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 115.64}
+     {:N 478720 :NUMBERITERATIONS- 0.69 :TIMETOSOLUTION- 6.61}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x126653dd0>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.87 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 2302.83 :N 26831 :PSNR- 40.25}
+     {:Energy- 259.21 :N 26831 :PSNR- 15.95}
+
+rest {:Energy- 412.29 :N 107324 :PSNR- 53.9}
+     {:Energy- 95.22 :N 107324 :PSNR- 4.78}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+Current iteration 19 Random Seed 2054574
+
+Current file auto2.csv
+<src.data.Data object at 0x125848b10>
+
+all  {:CityMPG+ 20.0 :Class- 13.9 :HighwayMPG+ 27.0 :N 93 :Weight- 2885.0}
+     {:CityMPG+ 45.07 :Class- 40.92 :HighwayMPG+ 48.11 :N 93 :Weight- -15589.26}
+
+best {:CityMPG+ 17.0 :Class- 19.1 :HighwayMPG+ 23.0 :N 47 :Weight- 4100.0}
+     {:CityMPG+ 22.8 :Class- 20.69 :HighwayMPG+ 19.36 :N 47 :Weight- -18044.23}
+
+rest {:CityMPG+ 22.0 :Class- 13.3 :HighwayMPG+ 27.0 :N 188 :Weight- 2970.0}
+     {:CityMPG+ 66.76 :Class- 63.34 :HighwayMPG+ 77.18 :N 188 :Weight- -13155.43}
+
+all ~= best? {(True, 'CityMPG+') (True, 'HighwayMPG+') (True, 'Weight-') (True, 'Class-')}
+best ~= rest? {(False, 'CityMPG+') (False, 'HighwayMPG+') (False, 'Weight-') (False, 'Class-')}
+
+Current file auto93.csv
+<src.data.Data object at 0x130c01e90>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 14.7 :Lbs- 2835.0 :Mpg+ 20.0 :N 199}
+     {:Acc+ 57.81 :Lbs- -10172.61 :Mpg+ 75.79 :N 199}
+
+rest {:Acc+ 13.0 :Lbs- 4215.0 :Mpg+ 20.0 :N 796}
+     {:Acc+ 85.8 :Lbs- -7009.97 :Mpg+ 105.5 :N 796}
+
+all ~= best? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+Current file china.csv
+<src.data.Data object at 0x1320ab310>
+
+all  {:N 499 :N_effort- 14698.0}
+     {:N 499 :N_effort- -17889.48}
+
+best {:N 250 :N_effort- 300.0}
+     {:N 250 :N_effort- -28788.85}
+
+rest {:N 1000 :N_effort- 619.0}
+     {:N 1000 :N_effort- -8562.43}
+
+all ~= best? {(True, 'N_effort-')}
+best ~= rest? {(True, 'N_effort-')}
+
+Current file coc1000.csv
+<src.data.Data object at 0x125acde10>
+
+all  {:AEXP- 2.0 :EFFORT- 85219.0 :LOC+ 1266.0 :N 1000 :PLEX- 1.0 :RISK- 2.0}
+     {:AEXP- 24.55 :EFFORT- -173717.76 :LOC+ -292.03 :N 1000 :PLEX- 25.06 :RISK- 43.94}
+
+best {:AEXP- 4.0 :EFFORT- 14526.0 :LOC+ 335.0 :N 500 :PLEX- 4.0 :RISK- 4.0}
+     {:AEXP- 21.58 :EFFORT- -190181.1 :LOC+ -1257.19 :N 500 :PLEX- 21.66 :RISK- 33.55}
+
+rest {:AEXP- 2.0 :EFFORT- 55487.0 :LOC+ 755.0 :N 2000 :PLEX- 3.0 :RISK- 4.0}
+     {:AEXP- 14.22 :EFFORT- -74642.25 :LOC+ 369.93 :N 2000 :PLEX- 14.79 :RISK- 28.79}
+
+all ~= best? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+best ~= rest? {(True, 'LOC+') (True, 'AEXP-') (True, 'PLEX-') (True, 'RISK-') (True, 'EFFORT-')}
+
+Current file coc10000.csv
+<src.data.Data object at 0x123cf3ed0>
+
+all  {:Effort- 9006.0 :Loc+ 522.0 :N 10000 :Risk- 14.0}
+     {:Effort- -6974.38 :Loc+ 312.28 :N 10000 :Risk- 6.93}
+
+best {:Effort- 12576.0 :Loc+ 1719.0 :N 5000 :Risk- 5.0}
+     {:Effort- -20920.26 :Loc+ 423.86 :N 5000 :Risk- 12.13}
+
+rest {:Effort- 67900.0 :Loc+ 1429.0 :N 20000 :Risk- 11.0}
+     {:Effort- -2306.45 :Loc+ 206.55 :N 20000 :Risk- 4.3}
+
+all ~= best? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+best ~= rest? {(True, 'Loc+') (True, 'Risk-') (True, 'Effort-')}
+
+Current file healthCloseIsses12mths0001-hard.csv
+<src.data.Data object at 0x1260e6d90>
+
+all  {:ACC+ 7.12 :MRE- 75.07 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 5.56 :MRE- 58.13 :N 10000 :PRED40+ 18.7}
+
+best {:ACC+ 7.43 :MRE- 74.08 :N 5000 :PRED40+ 25.0}
+     {:ACC+ 14.74 :MRE- 92.0 :N 5000 :PRED40+ 32.14}
+
+rest {:ACC+ 0.0 :MRE- 100.0 :N 20000 :PRED40+ 37.5}
+     {:ACC+ 1.85 :MRE- 35.54 :N 20000 :PRED40+ 11.76}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file healthCloseIsses12mths0011-easy.csv
+<src.data.Data object at 0x131b1edd0>
+
+all  {:ACC+ -12.76 :MRE- 120.67 :N 10000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 59.62 :N 10000 :PRED40+ 13.5}
+
+best {:ACC+ 0.0 :MRE- 0.0 :N 5000 :PRED40+ 83.33}
+     {:ACC+ 0 :MRE- 96.83 :N 5000 :PRED40+ 24.57}
+
+rest {:ACC+ -12.4 :MRE- 119.75 :N 20000 :PRED40+ 0.0}
+     {:ACC+ 0 :MRE- 43.88 :N 20000 :PRED40+ 0.93}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+Current file nasa93dem.csv
+<src.data.Data object at 0x12604b850>
+
+all  {:Defects- 5092.0 :Effort- 420.0 :Kloc+ 190.0 :Months- 30.3 :N 93}
+     {:Defects- -23892.49 :Effort- -2510.59 :Kloc+ -90.36 :Months- 42.67 :N 93}
+
+best {:Defects- 240.0 :Effort- 31.2 :Kloc+ 7.7 :Months- 10.1 :N 47}
+     {:Defects- -17951.29 :Effort- -1650.04 :Kloc+ -99.15 :Months- 21.34 :N 47}
+
+rest {:Defects- 2004.0 :Effort- 409.0 :Kloc+ 60.0 :Months- 24.9 :N 188}
+     {:Defects- -19141.11 :Effort- -3332.15 :Kloc+ 29.56 :Months- 72.78 :N 188}
+
+all ~= best? {(True, 'Kloc+') (True, 'Effort-') (True, 'Defects-') (True, 'Months-')}
+best ~= rest? {(True, 'Kloc+') (True, 'Effort-') (False, 'Defects-') (False, 'Months-')}
+
+Current file pom.csv
+<src.data.Data object at 0x125f6d410>
+
+all  {:Completion+ 0.94 :Cost- 150.95 :Idle- 0.47 :N 10000}
+     {:Completion+ 1.19 :Cost- 170.99 :Idle- 0.36 :N 10000}
+
+best {:Completion+ 0.7 :Cost- 206.98 :Idle- 0.0 :N 5000}
+     {:Completion+ 2.22 :Cost- 273.31 :Idle- 0.65 :N 5000}
+
+rest {:Completion+ 0.89 :Cost- 233.04 :Idle- 0.27 :N 20000}
+     {:Completion+ 0.64 :Cost- 93.57 :Idle- 0.19 :N 20000}
+
+all ~= best? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+best ~= rest? {(True, 'Cost-') (True, 'Completion+') (True, 'Idle-')}
+
+Current file SSM.csv
+<src.data.Data object at 0x125fe7cd0>
+
+all  {:N 239360 :NUMBERITERATIONS- 4.0 :TIMETOSOLUTION- 79.25}
+     {:N 239360 :NUMBERITERATIONS- 5.59 :TIMETOSOLUTION- 47.83}
+
+best {:N 119680 :NUMBERITERATIONS- 6.0 :TIMETOSOLUTION- 134.93}
+     {:N 119680 :NUMBERITERATIONS- 2.17 :TIMETOSOLUTION- 22.88}
+
+rest {:N 478720 :NUMBERITERATIONS- 5.0 :TIMETOSOLUTION- 165.95}
+     {:N 478720 :NUMBERITERATIONS- 0.49 :TIMETOSOLUTION- 5.89}
+
+all ~= best? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+best ~= rest? {(True, 'NUMBERITERATIONS-') (True, 'TIMETOSOLUTION-')}
+
+Current file SSN.csv
+<src.data.Data object at 0x1307934d0>
+
+all  {:Energy- 2202.28 :N 53662 :PSNR- 47.02}
+     {:Energy- 232.39 :N 53662 :PSNR- 8.88}
+
+best {:Energy- 404.33 :N 26831 :PSNR- 59.69}
+     {:Energy- 270.06 :N 26831 :PSNR- 15.68}
+
+rest {:Energy- 1134.75 :N 107324 :PSNR- 38.66}
+     {:Energy- 67.2 :N 107324 :PSNR- 4.71}
+
+all ~= best? {(True, 'PSNR-') (True, 'Energy-')}
+best ~= rest? {(True, 'PSNR-') (True, 'Energy-')}
+
+
+======================== 1 passed in 462.36s (0:07:42) =========================
+
+Process finished with exit code 0
