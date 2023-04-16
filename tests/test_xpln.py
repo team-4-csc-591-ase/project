@@ -26,6 +26,8 @@ def test_xpln():
 
                 best, rest, evals = sway(data)
                 rule, _ = xpln(data, best, rest)
+                if rule is None:
+                    continue
                 print("\n-----------\nexplain=", show_rule(rule))
                 data1 = Data(data, selects(rule, data.rows))
 
@@ -51,3 +53,4 @@ def test_xpln():
                 query.stats(top),
                 query.stats(top, query.div),
             )
+
