@@ -35,7 +35,8 @@ def half(data, rows=None, cols=None, above=None):
 
     def euclidean_distance(a, b, c):
         """
-        Returns the Euclidean distance between points A and C in a triangle with sides a, b, and c, using the Pythagorean theorem.
+        Returns the Euclidean distance between points A and C in a triangle with sides
+        a, b, and c, using the Pythagorean theorem.
         """
         if not b == 0:
             x = (a**2 - c**2 + b**2) / (2 * b)
@@ -51,7 +52,8 @@ def half(data, rows=None, cols=None, above=None):
 
     def manhattan_distance_scaled(a, b, c):
         """
-        Returns the Manhattan distance between points A and C in a triangle with sides a, b, and c, scaled to the range [0, 1].
+        Returns the Manhattan distance between points A and C in a triangle with
+        sides a, b, and c, scaled to the range [0, 1].
         """
         if not a == 0:
             # Calculate the x-coordinate of point B
@@ -72,7 +74,8 @@ def half(data, rows=None, cols=None, above=None):
 
     def hamming_distance(a, b, c):
         """
-        Returns the Hamming distance between the points of a triangle with sides of lengths a, b, and c.
+        Returns the Hamming distance between the points of a
+        triangle with sides of lengths a, b, and c.
         Assumes that the points are scaled to the range [0, 1].
         """
         if not c == 0:

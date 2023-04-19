@@ -4,7 +4,6 @@ import re
 from pathlib import Path
 from typing import Any, cast
 
-from src import lists
 from src.config import CONSTS, CONSTS_LIST
 from src.num import Num
 
@@ -197,35 +196,36 @@ def itself(x):
     return x
 
 
-def cliffs_delta(ns1, ns2):
-    """
-
-    Args:
-        ns1:
-        ns2:
-
-    Returns:
-
-    """
-    if len(ns1) > 256:
-        ns1 = lists.many(ns1, 256)
-    if len(ns2) > 256:
-        ns2 = lists.many(ns2, 256)
-    if len(ns1) > 10 * len(ns2):
-        ns1 = lists.many(ns1, 10 * len(ns2))
-    if len(ns2) > 10 * len(ns1):
-        ns2 = lists.many(ns2, 10 * len(ns1))
-
-    n, g_t, l_t = 0, 0, 0
-    for x in ns1:
-        for y in ns2:
-            n += 1
-            if x > y:
-                g_t += 1
-            if x < y:
-                l_t += 1
-
-    return abs(l_t - g_t) / n > CONSTS_LIST[CONSTS.cliffs.name]
+# def cliffs_delta(ns1, ns2):
+#     """
+#
+#     Args:
+#         ns1:
+#         ns2:
+#
+#     Returns:
+#
+#     """
+#     if len(ns1) > 256:
+#         ns1 = lists.many(ns1, 256)
+#     if len(ns2) > 256:
+#         ns2 = lists.many(ns2, 256)
+#     if len(ns1) > 10 * len(ns2):
+#         ns1 = lists.many(ns1, 10 * len(ns2))
+#     if len(ns2) > 10 * len(ns1):
+#         ns2 = lists.many(ns2, 10 * len(ns1))
+#
+#     n, g_t, l_t = 0, 0, 0
+#     for x in ns1:
+#         for y in ns2:
+#             n += 1
+#             if x > y:
+#                 g_t += 1
+#             if x < y:
+#                 l_t += 1
+#
+#     return abs(l_t - g_t) / n > CONSTS_LIST[CONSTS.cliffs.name]
+#
 
 
 def diffs(nums1, nums2):

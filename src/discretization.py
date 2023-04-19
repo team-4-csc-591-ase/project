@@ -93,7 +93,8 @@ def merge_any(ranges0):
     ranges1, j = [], 0
     while j < len(ranges0):
         left, right = ranges0[j], ranges0[j + 1] if j + 1 < len(ranges0) else None
-        # left, right = ranges0[j], ranges0[j + 2] if j + 2 < len(ranges0) else None #trying to merge every other instead of adjacent
+        # trying to merge every other instead of adjacent
+        # left, right = ranges0[j], ranges0[j + 2] if j + 2 < len(ranges0) else None
         if right:
             y = merge2(left.y, right.y)
             if y:
