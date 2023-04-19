@@ -73,30 +73,30 @@ def test_scottknott():  # noqa: C901
     print()
     print("china.csv")
     for rx in tiles(
-            scott_knot(
-                [
-                    RX({897.8}, "sway1"),
-                    RX({2464.4}, "sway2"),
-                    RX({1708.3}, "sway3"),
-                    RX({5042.1}, "sway4"),
-                    RX({1432.35}, "sway5"),
-                    RX({1640.25}, "sway6"),
-                ]
-            )
+        scott_knot(
+            [
+                RX({897.8}, "sway1"),
+                RX({2464.4}, "sway2"),
+                RX({1708.3}, "sway3"),
+                RX({5042.1}, "sway4"),
+                RX({1432.35}, "sway5"),
+                RX({1640.25}, "sway6"),
+            ]
+        )
     ):
         print(rx["name"], rx["rank"], rx["show"])
 
     for rx in tiles(
-            scott_knot(
-                [
-                    RX({1986}, "xpln1"),
-                    RX({2372}, "xpln2"),
-                    RX({1987}, "xpln3"),
-                    RX({1987}, "xpln4"),
-                    RX({4428}, "xpln5"),
-                    RX({2372}, "xpln6"),
-                ]
-            )
+        scott_knot(
+            [
+                RX({1986}, "xpln1"),
+                RX({2372}, "xpln2"),
+                RX({1987}, "xpln3"),
+                RX({1987}, "xpln4"),
+                RX({4428}, "xpln5"),
+                RX({2372}, "xpln6"),
+            ]
+        )
     ):
         print(rx["name"], rx["rank"], rx["show"])
 
@@ -277,57 +277,57 @@ def test_scottknott():  # noqa: C901
     print()
     print("SSM.out")
     for rx in tiles(
-            scott_knot(
-                [
-                    RX([5.05, 113.2315], "sway1"),
-                    RX([4.669, 49.546], "sway2"),
-                    RX([3.699, 46.6405], "sway3"),
-                    RX([5.0505, 42.8875], "sway4"),
-                    RX([4.3905, 35.9015], "sway5"),
-                    RX([6.815, 111.748], "sway6"),
-                ]
-            )
+        scott_knot(
+            [
+                RX([5.05, 113.2315], "sway1"),
+                RX([4.669, 49.546], "sway2"),
+                RX([3.699, 46.6405], "sway3"),
+                RX([5.0505, 42.8875], "sway4"),
+                RX([4.3905, 35.9015], "sway5"),
+                RX([6.815, 111.748], "sway6"),
+            ]
+        )
     ):
         print(rx["name"], rx["rank"], rx["show"])
     for rx in tiles(
-            scott_knot(
-                [
-                    RX([4, 88.17], "xpln1"),
-                    RX([1.95, 22.97], "xpln2"),
-                    RX([0.58, 8.46], "xpln3"),
-                    RX([5.07, 36.27], "xpln4"),
-                    RX([1.02, 14.5], "xpln5"),
-                    RX([1.87, 28.16], "xpln6"),
-                ]
-            )
+        scott_knot(
+            [
+                RX([4, 88.17], "xpln1"),
+                RX([1.95, 22.97], "xpln2"),
+                RX([0.58, 8.46], "xpln3"),
+                RX([5.07, 36.27], "xpln4"),
+                RX([1.02, 14.5], "xpln5"),
+                RX([1.87, 28.16], "xpln6"),
+            ]
+        )
     ):
         print(rx["name"], rx["rank"], rx["show"])
 
     print()
     print("SSN.out")
     for rx in tiles(
-            scott_knot(
-                [
-                    RX({1244.333, 43.3}, "sway1"),
-                    RX({450.932, 43.192}, "sway2"),
-                    RX({219.9, 17.4555}, "sway3"),
-                    RX({905.1805, 42.7275}, "sway4"),
-                    RX({201.569, 43.921}, "sway5"),
-                    RX({1910.633, 62.679}, "sway6"),
-                ]
-            )
+        scott_knot(
+            [
+                RX({1244.333, 43.3}, "sway1"),
+                RX({450.932, 43.192}, "sway2"),
+                RX({219.9, 17.4555}, "sway3"),
+                RX({905.1805, 42.7275}, "sway4"),
+                RX({201.569, 43.921}, "sway5"),
+                RX({1910.633, 62.679}, "sway6"),
+            ]
+        )
     ):
         print(rx["name"], rx["rank"], rx["show"])
     for rx in tiles(
-            scott_knot(
-                [
-                    RX([211.64, 14.96], "xpln1"),
-                    RX([139.05, 7.2], "xpln2"),
-                    RX([299.03, 11.1], "xpln3"),
-                    RX([159.88, 11.24], "xpln4"),
-                    RX([156.6, 5.54], "xpln5"),
-                    RX([146.76, 18.63], "xpln6"),
-                ]
-            )
+        scott_knot(
+            [
+                RX([211.64, 14.96], "xpln1"),
+                RX([139.05, 7.2], "xpln2"),
+                RX([299.03, 11.1], "xpln3"),
+                RX([159.88, 11.24], "xpln4"),
+                RX([156.6, 5.54], "xpln5"),
+                RX([146.76, 18.63], "xpln6"),
+            ]
+        )
     ):
         print(rx["name"], rx["rank"], rx["show"])

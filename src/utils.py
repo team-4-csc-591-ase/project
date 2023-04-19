@@ -281,7 +281,7 @@ def lines(file_name, fun):
 def mid(t):
     t = t["has"] if "has" in t else t
     if len(t) == 2:
-        return sum(t)/2
+        return sum(t) / 2
     if len(t) == 1:
         return sum(t)
     n = len(t) // 2
