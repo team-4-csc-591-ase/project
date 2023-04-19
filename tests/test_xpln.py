@@ -31,7 +31,11 @@ def test_xpln():
                 print("\n-----------\nexplain=", show_rule(rule))
                 data1 = Data(data, selects(rule, data.rows))
 
-                print("all               ", query.stats(data), query.stats(data, query.div))
+                print(
+                    "all               ",
+                    query.stats(data),
+                    query.stats(data, query.div),
+                )
                 print(
                     f"sway with   {evals} evals",
                     query.stats(best),
@@ -41,7 +45,6 @@ def test_xpln():
                     f"xpln on     {evals} evals",
                     query.stats(data1),
                     query.stats(data1, query.div),
-
                 )
             except Exception as e:
                 print(f"Error at file {_f}, {e}")
@@ -53,4 +56,3 @@ def test_xpln():
                 query.stats(top),
                 query.stats(top, query.div),
             )
-

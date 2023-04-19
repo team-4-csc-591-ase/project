@@ -24,7 +24,8 @@ def RULE(ranges, max_size):
         t[range.txt].append({"lo": range.lo, "hi": range.hi, "at": range.at})
     return prune(t, max_size)
 
-'''
+
+"""
 # Group by value range - urvashi
 # Instead of simply grouping the ranges by their column id, you can also group them by their value range.
 # Specifically, you can create a group for each unique range of values that appears in a given column.
@@ -52,19 +53,18 @@ def RULE(ranges, max_size):
         t[col][key] = t[col].get(key, [])
         t[col][key].append(r)
     return prune(t, max_size)
-'''
-
+"""
 
 
 # Group by attribute - parth
 # The group_by_attribute function takes two arguments:
-# 
+#
 # ranges: A list of Range objects that we want to group by their at attribute.
 # max_size: A dictionary that specifies the maximum size that each group should have for each txt value.
 # The function creates an empty dictionary called groups to hold the groups of ranges. It then iterates over each Range object in the ranges list. For each object, the function checks if it has already seen an object with the same at value. If it has, it appends the current Range object to the list of ranges for that at value in the groups dictionary. If it hasn't, it creates a new list for that at value in the groups dictionary, and appends the current Range object to that list.
-# 
+#
 # After iterating over all the Range objects, the function iterates over each key in the groups dictionary, which corresponds to a unique at value. It gets the length of the list associated with this key, and checks if it exceeds the max_size value specified in the max_size dictionary for the corresponding txt value. If it does, the function calls the prune function on the list of ranges for that at value. The prune function removes elements from the list until it has no more than max_size elements.
-# 
+#
 # Finally, the function returns the groups dictionary, which now contains a list of ranges for each unique at value, where each list has no more
 '''
 def RULE(ranges, max_size):
@@ -85,7 +85,7 @@ def RULE(ranges, max_size):
     # Prune the groups to ensure that each one has no more than max_size elements.
     for group_key in groups.keys():
         group_size = len(groups[group_key])
-        if group_size > max_size[group_key]: 
+        if group_size > max_size[group_key]:
             groups[group_key] = prune(groups[group_key], max_size)
 
     # Return the dictionary of groups.

@@ -1,4 +1,4 @@
-/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests 
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests
 Testing started at 3:32 PM ...
 Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
 
