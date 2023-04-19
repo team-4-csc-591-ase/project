@@ -1,0 +1,37 @@
++-------+-----------+
+|       | N_effort- |
++-------+-----------+
+|  all  |   14698   |
+| sway1 |   897.8   |
+| sway2 |   2464.4  |
+| sway3 |   1708.3  |
+| sway4 |   5042.1  |
+| sway5 |  1432.35  |
+| sway6 |  1640.25  |
+| xpln1 |    1986   |
+| xpln2 |    2372   |
+| xpln3 |    1987   |
+| xpln4 |    1987   |
+| xpln5 |    4428   |
+| xpln6 |    2372   |
+|  top  |    2021   |
++-------+-----------+
+
++-----------------+-----------+
+|                 | N_effort- |
++-----------------+-----------+
+|    all to all   |     =     |
+|   all to sway1  |     ≠     |
+|  sway1 to sway2 |     ≠     |
+|  sway1 to sway3 |     ≠     |
+|  sway1 to sway4 |     ≠     |
+|  sway1 to sway5 |     ≠     |
+|  sway1 to sway6 |     ≠     |
+|  sway1 to xpln1 |     ≠     |
+|  sway2 to xpln2 |     ≠     |
+|  sway3 to xpln3 |     ≠     |
+|  sway4 to xpln4 |     ≠     |
+|  sway5 to xpln5 |     ≠     |
+|  sway6 to xpln6 |     ≠     |
+|   sway1 to top  |     ≠     |
++-----------------+-----------+
