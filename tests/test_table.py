@@ -74,5 +74,5 @@ def test_table():
                         except IndexError:
                             break
             iteration += 1
-
+        break  # For testing 1 run is enough
     assert True

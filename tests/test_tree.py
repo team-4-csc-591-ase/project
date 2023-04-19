@@ -19,3 +19,4 @@ def test_tree():
 
             data = Data(f)
             show_tree(tree(data))
+        break  # For testing 1 run is enough

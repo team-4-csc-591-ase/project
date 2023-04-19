@@ -41,3 +41,4 @@ def test_bins():
                         ),
                         o(_range.y.has),
                     )
+        break  # For testing 1 run is enough

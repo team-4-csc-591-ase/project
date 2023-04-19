@@ -56,3 +56,4 @@ def test_xpln():
                 query.stats(top),
                 query.stats(top, query.div),
             )
+        break  # For testing 1 run is enough

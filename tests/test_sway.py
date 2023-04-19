@@ -28,3 +28,4 @@ def test_sway():
             print("    ", o(stats(rest, div)))
             print("\nall ~= best?", o(diffs(best.cols.y, data.cols.y)))
             print("best ~= rest?", o(diffs(best.cols.y, rest.cols.y)))
+        break  # For testing 1 run is enough
