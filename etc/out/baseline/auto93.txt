@@ -1,0 +1,126 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests
+Testing started at 2:52 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_bins.py::test_bins PASSED                                           [ 25%]all    {:best 13 :rest 52}
+
+Clndrs -inf 3.0 0 {:best 2}
+Clndrs 3.0 4.0 1 {:best 11 :rest 27}
+Clndrs 4.0 inf 0 {:rest 25}
+
+Volume -inf 90.0 1 {:best 8 :rest 5}
+Volume 90.0 115.0 0 {:best 5 :rest 9}
+Volume 115.0 inf 0 {:rest 38}
+
+Model -inf 70.0 0 {:best 1 :rest 3}
+Model 70.0 71.0 0 {:best 3 :rest 4}
+Model 71.0 73.0 0 {:best 5 :rest 10}
+Model 73.0 74.0 0 {:best 4 :rest 3}
+Model 74.0 inf 0 {:rest 32}
+
+origin 1.0 1.0 0 {:rest 34}
+origin 2.0 2.0 0 {:rest 10}
+origin 3.0 3.0 1 {:best 13 :rest 8}
+
+test_sway.py::test_sway PASSED                                           [ 50%]<src.data.Data object at 0x125d39a50>
+
+all  {:Acc+ 23.5 :Lbs- 2254.0 :Mpg+ 20.0 :N 398}
+     {:Acc+ 72.45 :Lbs- -8783.25 :Mpg+ 94.66 :N 398}
+
+best {:Acc+ 15.5 :Lbs- 3439.0 :Mpg+ 20.0 :N 13}
+     {:Acc+ -3.94 :Lbs- -22821.82 :Mpg+ -14.26 :N 13}
+
+rest {:Acc+ 11.5 :Lbs- 3672.0 :Mpg+ 10.0 :N 52}
+     {:Acc+ 26.64 :Lbs- -19052.87 :Mpg+ 24.59 :N 52}
+
+all ~= best? {(False, 'Lbs-') (False, 'Acc+') (True, 'Mpg+')}
+best ~= rest? {(True, 'Lbs-') (True, 'Acc+') (True, 'Mpg+')}
+
+test_tree.py::test_tree PASSED                                           [ 75%][398]{'Lbs-': 2254.0, 'Acc+': 23.5, 'Mpg+': 20.0, 'N': 398}
+|.. [199]
+|.. |.. [100]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 2670.0, 'Acc+': 16.0, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 2865.0, 'Acc+': 16.4, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 1867.0, 'Acc+': 19.5, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 2164.0, 'Acc+': 15.0, 'Mpg+': 30.0, 'N': 25}
+|.. |.. [99]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 2210.0, 'Acc+': 14.4, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 2135.0, 'Acc+': 16.6, 'Mpg+': 30.0, 'N': 25}
+|.. |.. |.. [49]
+|.. |.. |.. |.. [25]{'Lbs-': 1835.0, 'Acc+': 17.3, 'Mpg+': 40.0, 'N': 25}
+|.. |.. |.. |.. [24]{'Lbs-': 2379.0, 'Acc+': 16.5, 'Mpg+': 20.0, 'N': 24}
+|.. [199]
+|.. |.. [100]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 4385.0, 'Acc+': 12.0, 'Mpg+': 10.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 4077.0, 'Acc+': 14.0, 'Mpg+': 10.0, 'N': 25}
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 3570.0, 'Acc+': 12.8, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 4457.0, 'Acc+': 13.5, 'Mpg+': 10.0, 'N': 25}
+|.. |.. [99]
+|.. |.. |.. [50]
+|.. |.. |.. |.. [25]{'Lbs-': 2807.0, 'Acc+': 13.5, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [25]{'Lbs-': 3245.0, 'Acc+': 15.4, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. [49]
+|.. |.. |.. |.. [25]{'Lbs-': 3302.0, 'Acc+': 15.5, 'Mpg+': 20.0, 'N': 25}
+|.. |.. |.. |.. [24]{'Lbs-': 3211.0, 'Acc+': 17.0, 'Mpg+': 20.0, 'N': 24}
+
+test_xpln.py::test_xpln PASSED                                           [100%]
+Clndrs -inf 3.0
+Clndrs 3.0 4.0
+Clndrs 4.0 inf
+
+Volume -inf 90.0
+Volume 90.0 116.0
+Volume 116.0 135.0
+Volume 135.0 inf
+
+Model -inf 70.0
+Model 70.0 71.0
+Model 71.0 73.0
+Model 73.0 inf
+
+origin 1.0 1.0
+origin 2.0 2.0
+origin 3.0 3.0
+
+origin 2.0 2.0 0.88 {'best': 13, 'rest': 7}
+Clndrs 3.0 4.0 0.69 {'best': 13, 'rest': 23}
+Volume 90.0 116.0 0.38 {'best': 7, 'rest': 12}
+Model -inf 70.0 0.32 {'best': 5, 'rest': 4}
+Model 70.0 71.0 0.27 {'best': 4, 'rest': 2}
+Volume 116.0 135.0 0.21 {'best': 4, 'rest': 7}
+Model 71.0 73.0 0.2 {'best': 4, 'rest': 9}
+Volume -inf 90.0 0.09 {'best': 2, 'rest': 5}
+Clndrs -inf 3.0 0.0 {'rest': 1}
+Clndrs 4.0 inf 0.0 {'rest': 28}
+Volume 135.0 inf 0.0 {'rest': 28}
+Model 73.0 inf 0.0 {'rest': 37}
+origin 1.0 1.0 0.0 {'rest': 35}
+origin 3.0 3.0 0.0 {'rest': 10}
+{'origin': [2.0]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]], 'Volume': [[90.0, 116.0]]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]], 'Volume': [[90.0, 116.0]], 'Model': [[-inf, 70.0]]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]], 'Volume': [[90.0, 116.0]], 'Model': [[-inf, 71.0]]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]], 'Volume': [[90.0, 135.0]], 'Model': [[-inf, 71.0]]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]], 'Volume': [[90.0, 135.0]], 'Model': [[-inf, 73.0]]}
+{'origin': [2.0], 'Clndrs': [[3.0, 4.0]], 'Volume': [[-inf, 135.0]], 'Model': [[-inf, 73.0]]}
+
+-----------
+explain= {'origin': [2.0]}
+all                {'Lbs-': 2254.0, 'Acc+': 23.5, 'Mpg+': 20.0, 'N': 398} {'Lbs-': -8783.25, 'Acc+': 72.45, 'Mpg+': 94.66, 'N': 398}
+sway with   6 evals {'Lbs-': 1834.0, 'Acc+': 19.0, 'Mpg+': 30.0, 'N': 13} {'Lbs-': -17499.85, 'Acc+': -7.53, 'Mpg+': -27.05, 'N': 13}
+xpln on     6 evals {'Lbs-': 2246.0, 'Acc+': 14.0, 'Mpg+': 30.0, 'N': 70} {'Lbs-': -12459.19, 'Acc+': 34.21, 'Mpg+': 35.83, 'N': 70}
+sort with 398 evals {'Lbs-': 1975.0, 'Acc+': 19.4, 'Mpg+': 40.0, 'N': 13} {'Lbs-': -14585.48, 'Acc+': -12.21, 'Mpg+': -67.35, 'N': 13}
+
+
+============================== 4 passed in 0.13s ===============================
+
+Process finished with exit code 0

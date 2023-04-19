@@ -1,0 +1,312 @@
+/Users/ritwik/Library/Caches/pypoetry/virtualenvs/src-h3uc49g_-py3.11/bin/python /Users/ritwik/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.8109.197/PyCharm.app/Contents/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path /Users/ritwik/Projects/ASE/project/tests
+Testing started at 7:27 PM ...
+Launching pytest with arguments /Users/ritwik/Projects/ASE/project/tests --no-header --no-summary -q in /Users/ritwik/Projects/ASE/project/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_bins.py::test_bins PASSED                                           [ 25%]all    {:best 78 :rest 312}
+
+N_estimators -inf 10.0 0 {:best 21 :rest 15}
+N_estimators 10.0 30.0 0 {:best 29 :rest 24}
+N_estimators 30.0 40.0 0 {:best 12 :rest 10}
+N_estimators 40.0 50.0 0 {:best 7 :rest 18}
+N_estimators 50.0 60.0 0 {:best 8 :rest 19}
+N_estimators 60.0 80.0 0 {:best 1 :rest 21}
+N_estimators 80.0 inf 0 {:rest 205}
+
+criterion 0.0 0.0 0 {:rest 97}
+criterion 1.0 1.0 1 {:best 78 :rest 95}
+criterion 2.0 2.0 0 {:rest 120}
+
+Min_sample_leaves -inf 6.0 0 {:rest 90}
+Min_sample_leaves 6.0 8.0 0 {:best 21 :rest 29}
+Min_sample_leaves 8.0 9.0 0 {:best 10 :rest 13}
+Min_sample_leaves 9.0 10.0 0 {:best 6 :rest 17}
+Min_sample_leaves 10.0 12.0 0 {:best 14 :rest 31}
+Min_sample_leaves 12.0 13.0 0 {:best 5 :rest 17}
+Min_sample_leaves 13.0 14.0 0 {:best 4 :rest 19}
+Min_sample_leaves 14.0 15.0 0 {:best 4 :rest 12}
+Min_sample_leaves 15.0 17.0 0 {:best 6 :rest 35}
+Min_sample_leaves 17.0 18.0 0 {:best 3 :rest 11}
+Min_sample_leaves 18.0 19.0 0 {:best 2 :rest 10}
+Min_sample_leaves 19.0 inf 0 {:best 3 :rest 28}
+
+Min_impurity_decrease -inf 1.5 0 {:rest 41}
+Min_impurity_decrease 1.5 2.75 0 {:best 1 :rest 43}
+Min_impurity_decrease 2.75 3.5 0 {:best 2 :rest 23}
+Min_impurity_decrease 3.5 4.75 0 {:best 15 :rest 34}
+Min_impurity_decrease 4.75 5.5 0 {:best 21 :rest 22}
+Min_impurity_decrease 5.5 6.75 0 {:best 20 :rest 33}
+Min_impurity_decrease 6.75 7.5 0 {:best 3 :rest 26}
+Min_impurity_decrease 7.5 8.75 0 {:best 6 :rest 59}
+Min_impurity_decrease 8.75 9.5 0 {:best 6 :rest 17}
+Min_impurity_decrease 9.5 inf 0 {:best 4 :rest 14}
+
+Max_depth -inf 12.0 0 {:rest 208}
+Max_depth 12.0 13.0 0 {:best 3 :rest 12}
+Max_depth 13.0 14.0 0 {:best 3 :rest 14}
+Max_depth 14.0 15.0 0 {:best 8 :rest 12}
+Max_depth 15.0 17.0 0 {:best 15 :rest 28}
+Max_depth 17.0 18.0 0 {:best 18 :rest 13}
+Max_depth 18.0 19.0 0 {:best 13 :rest 16}
+Max_depth 19.0 inf 0 {:best 18 :rest 9}
+
+test_sway.py::test_sway PASSED                                           [ 50%]<src.data.Data object at 0x1176a2750>
+
+all  {:ACC+ 0.0 :MRE- 100.0 :N 10000 :PRED40+ 37.5}
+     {:ACC+ 2.78 :MRE- 29.06 :N 10000 :PRED40+ 9.07}
+
+best {:ACC+ 7.43 :MRE- 74.05 :N 78 :PRED40+ 25.0}
+     {:ACC+ 26.15 :MRE- 7.79 :N 78 :PRED40+ 32.09}
+
+rest {:ACC+ 7.92 :MRE- 72.49 :N 312 :PRED40+ 25.0}
+     {:ACC+ 28.27 :MRE- 156.52 :N 312 :PRED40+ 76.0}
+
+all ~= best? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+best ~= rest? {(True, 'MRE-') (True, 'ACC+') (True, 'PRED40+')}
+
+test_tree.py::test_tree PASSED                                           [ 75%][10000]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 10000}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.74, 'ACC+': 0.07, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 99.75, 'ACC+': 0.07, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.65, 'ACC+': 0.09, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 99.78, 'ACC+': 0.06, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.74, 'ACC+': 0.07, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 71.8, 'ACC+': 8.13, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 68.88, 'ACC+': 9.05, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.51, 'ACC+': 7.91, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.59, 'ACC+': 7.58, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 99.4, 'ACC+': 0.16, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 99.54, 'ACC+': 0.12, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.7, 'ACC+': 7.24, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 70.78, 'ACC+': 8.45, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 76.3, 'ACC+': 6.75, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 80.31, 'ACC+': 5.54, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.63, 'ACC+': 7.56, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 72.99, 'ACC+': 7.76, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 70.74, 'ACC+': 8.46, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 76.21, 'ACC+': 6.77, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 71.9, 'ACC+': 8.1, 'PRED40+': 25.0, 'N': 156}
+|.. [5000]
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 69.74, 'ACC+': 8.78, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.74, 'ACC+': 7.22, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.94, 'ACC+': 7.47, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.71, 'ACC+': 7.23, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.91, 'ACC+': 7.92, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 75.48, 'ACC+': 6.99, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.98, 'ACC+': 7.76, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 74.56, 'ACC+': 7.28, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.61, 'ACC+': 7.26, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 75.29, 'ACC+': 7.05, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 75.02, 'ACC+': 7.14, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 73.65, 'ACC+': 7.56, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.76, 'ACC+': 7.83, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.72, 'ACC+': 7.84, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.72, 'ACC+': 7.53, 'PRED40+': 25.0, 'N': 156}
+|.. |.. [2500]
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 75.99, 'ACC+': 6.84, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 75.72, 'ACC+': 6.92, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 69.63, 'ACC+': 8.81, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 72.49, 'ACC+': 7.92, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 75.88, 'ACC+': 6.88, 'PRED40+': 0.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.57, 'ACC+': 7.58, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.0, 'ACC+': 7.45, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 74.36, 'ACC+': 7.34, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. [1250]
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 79.31, 'ACC+': 7.15, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.2, 'ACC+': 7.7, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.87, 'ACC+': 7.49, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. [625]
+|.. |.. |.. |.. |.. [313]
+|.. |.. |.. |.. |.. |.. [157]{'MRE-': 72.95, 'ACC+': 7.77, 'PRED40+': 25.0, 'N': 157}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.44, 'ACC+': 7.62, 'PRED40+': 25.0, 'N': 156}
+|.. |.. |.. |.. |.. [312]
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 76.14, 'ACC+': 6.79, 'PRED40+': 0.0, 'N': 156}
+|.. |.. |.. |.. |.. |.. [156]{'MRE-': 73.93, 'ACC+': 7.47, 'PRED40+': 25.0, 'N': 156}
+
+test_xpln.py::test_xpln PASSED                                           [100%]
+N_estimators -inf 140.0
+N_estimators 140.0 150.0
+N_estimators 150.0 170.0
+N_estimators 170.0 180.0
+N_estimators 180.0 190.0
+N_estimators 190.0 inf
+
+criterion 0.0 0.0
+criterion 1.0 1.0
+criterion 2.0 2.0
+
+Min_sample_leaves -inf 1.0
+Min_sample_leaves 1.0 3.0
+Min_sample_leaves 3.0 4.0
+Min_sample_leaves 4.0 5.0
+Min_sample_leaves 5.0 6.0
+Min_sample_leaves 6.0 8.0
+Min_sample_leaves 8.0 9.0
+Min_sample_leaves 9.0 10.0
+Min_sample_leaves 10.0 12.0
+Min_sample_leaves 12.0 13.0
+Min_sample_leaves 13.0 14.0
+Min_sample_leaves 14.0 15.0
+Min_sample_leaves 15.0 17.0
+Min_sample_leaves 17.0 inf
+
+Min_impurity_decrease -inf 2.75
+Min_impurity_decrease 2.75 3.5
+Min_impurity_decrease 3.5 4.75
+Min_impurity_decrease 4.75 5.5
+Min_impurity_decrease 5.5 6.75
+Min_impurity_decrease 6.75 7.5
+Min_impurity_decrease 7.5 8.75
+Min_impurity_decrease 8.75 9.5
+Min_impurity_decrease 9.5 inf
+
+Max_depth -inf 8.0
+Max_depth 8.0 9.0
+Max_depth 9.0 10.0
+Max_depth 10.0 12.0
+Max_depth 12.0 13.0
+Max_depth 13.0 14.0
+Max_depth 14.0 15.0
+Max_depth 15.0 17.0
+Max_depth 17.0 18.0
+Max_depth 18.0 19.0
+Max_depth 19.0 inf
+
+criterion 2.0 2.0 0.76 {'best': 78, 'rest': 100}
+N_estimators 180.0 190.0 0.28 {'best': 25, 'rest': 15}
+N_estimators 190.0 inf 0.26 {'best': 24, 'rest': 17}
+Min_impurity_decrease 5.5 6.75 0.26 {'best': 28, 'rest': 44}
+Min_sample_leaves 6.0 8.0 0.22 {'best': 23, 'rest': 31}
+N_estimators 170.0 180.0 0.17 {'best': 17, 'rest': 18}
+Max_depth 15.0 17.0 0.15 {'best': 16, 'rest': 26}
+Min_impurity_decrease 7.5 8.75 0.13 {'best': 16, 'rest': 38}
+Max_depth 14.0 15.0 0.11 {'best': 12, 'rest': 20}
+Max_depth 10.0 12.0 0.1 {'best': 12, 'rest': 27}
+Max_depth 17.0 18.0 0.09 {'best': 9, 'rest': 8}
+N_estimators 150.0 170.0 0.08 {'best': 11, 'rest': 34}
+Min_sample_leaves 10.0 12.0 0.08 {'best': 10, 'rest': 28}
+Min_impurity_decrease 3.5 4.75 0.07 {'best': 11, 'rest': 45}
+Max_depth 19.0 inf 0.07 {'best': 8, 'rest': 18}
+Min_impurity_decrease 6.75 7.5 0.06 {'best': 8, 'rest': 26}
+Min_impurity_decrease 4.75 5.5 0.06 {'best': 7, 'rest': 17}
+Max_depth 18.0 19.0 0.05 {'best': 6, 'rest': 10}
+Min_sample_leaves 8.0 9.0 0.05 {'best': 7, 'rest': 19}
+Min_sample_leaves 4.0 5.0 0.05 {'best': 6, 'rest': 14}
+Min_sample_leaves 5.0 6.0 0.05 {'best': 6, 'rest': 17}
+Max_depth 13.0 14.0 0.05 {'best': 6, 'rest': 17}
+Min_sample_leaves 12.0 13.0 0.04 {'best': 5, 'rest': 13}
+Min_sample_leaves 14.0 15.0 0.04 {'best': 5, 'rest': 14}
+Min_impurity_decrease 2.75 3.5 0.04 {'best': 5, 'rest': 16}
+Max_depth 12.0 13.0 0.03 {'best': 5, 'rest': 17}
+Min_sample_leaves 9.0 10.0 0.03 {'best': 4, 'rest': 12}
+Min_sample_leaves 3.0 4.0 0.02 {'best': 3, 'rest': 16}
+Min_sample_leaves 15.0 17.0 0.01 {'best': 3, 'rest': 19}
+Min_sample_leaves 13.0 14.0 0.01 {'best': 3, 'rest': 20}
+Max_depth 8.0 9.0 0.01 {'best': 2, 'rest': 12}
+Min_sample_leaves -inf 1.0 0.01 {'best': 2, 'rest': 14}
+Max_depth 9.0 10.0 0.01 {'best': 2, 'rest': 16}
+Min_impurity_decrease 8.75 9.5 0.01 {'best': 2, 'rest': 18}
+Min_impurity_decrease 9.5 inf 0.0 {'best': 1, 'rest': 13}
+N_estimators 140.0 150.0 0.0 {'best': 1, 'rest': 22}
+Min_sample_leaves 1.0 3.0 0.0 {'best': 1, 'rest': 36}
+N_estimators -inf 140.0 0.0 {'rest': 206}
+criterion 0.0 0.0 0.0 {'rest': 109}
+criterion 1.0 1.0 0.0 {'rest': 103}
+Min_sample_leaves 17.0 inf 0.0 {'rest': 59}
+Min_impurity_decrease -inf 2.75 0.0 {'rest': 95}
+Max_depth -inf 8.0 0.0 {'rest': 141}
+{'criterion': [2.0]}
+{'criterion': [2.0], 'N_estimators': [[180.0, 190.0]]}
+{'criterion': [2.0], 'N_estimators': [[180.0, inf]]}
+{'criterion': [2.0], 'N_estimators': [[180.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75]]}
+{'criterion': [2.0], 'N_estimators': [[180.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75]], 'Min_sample_leaves': [[6.0, 8.0]]}
+{'criterion': [2.0], 'N_estimators': [[170.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75]], 'Min_sample_leaves': [[6.0, 8.0]]}
+{'criterion': [2.0], 'N_estimators': [[170.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75]], 'Min_sample_leaves': [[6.0, 8.0]], 'Max_depth': [[15.0, 17.0]]}
+{'criterion': [2.0], 'N_estimators': [[170.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75], [7.5, 8.75]], 'Min_sample_leaves': [[6.0, 8.0]], 'Max_depth': [[15.0, 17.0]]}
+{'criterion': [2.0], 'N_estimators': [[170.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75], [7.5, 8.75]], 'Min_sample_leaves': [[6.0, 8.0]], 'Max_depth': [[14.0, 17.0]]}
+{'criterion': [2.0], 'N_estimators': [[170.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75], [7.5, 8.75]], 'Min_sample_leaves': [[6.0, 8.0]], 'Max_depth': [[10.0, 12.0], [14.0, 17.0]]}
+{'criterion': [2.0], 'N_estimators': [[170.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75], [7.5, 8.75]], 'Min_sample_leaves': [[6.0, 8.0]], 'Max_depth': [[10.0, 12.0], [14.0, 18.0]]}
+{'criterion': [2.0], 'N_estimators': [[150.0, inf]], 'Min_impurity_decrease': [[5.5, 6.75], [7.5, 8.75]], 'Min_sample_leaves': [[6.0, 8.0]], 'Max_depth': [[10.0, 12.0], [14.0, 18.0]]}
+
+-----------
+explain= {'criterion': [2.0], 'N_estimators': [[180.0, inf], [190.0, inf]]}
+all                {'MRE-': 100.0, 'ACC+': 0.0, 'PRED40+': 37.5, 'N': 10000} {'MRE-': 29.06, 'ACC+': 2.78, 'PRED40+': 9.07, 'N': 10000}
+sway with   8 evals {'MRE-': 71.41, 'ACC+': 8.25, 'PRED40+': 25.0, 'N': 78} {'MRE-': 5.94, 'ACC+': 25.53, 'PRED40+': 33.04, 'N': 78}
+xpln on     8 evals {'MRE-': 73.99, 'ACC+': 7.45, 'PRED40+': 25.0, 'N': 490} {'MRE-': 201.54, 'ACC+': 46.13, 'PRED40+': 89.16, 'N': 490}
+sort with 10000 evals {'MRE-': 62.28, 'ACC+': 11.18, 'PRED40+': 25.0, 'N': 78} {'MRE-': 16.13, 'ACC+': 33.19, 'PRED40+': 40.69, 'N': 78}
+
+
+============================== 4 passed in 10.74s ==============================
+
+Process finished with exit code 0
