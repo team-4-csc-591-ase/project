@@ -323,7 +323,6 @@ def bootstrap(y0, z0):
     tobs = delta(y, z)
     n = 0
     for _ in range(CONSTS_LIST[CONSTS.bootstrap.name]):
-
         if delta(Num(samples(yhat)), Num(samples(zhat))) > tobs:
             n += 1
     return n / CONSTS_LIST[CONSTS.bootstrap.name] >= CONSTS_LIST[CONSTS.conf.name]
@@ -409,7 +408,7 @@ def scott_knot(rxs):
                 rxs[i]["rank"] = rank
         return rank
 
-    rxs = sorted(rxs, key=lambda x: mid(x)) #median based sorting
+    rxs = sorted(rxs, key=lambda x: mid(x))  # median based sorting
     cohen = div(merges(0, len(rxs) - 1)) * CONSTS_LIST[CONSTS.cohen.name]
     recurse(0, len(rxs) - 1, 1)
     return rxs

@@ -26,8 +26,28 @@ class CONSTS(Enum):
     width = "width"
 
 
-random_seeds = [1861316, 5558115, 6602314, 1705199, 143077, 3794878, 6905227, 7624225, 211415, 3982231, 380543, 9473979,
-                2496648, 6192962, 9907226, 6041808, 4822213, 2573038, 1905055, 2054574]
+random_seeds = [
+    1861316,
+    5558115,
+    6602314,
+    1705199,
+    143077,
+    3794878,
+    6905227,
+    7624225,
+    211415,
+    3982231,
+    380543,
+    9473979,
+    2496648,
+    6192962,
+    9907226,
+    6041808,
+    4822213,
+    2573038,
+    1905055,
+    2054574,
+]
 # Base line
 # CONSTS_LIST: Dict[str, Any] = {
 #     CONSTS.seed.name: 937162211,
@@ -71,7 +91,19 @@ CONSTS_LIST: Dict[str, Any] = {
     CONSTS.dump.name: False,
     CONSTS.go.name: "data",
     CONSTS.help.name: False,
-    CONSTS.file.name: ["auto2.csv", "auto93.csv", "china.csv", "coc1000.csv", "coc10000.csv", "healthCloseIsses12mths0001-hard.csv", "healthCloseIsses12mths0011-easy.csv", "nasa93dem.csv", "pom.csv", "SSM.csv", "SSN.csv"],
+    CONSTS.file.name: [
+        "auto2.csv",
+        "auto93.csv",
+        "china.csv",
+        "coc1000.csv",
+        "coc10000.csv",
+        "healthCloseIsses12mths0001-hard.csv",
+        "healthCloseIsses12mths0011-easy.csv",
+        "nasa93dem.csv",
+        "pom.csv",
+        "SSM.csv",
+        "SSN.csv",
+    ],
     CONSTS.p.name: 3,
     CONSTS.Far.name: 0.75,
     CONSTS.min.name: 0.75,

@@ -22,7 +22,9 @@ def test_bins():
             print(f"\nCurrent file {_f}")
             data = Data(f)
             best, rest, _ = sway(data)
-            print("all", "", "", "", o({"best": len(best.rows), "rest": len(rest.rows)}))
+            print(
+                "all", "", "", "", o({"best": len(best.rows), "rest": len(rest.rows)})
+            )
             b4 = None
             result = bins(data.cols.x, {"best": best.rows, "rest": rest.rows})
             for t in result:
@@ -34,6 +36,8 @@ def test_bins():
                         _range.txt,
                         _range.lo,
                         _range.hi,
-                        round(value(_range.y.has, len(best.rows), len(rest.rows), "best")),
+                        round(
+                            value(_range.y.has, len(best.rows), len(rest.rows), "best")
+                        ),
                         o(_range.y.has),
                     )
